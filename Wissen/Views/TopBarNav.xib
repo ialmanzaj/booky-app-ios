@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopBarNav" customModule="Wissen" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="g1J-pb-Mrq" id="33j-ge-6Kp"/>
+                <outlet property="headerTitle" destination="RYO-Qo-V36" id="TBG-CW-e8T"/>
+                <outlet property="headerView" destination="iN0-l3-epB" id="hSF-9K-4yR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCu-oS-7GM">
+                    <rect key="frame" x="312.5" y="0.0" width="62.5" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="tCu-oS-7GM" secondAttribute="height" multiplier="39:50" id="qSW-Xb-vnt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="36"/>
+                    <state key="normal">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYO-Qo-V36">
+                    <rect key="frame" x="167" y="27" width="41" height="26.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1J-pb-Mrq">
+                    <rect key="frame" x="16" y="26" width="29" height="29"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="g1J-pb-Mrq" secondAttribute="height" multiplier="1:1" id="EUM-ff-e3Y"/>
+                    </constraints>
+                    <connections>
+                        <action selector="goBack:" destination="-1" eventType="touchUpInside" id="QFZ-By-WHO"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_chevron_left_black_36px" translatesAutoresizingMaskIntoConstraints="NO" id="0of-dx-3aN">
+                    <rect key="frame" x="16" y="24" width="29" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="0of-dx-3aN" secondAttribute="height" multiplier="29:31" id="sF2-zP-jB8"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ktu-eh-jCH">
+                    <rect key="frame" x="0.0" y="79" width="375" height="1"/>
+                    <color key="backgroundColor" red="0.74316573475823189" green="0.74316573475823189" blue="0.74316573475823189" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ktu-eh-jCH" secondAttribute="height" multiplier="375:1" id="ez6-sZ-H3D"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="vXc-AI-r9o">
+                    <rect key="frame" x="326" y="15" width="39.5" height="48"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phS-8O-mdq">
+                            <rect key="frame" x="0.0" y="0.0" width="39.5" height="48"/>
+                            <attributedString key="attributedText">
+                                <fragment content="A">
+                                    <attributes>
+                                        <color key="NSColor" white="0.47083875871388892" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <font key="NSFont" size="25" name="BodoniSvtyTwoSCITCTT-Book"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="A">
+                                    <attributes>
+                                        <color key="NSColor" white="0.31095377604166669" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <font key="NSFont" size="40" name="BodoniSvtyTwoSCITCTT-Book"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="0of-dx-3aN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="AKJ-NU-kWk"/>
+                <constraint firstItem="g1J-pb-Mrq" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="9:25" id="Bow-BD-VFk"/>
+                <constraint firstItem="phS-8O-mdq" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="GLK-U1-aAp"/>
+                <constraint firstAttribute="bottom" secondItem="tCu-oS-7GM" secondAttribute="bottom" id="MQY-p5-uD6"/>
+                <constraint firstItem="g1J-pb-Mrq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="MZP-H6-Pp0"/>
+                <constraint firstItem="0of-dx-3aN" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="9:25" id="TSZ-eo-xI8"/>
+                <constraint firstItem="tCu-oS-7GM" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="aQc-w1-WbL"/>
+                <constraint firstAttribute="trailing" secondItem="ktu-eh-jCH" secondAttribute="trailing" id="bfE-nA-URh"/>
+                <constraint firstItem="ktu-eh-jCH" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="bhK-fJ-Kha"/>
+                <constraint firstItem="phS-8O-mdq" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="c7Y-1V-fls"/>
+                <constraint firstItem="tCu-oS-7GM" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="g1q-ny-bAj"/>
+                <constraint firstItem="RYO-Qo-V36" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="hMi-AY-u7q"/>
+                <constraint firstItem="ktu-eh-jCH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jnT-Ya-hYk"/>
+                <constraint firstItem="0of-dx-3aN" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="pMO-6R-26Z"/>
+                <constraint firstItem="RYO-Qo-V36" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="uIq-Mj-Vs3"/>
+                <constraint firstItem="g1J-pb-Mrq" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="uoM-qI-Q8T"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="33.5" y="54"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_chevron_left_black_36px" width="8" height="12"/>
+    </resources>
+</document>

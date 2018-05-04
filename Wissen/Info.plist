@@ -24,6 +24,18 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Tiempo-Regular.ttf</string>
+		<string>Tiempo-Italic.ttf</string>
+		<string>Tiempo-Bold-Italic.ttf</string>
+		<string>Tiempo-Bold.ttf</string>
+	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

@@ -12,10 +12,18 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	var window: UIWindow?
+	var authCoordinator: AuthCoordinator?
 
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+		
 		// Override point for customization after application launch.
+		self.window = UIWindow(frame: UIScreen.main.bounds)
+		self.window?.rootViewController = UINavigationController()
+		self.authCoordinator = AuthCoordinator(nav: window?.rootViewController as! UINavigationController)
+		self.authCoordinator?.start()
+		self.window?.makeKeyAndVisible()
+		
 		return true
 	}
 

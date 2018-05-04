@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ParserVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="parserVC" id="BYZ-38-t0r" customClass="ParserVC" customModule="Wissen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" contentInsetAdjustmentBehavior="always" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tKX-D9-S4l">
+                                <rect key="frame" x="0.0" y="80" width="375" height="587"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="peq-pQ-4Dq" customClass="TopBarNav" customModule="Wissen" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="20" width="375" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="peq-pQ-4Dq" secondAttribute="height" multiplier="25:4" id="Vgf-ve-bML"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="peq-pQ-4Dq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8NL-Zb-x3A"/>
+                            <constraint firstItem="tKX-D9-S4l" firstAttribute="top" secondItem="peq-pQ-4Dq" secondAttribute="bottom" id="8t6-o2-rBV"/>
+                            <constraint firstItem="peq-pQ-4Dq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Mlg-86-aHT"/>
+                            <constraint firstItem="tKX-D9-S4l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cQL-am-jdL"/>
+                            <constraint firstItem="tKX-D9-S4l" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="g25-nf-aKr"/>
+                            <constraint firstItem="tKX-D9-S4l" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="qKO-d4-ugS"/>
+                            <constraint firstItem="peq-pQ-4Dq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="vpm-ge-k8s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="header" destination="peq-pQ-4Dq" id="hZO-sa-6gc"/>
+                        <outlet property="loadingView" destination="css-4G-Wuz" id="hQZ-tL-QX8"/>
+                        <outlet property="textContainer" destination="tKX-D9-S4l" id="1iQ-GM-qno"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="css-4G-Wuz">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="r21-s8-04t">
+                            <rect key="frame" x="110" y="54" width="20" height="20"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.54826199850000001" green="0.37182292459999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="r21-s8-04t" firstAttribute="centerY" secondItem="MKh-uJ-cg1" secondAttribute="centerY" id="4IQ-SF-mNR"/>
+                        <constraint firstItem="r21-s8-04t" firstAttribute="centerX" secondItem="MKh-uJ-cg1" secondAttribute="centerX" id="ZSu-gY-pCz"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="MKh-uJ-cg1"/>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="142.57871064467767"/>
+        </scene>
+        <!--SearchVC-->
+        <scene sceneID="zcj-m1-OhZ">
+            <objects>
+                <viewController storyboardIdentifier="searchVC" id="8wa-9t-y29" customClass="SearchVC" customModule="Wissen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G4B-Tz-8kl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eA-TM-zuS">
+                                <rect key="frame" x="0.0" y="20" width="375" height="26"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Wissen">
+                                        <attributes>
+                                            <color key="NSColor" red="0.548261998501402" green="0.37182292455994104" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="22"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search your favorite book🤔" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Eql-Qb-e51">
+                                <rect key="frame" x="16" y="55" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Eql-Qb-e51" secondAttribute="height" multiplier="343:30" id="Uch-iR-uKH"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="URL" keyboardAppearance="alert" returnKeyType="go" textContentType="url"/>
+                                <connections>
+                                    <action selector="searchFieldAction:" destination="8wa-9t-y29" eventType="primaryActionTriggered" id="W3i-Hi-KC8"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VlR-ya-ffu">
+                                <rect key="frame" x="79.5" y="102" width="216" height="37"/>
+                                <color key="backgroundColor" red="0.54826199850000001" green="0.37182292459999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="VlR-ya-ffu" secondAttribute="height" multiplier="216:37" id="gSG-PA-lkC"/>
+                                </constraints>
+                                <state key="normal" title="Search">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="searchAction:" destination="8wa-9t-y29" eventType="touchUpInside" id="w1W-ep-1vq"/>
+                                </connections>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jeY-zr-skh">
+                                <rect key="frame" x="0.0" y="167.5" width="375" height="499.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="KYm-qb-3qr">
+                                    <size key="itemSize" width="77" height="53"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="book_cell" id="8u9-1c-vVc" customClass="BookCollectionViewCell" customModule="Wissen" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                        <size key="customSize" width="60" height="60"/>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jeY-zr-skh" firstAttribute="leading" secondItem="wZU-tB-DAZ" secondAttribute="leading" id="01K-rv-DAz"/>
+                            <constraint firstItem="7eA-TM-zuS" firstAttribute="leading" secondItem="wZU-tB-DAZ" secondAttribute="leading" id="CfI-kx-nJ5"/>
+                            <constraint firstItem="jeY-zr-skh" firstAttribute="top" secondItem="VlR-ya-ffu" secondAttribute="bottom" multiplier="1.2" id="Hh6-Zb-69q"/>
+                            <constraint firstItem="Eql-Qb-e51" firstAttribute="centerX" secondItem="G4B-Tz-8kl" secondAttribute="centerX" id="IRV-W3-t1M"/>
+                            <constraint firstItem="VlR-ya-ffu" firstAttribute="centerX" secondItem="wZU-tB-DAZ" secondAttribute="centerX" id="LoT-Ur-ZAr"/>
+                            <constraint firstItem="VlR-ya-ffu" firstAttribute="width" secondItem="G4B-Tz-8kl" secondAttribute="height" multiplier="216:667" id="WNG-TU-jgc"/>
+                            <constraint firstItem="jeY-zr-skh" firstAttribute="bottom" secondItem="wZU-tB-DAZ" secondAttribute="bottom" id="ZiK-dJ-2j6"/>
+                            <constraint firstItem="7eA-TM-zuS" firstAttribute="trailing" secondItem="wZU-tB-DAZ" secondAttribute="trailing" id="lhT-lv-qi5"/>
+                            <constraint firstItem="7eA-TM-zuS" firstAttribute="top" secondItem="wZU-tB-DAZ" secondAttribute="top" id="rau-NW-ZkF"/>
+                            <constraint firstItem="jeY-zr-skh" firstAttribute="trailing" secondItem="wZU-tB-DAZ" secondAttribute="trailing" id="tgX-kF-CbZ"/>
+                            <constraint firstItem="VlR-ya-ffu" firstAttribute="top" secondItem="Eql-Qb-e51" secondAttribute="bottom" multiplier="1.2" id="xXH-jV-USm"/>
+                            <constraint firstItem="Eql-Qb-e51" firstAttribute="top" secondItem="7eA-TM-zuS" secondAttribute="bottom" multiplier="1.2" id="yIq-g3-QgK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wZU-tB-DAZ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="w27-rr-N6L"/>
+                    <connections>
+                        <outlet property="booksCollections" destination="jeY-zr-skh" id="ftW-Q4-ymj"/>
+                        <outlet property="searchTextField" destination="Eql-Qb-e51" id="Dq2-3T-NqZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OcL-FD-Az1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-567.20000000000005" y="143.47826086956522"/>
+        </scene>
+    </scenes>
+</document>
