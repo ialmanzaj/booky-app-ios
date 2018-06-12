@@ -1,0 +1,1536 @@
+2018-05-13 21:08:19 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fea686be770; archive(resolved)='<IDEArchive: 0x7fea4bf5d270>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreExport: 0x7fea6858e2a0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7fea4d1b5720; teamID='WWJCJL8K6H', teamName='Isaac Almanza'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fea686be770; archive = '<IDEArchive: 0x7fea4bf5d270>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fea6858e2a0>', team='<IDEProvisioningBasicTeam: 0x7fea4d1b5720; teamID='WWJCJL8K6H', teamName='Isaac Almanza'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fea6860c710; archive = '<IDEArchive: 0x7fea4bf5d270>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fea6858e2a0>', team='<IDEProvisioningBasicTeam: 0x7fea4d1b5720; teamID='WWJCJL8K6H', teamName='Isaac Almanza'>'>
+	<IDEDistributionContext: 0x7fea4d834410; archive = '<IDEArchive: 0x7fea4bf5d270>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fea6858e2a0>', team='<IDEProvisioningBasicTeam: 0x7fea4d1b5720; teamID='WWJCJL8K6H', teamName='Isaac Almanza'>'>
+	<IDEDistributionContext: 0x7fea49f462b0; archive = '<IDEArchive: 0x7fea4bf5d270>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fea6858e2a0>', team='<IDEProvisioningBasicTeam: 0x7fea4d1b5720; teamID='WWJCJL8K6H', teamName='Isaac Almanza'>'>
+	<IDEDistributionContext: 0x7fea4d14c920; archive = '<IDEArchive: 0x7fea4bf5d270>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fea6858e2a0>', team='<IDEProvisioningBasicTeam: 0x7fea4d1b5720; teamID='WWJCJL8K6H', teamName='Isaac Almanza'>'>
+	<IDEDistributionContext: 0x7fea4be18560; archive = '<IDEArchive: 0x7fea4bf5d270>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fea6858e2a0>', team='<IDEProvisioningBasicTeam: 0x7fea4d1b5720; teamID='WWJCJL8K6H', teamName='Isaac Almanza'>'>
+	<IDEDistributionContext: 0x7fea66c44720; archive = '<IDEArchive: 0x7fea4bf5d270>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fea6858e2a0>', team='<IDEProvisioningBasicTeam: 0x7fea4d1b5720; teamID='WWJCJL8K6H', teamName='Isaac Almanza'>'>
+	<IDEDistributionContext: 0x7fea684a5a90; archive = '<IDEArchive: 0x7fea4bf5d270>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fea6858e2a0>', team='<IDEProvisioningBasicTeam: 0x7fea4d1b5720; teamID='WWJCJL8K6H', teamName='Isaac Almanza'>'>
+	<IDEDistributionContext: 0x7fea680cda80; archive = '<IDEArchive: 0x7fea4bf5d270>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fea6858e2a0>', team='<IDEProvisioningBasicTeam: 0x7fea4d1b5720; teamID='WWJCJL8K6H', teamName='Isaac Almanza'>'>
+	<IDEDistributionContext: 0x7fea66c50d40; archive = '<IDEArchive: 0x7fea4bf5d270>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fea6858e2a0>', team='(null)'>
+	<IDEDistributionContext: 0x7fea66c9fe40; archive = '<IDEArchive: 0x7fea4bf5d270>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fea686be770>
+2018-05-13 21:08:19 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-05-13 21:08:19 +0000  Processing step: IDEDistributionCopyItemStep
+2018-05-13 21:08:19 +0000  Running /usr/bin/ditto '-V' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app'
+2018-05-13 21:08:19 +0000  >>> Copying /Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app 
+2018-05-13 21:08:19 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-05-13 21:08:19 +0000  18877 bytes for ./_CodeSignature/CodeResources
+2018-05-13 21:08:19 +0000  copying file ./BookCollectionViewCell.nib ... 
+2018-05-13 21:08:19 +0000  3205 bytes for ./BookCollectionViewCell.nib
+2018-05-13 21:08:19 +0000  copying file ./Tiempo-Bold.ttf ... 
+2018-05-13 21:08:19 +0000  56324 bytes for ./Tiempo-Bold.ttf
+copying file ./Tiempo-Bold-Italic.ttf ... 
+2018-05-13 21:08:19 +0000  56469 bytes for ./Tiempo-Bold-Italic.ttf
+copying file ./TopBarNav.nib ... 
+2018-05-13 21:08:19 +0000  6290 bytes for ./TopBarNav.nib
+2018-05-13 21:08:19 +0000  copying file ./Base.lproj/Main.storyboardc/parserVC.nib ... 
+2018-05-13 21:08:19 +0000  2746 bytes for ./Base.lproj/Main.storyboardc/parserVC.nib
+copying file ./Base.lproj/Main.storyboardc/searchVC.nib ... 
+2018-05-13 21:08:19 +0000  1091 bytes for ./Base.lproj/Main.storyboardc/searchVC.nib
+2018-05-13 21:08:19 +0000  copying file ./Base.lproj/Main.storyboardc/8wa-9t-y29-view-G4B-Tz-8kl.nib ... 
+2018-05-13 21:08:19 +0000  7626 bytes for ./Base.lproj/Main.storyboardc/8wa-9t-y29-view-G4B-Tz-8kl.nib
+copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-05-13 21:08:19 +0000  4342 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-05-13 21:08:19 +0000  159 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-05-13 21:08:19 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-05-13 21:08:19 +0000  1136 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-05-13 21:08:19 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-05-13 21:08:19 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-05-13 21:08:19 +0000  copying file ./Assets.car ... 
+2018-05-13 21:08:19 +0000  24584 bytes for ./Assets.car
+copying file ./Tiempo-Regular.ttf ... 
+2018-05-13 21:08:19 +0000  56173 bytes for ./Tiempo-Regular.ttf
+2018-05-13 21:08:19 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2018-05-13 21:08:19 +0000  307632 bytes for ./Frameworks/libswiftCoreImage.dylib
+2018-05-13 21:08:19 +0000  copying file ./Frameworks/RealmSwift.framework/_CodeSignature/CodeResources ... 
+2018-05-13 21:08:19 +0000  2202 bytes for ./Frameworks/RealmSwift.framework/_CodeSignature/CodeResources
+2018-05-13 21:08:19 +0000  copying file ./Frameworks/RealmSwift.framework/RealmSwift ... 
+2018-05-13 21:08:19 +0000  2899216 bytes for ./Frameworks/RealmSwift.framework/RealmSwift
+copying file ./Frameworks/RealmSwift.framework/Info.plist ... 
+2018-05-13 21:08:19 +0000  742 bytes for ./Frameworks/RealmSwift.framework/Info.plist
+copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+554096 bytes for ./Frameworks/libswiftObjectiveC.dylib
+copying file ./Frameworks/SwiftRichString.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/SwiftRichString.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SwiftRichString.framework/SwiftRichString ... 
+1425120 bytes for ./Frameworks/SwiftRichString.framework/SwiftRichString
+copying file ./Frameworks/SwiftRichString.framework/Info.plist ... 
+2018-05-13 21:08:19 +0000  754 bytes for ./Frameworks/SwiftRichString.framework/Info.plist
+copying file ./Frameworks/SwiftyAttributes.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/SwiftyAttributes.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SwiftyAttributes.framework/SwiftyAttributes ... 
+690976 bytes for ./Frameworks/SwiftyAttributes.framework/SwiftyAttributes
+copying file ./Frameworks/SwiftyAttributes.framework/Info.plist ... 
+756 bytes for ./Frameworks/SwiftyAttributes.framework/Info.plist
+copying file ./Frameworks/libswiftCore.dylib ... 
+2018-05-13 21:08:20 +0000  66629584 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2018-05-13 21:08:20 +0000  1628560 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+2018-05-13 21:08:20 +0000  copying file ./Frameworks/libswiftUIKit.dylib ... 
+2018-05-13 21:08:20 +0000  1043024 bytes for ./Frameworks/libswiftUIKit.dylib
+2018-05-13 21:08:20 +0000  copying file ./Frameworks/libswiftMetal.dylib ... 
+448896 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2018-05-13 21:08:20 +0000  2722304 bytes for ./Frameworks/libswiftDispatch.dylib
+2018-05-13 21:08:20 +0000  copying file ./Frameworks/libswiftos.dylib ... 
+2018-05-13 21:08:20 +0000  497152 bytes for ./Frameworks/libswiftos.dylib
+2018-05-13 21:08:20 +0000  copying file ./Frameworks/Realm.framework/_CodeSignature/CodeResources ... 
+2018-05-13 21:08:20 +0000  2202 bytes for ./Frameworks/Realm.framework/_CodeSignature/CodeResources
+2018-05-13 21:08:20 +0000  copying file ./Frameworks/Realm.framework/Info.plist ... 
+2018-05-13 21:08:20 +0000  732 bytes for ./Frameworks/Realm.framework/Info.plist
+2018-05-13 21:08:20 +0000  copying file ./Frameworks/Realm.framework/Realm ... 
+2018-05-13 21:08:20 +0000  29364048 bytes for ./Frameworks/Realm.framework/Realm
+2018-05-13 21:08:20 +0000  copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2018-05-13 21:08:20 +0000  257744 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+2018-05-13 21:08:20 +0000  copying file ./Frameworks/SwiftyMarkdown.framework/_CodeSignature/CodeResources ... 
+2018-05-13 21:08:20 +0000  2202 bytes for ./Frameworks/SwiftyMarkdown.framework/_CodeSignature/CodeResources
+2018-05-13 21:08:20 +0000  copying file ./Frameworks/SwiftyMarkdown.framework/SwiftyMarkdown ... 
+2018-05-13 21:08:20 +0000  566560 bytes for ./Frameworks/SwiftyMarkdown.framework/SwiftyMarkdown
+2018-05-13 21:08:20 +0000  copying file ./Frameworks/SwiftyMarkdown.framework/Info.plist ... 
+750 bytes for ./Frameworks/SwiftyMarkdown.framework/Info.plist
+2018-05-13 21:08:20 +0000  copying file ./Frameworks/libswiftDarwin.dylib ... 
+2018-05-13 21:08:20 +0000  838736 bytes for ./Frameworks/libswiftDarwin.dylib
+2018-05-13 21:08:20 +0000  copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+310624 bytes for ./Frameworks/libswiftQuartzCore.dylib
+2018-05-13 21:08:20 +0000  copying file ./Frameworks/Regex.framework/_CodeSignature/CodeResources ... 
+2018-05-13 21:08:20 +0000  2202 bytes for ./Frameworks/Regex.framework/_CodeSignature/CodeResources
+2018-05-13 21:08:20 +0000  copying file ./Frameworks/Regex.framework/Regex ... 
+2018-05-13 21:08:20 +0000  830144 bytes for ./Frameworks/Regex.framework/Regex
+copying file ./Frameworks/Regex.framework/Info.plist ... 
+2018-05-13 21:08:20 +0000  732 bytes for ./Frameworks/Regex.framework/Info.plist
+2018-05-13 21:08:20 +0000  copying file ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+2018-05-13 21:08:20 +0000  2202 bytes for ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+2018-05-13 21:08:20 +0000  copying file ./Frameworks/Alamofire.framework/Alamofire ... 
+2018-05-13 21:08:20 +0000  3899792 bytes for ./Frameworks/Alamofire.framework/Alamofire
+2018-05-13 21:08:20 +0000  copying file ./Frameworks/Alamofire.framework/Info.plist ... 
+2018-05-13 21:08:20 +0000  740 bytes for ./Frameworks/Alamofire.framework/Info.plist
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+2018-05-13 21:08:20 +0000  30131392 bytes for ./Frameworks/libswiftFoundation.dylib
+2018-05-13 21:08:20 +0000  copying file ./embedded.mobileprovision ... 
+7611 bytes for ./embedded.mobileprovision
+copying file ./Wissen ... 
+2018-05-13 21:08:20 +0000  1019248 bytes for ./Wissen
+copying file ./Info.plist ... 
+1275 bytes for ./Info.plist
+copying file ./Tiempo-Italic.ttf ... 
+2018-05-13 21:08:20 +0000  57419 bytes for ./Tiempo-Italic.ttf
+copying file ./PkgInfo ... 
+2018-05-13 21:08:20 +0000  8 bytes for ./PkgInfo
+2018-05-13 21:08:20 +0000  2018-05-13 21:08:20 +0000  
+
+2018-05-13 21:08:20 +0000  /usr/bin/ditto exited with 0
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  2018-05-13 21:08:20 +0000  Processing step: IDEDistributionEmbedProfileStep
+
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea66cd6020 'org.cocoapods.Alamofire' '<DVTFilePath:0x7fea4d23edb0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/Alamofire.framework'>'>
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea66565bb0 'org.cocoapods.Realm' '<DVTFilePath:0x7fea4bba0890:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/Realm.framework'>'>
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea65f69ad0 'org.cocoapods.RealmSwift' '<DVTFilePath:0x7fea65c081a0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/RealmSwift.framework'>'>
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea4d24e5e0 'org.cocoapods.Regex' '<DVTFilePath:0x7fea4d230450:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/Regex.framework'>'>
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea68315570 'org.cocoapods.SwiftRichString' '<DVTFilePath:0x7fea683d4080:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/SwiftRichString.framework'>'>
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea4d24c730 'org.cocoapods.SwiftyAttributes' '<DVTFilePath:0x7fea68417520:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/SwiftyAttributes.framework'>'>
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea6672ad40 'org.cocoapods.SwiftyMarkdown' '<DVTFilePath:0x7fea4bc82910:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/SwiftyMarkdown.framework'>'>
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea6837b4a0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fea49f2a200:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftCore.dylib'>'>
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea4d263f90 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fea4bf46180:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea4bd201f0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fea4b8f6410:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea49e3d6b0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fea4bad1640:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea4d1a9970 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fea4bcab600:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea4d259250 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fea4bf3e9d0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea4bac8760 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fea4d245fc0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea4b8715e0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fea4bc99cc0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftMetal.dylib'>'>
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea4d26a2f0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fea66dab9e0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea4ba92ff0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fea4bc51060:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea4d2592f0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fea66ff1d60:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-05-13 21:08:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fea683be770 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fea4b8e9b90:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftos.dylib'>'>
+2018-05-13 21:08:20 +0000  Processing step: IDEDistributionItemRemovalStep
+2018-05-13 21:08:20 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-05-13 21:08:20 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-05-13 21:08:20 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-05-13 21:08:20 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-05-13 21:08:20 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-05-13 21:08:20 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-05-13 21:08:20 +0000  Running /usr/bin/ditto '-V' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/BCSymbolMaps/95CE091A-D31E-3C04-9B3B-8058EC5FDA4F.bcsymbolmap' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/BCSymbolMaps/95CE091A-D31E-3C04-9B3B-8058EC5FDA4F.bcsymbolmap'
+2018-05-13 21:08:20 +0000  >>> Copying /Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/BCSymbolMaps/95CE091A-D31E-3C04-9B3B-8058EC5FDA4F.bcsymbolmap 
+2018-05-13 21:08:20 +0000  copying file ./95CE091A-D31E-3C04-9B3B-8058EC5FDA4F.bcsymbolmap ... 
+2018-05-13 21:08:20 +0000  310162 bytes for ./95CE091A-D31E-3C04-9B3B-8058EC5FDA4F.bcsymbolmap
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  /usr/bin/ditto exited with 02018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  
+
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  Running /usr/bin/ditto '-V' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/BCSymbolMaps/B2389590-6305-342D-A2E1-D211F8ECF457.bcsymbolmap' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/BCSymbolMaps/B2389590-6305-342D-A2E1-D211F8ECF457.bcsymbolmap'
+2018-05-13 21:08:20 +0000  >>> Copying /Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/BCSymbolMaps/B2389590-6305-342D-A2E1-D211F8ECF457.bcsymbolmap 
+2018-05-13 21:08:20 +0000  copying file ./B2389590-6305-342D-A2E1-D211F8ECF457.bcsymbolmap ... 
+2018-05-13 21:08:20 +0000  914268 bytes for ./B2389590-6305-342D-A2E1-D211F8ECF457.bcsymbolmap
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  /usr/bin/ditto exited with 0
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  Running /usr/bin/ditto '-V' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/BCSymbolMaps/B20B0FE3-D886-3579-A341-4FF67C4F20DC.bcsymbolmap' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/BCSymbolMaps/B20B0FE3-D886-3579-A341-4FF67C4F20DC.bcsymbolmap'
+2018-05-13 21:08:20 +0000  >>> Copying /Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/BCSymbolMaps/B20B0FE3-D886-3579-A341-4FF67C4F20DC.bcsymbolmap 
+2018-05-13 21:08:20 +0000  copying file ./B20B0FE3-D886-3579-A341-4FF67C4F20DC.bcsymbolmap ... 
+2018-05-13 21:08:20 +0000  253272 bytes for ./B20B0FE3-D886-3579-A341-4FF67C4F20DC.bcsymbolmap
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  /usr/bin/ditto exited with 02018-05-13 21:08:20 +0000  
+
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  Running /usr/bin/ditto '-V' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/BCSymbolMaps/1885C1BB-E65F-3BBF-8B88-17EC38837BEC.bcsymbolmap' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/BCSymbolMaps/1885C1BB-E65F-3BBF-8B88-17EC38837BEC.bcsymbolmap'
+2018-05-13 21:08:20 +0000  >>> Copying /Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/BCSymbolMaps/1885C1BB-E65F-3BBF-8B88-17EC38837BEC.bcsymbolmap 
+2018-05-13 21:08:20 +0000  copying file ./1885C1BB-E65F-3BBF-8B88-17EC38837BEC.bcsymbolmap ... 
+2018-05-13 21:08:20 +0000  99206 bytes for ./1885C1BB-E65F-3BBF-8B88-17EC38837BEC.bcsymbolmap
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  /usr/bin/ditto exited with 0
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  Running /usr/bin/ditto '-V' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/BCSymbolMaps/93C63362-E985-3206-AD0B-D4028F861439.bcsymbolmap' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/BCSymbolMaps/93C63362-E985-3206-AD0B-D4028F861439.bcsymbolmap'
+2018-05-13 21:08:20 +0000  >>> Copying /Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/BCSymbolMaps/93C63362-E985-3206-AD0B-D4028F861439.bcsymbolmap 
+2018-05-13 21:08:20 +0000  copying file ./93C63362-E985-3206-AD0B-D4028F861439.bcsymbolmap ... 
+2018-05-13 21:08:20 +0000  110816 bytes for ./93C63362-E985-3206-AD0B-D4028F861439.bcsymbolmap
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  /usr/bin/ditto exited with 0
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  Running /usr/bin/ditto '-V' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/BCSymbolMaps/A3228432-D6D6-3858-86F8-7828E9E99C5D.bcsymbolmap' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/BCSymbolMaps/A3228432-D6D6-3858-86F8-7828E9E99C5D.bcsymbolmap'
+2018-05-13 21:08:20 +0000  >>> Copying /Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/BCSymbolMaps/A3228432-D6D6-3858-86F8-7828E9E99C5D.bcsymbolmap 
+2018-05-13 21:08:20 +0000  copying file ./A3228432-D6D6-3858-86F8-7828E9E99C5D.bcsymbolmap ... 
+2018-05-13 21:08:20 +0000  67398 bytes for ./A3228432-D6D6-3858-86F8-7828E9E99C5D.bcsymbolmap
+2018-05-13 21:08:20 +0000  2018-05-13 21:08:20 +0000  
+
+2018-05-13 21:08:20 +0000  /usr/bin/ditto exited with 0
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  Running /usr/bin/ditto '-V' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/BCSymbolMaps/81FBEE1A-76AC-383B-89DF-28001F6138A7.bcsymbolmap' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/BCSymbolMaps/81FBEE1A-76AC-383B-89DF-28001F6138A7.bcsymbolmap'
+2018-05-13 21:08:20 +0000  >>> Copying /Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/BCSymbolMaps/81FBEE1A-76AC-383B-89DF-28001F6138A7.bcsymbolmap 
+2018-05-13 21:08:20 +0000  copying file ./81FBEE1A-76AC-383B-89DF-28001F6138A7.bcsymbolmap ... 
+2018-05-13 21:08:20 +0000  41096 bytes for ./81FBEE1A-76AC-383B-89DF-28001F6138A7.bcsymbolmap
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  /usr/bin/ditto exited with 0
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:20 +0000  
+2018-05-13 21:08:21 +0000  Running /usr/bin/ditto '-V' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/BCSymbolMaps/1E484485-AB4E-3371-87AB-92CEE7256AFD.bcsymbolmap' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/BCSymbolMaps/1E484485-AB4E-3371-87AB-92CEE7256AFD.bcsymbolmap'
+2018-05-13 21:08:21 +0000  >>> Copying /Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/BCSymbolMaps/1E484485-AB4E-3371-87AB-92CEE7256AFD.bcsymbolmap 
+2018-05-13 21:08:21 +0000  copying file ./1E484485-AB4E-3371-87AB-92CEE7256AFD.bcsymbolmap ... 
+2018-05-13 21:08:21 +0000  107853 bytes for ./1E484485-AB4E-3371-87AB-92CEE7256AFD.bcsymbolmap
+2018-05-13 21:08:21 +0000  2018-05-13 21:08:21 +0000  
+
+2018-05-13 21:08:21 +0000  /usr/bin/ditto exited with 02018-05-13 21:08:21 +0000  
+2018-05-13 21:08:21 +0000  
+
+2018-05-13 21:08:21 +0000  Processing step: IDEDistributionSymbolsStep
+2018-05-13 21:08:21 +0000  Excluding symbols for Alamofire.framework
+2018-05-13 21:08:21 +0000  Excluding symbols for Realm.framework
+2018-05-13 21:08:21 +0000  Excluding symbols for RealmSwift.framework
+2018-05-13 21:08:21 +0000  Excluding symbols for Regex.framework
+2018-05-13 21:08:21 +0000  Excluding symbols for SwiftRichString.framework
+2018-05-13 21:08:21 +0000  Excluding symbols for SwiftyAttributes.framework
+2018-05-13 21:08:21 +0000  Excluding symbols for SwiftyMarkdown.framework
+2018-05-13 21:08:21 +0000  Processing symbols for libswiftCore.dylib
+2018-05-13 21:08:21 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftCore.dylib' '--link-dest' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:21 +0000  building file list ... 
+2018-05-13 21:08:21 +0000   0 files...2018-05-13 21:08:21 +0000  1 file to consider
+2018-05-13 21:08:21 +0000  
+2018-05-13 21:08:21 +0000  sent 97 bytes  received 20 bytes  234.00 bytes/sec
+total size is 63.54M  speedup is 569483.62
+2018-05-13 21:08:21 +0000  
+2018-05-13 21:08:21 +0000  /usr/bin/rsync exited with 02018-05-13 21:08:21 +0000  
+2018-05-13 21:08:21 +0000  
+
+2018-05-13 21:08:21 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '--link-dest' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:21 +0000  building file list ... 
+2018-05-13 21:08:21 +0000   0 files...2018-05-13 21:08:21 +0000  49 files to consider
+2018-05-13 21:08:21 +0000  ./
+2018-05-13 21:08:21 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+2018-05-13 21:08:21 +0000  Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+Realm.framework.dSYM/
+Realm.framework.dSYM/Contents/
+Realm.framework.dSYM/Contents/Resources/
+Realm.framework.dSYM/Contents/Resources/DWARF/
+RealmSwift.framework.dSYM/
+RealmSwift.framework.dSYM/Contents/
+RealmSwift.framework.dSYM/Contents/Resources/
+RealmSwift.framework.dSYM/Contents/Resources/DWARF/
+Regex.framework.dSYM/
+Regex.framework.dSYM/Contents/
+Regex.framework.dSYM/Contents/Resources/
+Regex.framework.dSYM/Contents/Resources/DWARF/
+SwiftRichString.framework.dSYM/
+SwiftRichString.framework.dSYM/Contents/
+2018-05-13 21:08:21 +0000  SwiftRichString.framework.dSYM/Contents/Resources/
+SwiftRichString.framework.dSYM/Contents/Resources/DWARF/
+SwiftyAttributes.framework.dSYM/
+SwiftyAttributes.framework.dSYM/Contents/
+SwiftyAttributes.framework.dSYM/Contents/Resources/
+SwiftyAttributes.framework.dSYM/Contents/Resources/DWARF/
+SwiftyMarkdown.framework.dSYM/
+SwiftyMarkdown.framework.dSYM/Contents/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/DWARF/
+Wissen.app.dSYM/
+Wissen.app.dSYM/Contents/
+Wissen.app.dSYM/Contents/Resources/
+Wissen.app.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:21 +0000  
+2018-05-13 21:08:21 +0000  sent 1.61K bytes  received 218 bytes  3.65K bytes/sec
+total size is 80.82M  speedup is 45368.07
+2018-05-13 21:08:21 +0000  
+2018-05-13 21:08:21 +0000  2018-05-13 21:08:21 +0000  /usr/bin/rsync exited with 0
+2018-05-13 21:08:21 +0000  
+
+2018-05-13 21:08:21 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Symbols' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftCore.dylib'
+2018-05-13 21:08:21 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftCore.dylib [armv7, 0.360349 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftCore.dylib [armv7s, 0.360349 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftCore.dylib [arm64, 0.360349 seconds]:
+2018-05-13 21:08:21 +0000  
+2018-05-13 21:08:21 +0000  
+2018-05-13 21:08:21 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-05-13 21:08:21 +0000  2018-05-13 21:08:21 +0000  
+
+2018-05-13 21:08:21 +0000  Processing symbols for libswiftCoreFoundation.dylib
+2018-05-13 21:08:21 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftCoreFoundation.dylib' '--link-dest' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:21 +0000  building file list ... 
+2018-05-13 21:08:21 +0000   0 files...2018-05-13 21:08:21 +0000  1 file to consider
+2018-05-13 21:08:21 +0000  
+sent 107 bytes  received 20 bytes  254.00 bytes/sec
+2018-05-13 21:08:21 +0000  2018-05-13 21:08:21 +0000  total size is 251.70K  speedup is 2029.48
+
+2018-05-13 21:08:21 +0000  /usr/bin/rsync exited with 0
+2018-05-13 21:08:21 +0000  
+2018-05-13 21:08:21 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '--link-dest' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:21 +0000  building file list ... 
+2018-05-13 21:08:21 +0000   0 files...2018-05-13 21:08:21 +0000  49 files to consider
+2018-05-13 21:08:21 +0000  ./
+2018-05-13 21:08:21 +0000  Alamofire.framework.dSYM/
+2018-05-13 21:08:21 +0000  Alamofire.framework.dSYM/Contents/
+Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+Realm.framework.dSYM/
+Realm.framework.dSYM/Contents/
+Realm.framework.dSYM/Contents/Resources/
+Realm.framework.dSYM/Contents/Resources/DWARF/
+RealmSwift.framework.dSYM/
+RealmSwift.framework.dSYM/Contents/
+RealmSwift.framework.dSYM/Contents/Resources/
+RealmSwift.framework.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:21 +0000  Regex.framework.dSYM/
+Regex.framework.dSYM/Contents/
+Regex.framework.dSYM/Contents/Resources/
+Regex.framework.dSYM/Contents/Resources/DWARF/
+SwiftRichString.framework.dSYM/
+SwiftRichString.framework.dSYM/Contents/
+SwiftRichString.framework.dSYM/Contents/Resources/
+SwiftRichString.framework.dSYM/Contents/Resources/DWARF/
+SwiftyAttributes.framework.dSYM/
+SwiftyAttributes.framework.dSYM/Contents/
+SwiftyAttributes.framework.dSYM/Contents/Resources/
+SwiftyAttributes.framework.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:21 +0000  SwiftyMarkdown.framework.dSYM/
+SwiftyMarkdown.framework.dSYM/Contents/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/DWARF/
+Wissen.app.dSYM/
+Wissen.app.dSYM/Contents/
+Wissen.app.dSYM/Contents/Resources/
+Wissen.app.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:21 +0000  
+sent 1.71K bytes  received 314 bytes  4.02K bytes/sec
+total size is 80.82M  speedup is 41139.59
+2018-05-13 21:08:21 +0000  
+2018-05-13 21:08:21 +0000  /usr/bin/rsync exited with 02018-05-13 21:08:21 +0000  
+
+2018-05-13 21:08:21 +0000  
+2018-05-13 21:08:21 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Symbols' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftCoreFoundation.dylib'
+2018-05-13 21:08:21 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftCoreFoundation.dylib [armv7, 0.001655 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftCoreFoundation.dylib [armv7s, 0.001655 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftCoreFoundation.dylib [arm64, 0.001655 seconds]:
+2018-05-13 21:08:21 +0000  2018-05-13 21:08:21 +0000  
+
+2018-05-13 21:08:21 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-05-13 21:08:21 +0000  2018-05-13 21:08:21 +0000  
+
+2018-05-13 21:08:21 +0000  Processing symbols for libswiftCoreGraphics.dylib
+2018-05-13 21:08:21 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftCoreGraphics.dylib' '--link-dest' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:21 +0000  building file list ... 
+2018-05-13 21:08:21 +0000   0 files...2018-05-13 21:08:21 +0000  1 file to consider
+2018-05-13 21:08:21 +0000  
+sent 105 bytes  received 20 bytes  250.00 bytes/sec
+total size is 1.55M  speedup is 13028.48
+2018-05-13 21:08:21 +0000  
+2018-05-13 21:08:21 +0000  2018-05-13 21:08:21 +0000  /usr/bin/rsync exited with 0
+
+2018-05-13 21:08:21 +0000  
+2018-05-13 21:08:21 +0000  2018-05-13 21:08:21 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '--link-dest' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+
+2018-05-13 21:08:21 +0000  building file list ... 
+2018-05-13 21:08:21 +0000   0 files...2018-05-13 21:08:21 +0000  49 files to consider
+2018-05-13 21:08:21 +0000  ./
+2018-05-13 21:08:21 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+2018-05-13 21:08:21 +0000  Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+Realm.framework.dSYM/
+Realm.framework.dSYM/Contents/
+Realm.framework.dSYM/Contents/Resources/
+Realm.framework.dSYM/Contents/Resources/DWARF/
+RealmSwift.framework.dSYM/
+RealmSwift.framework.dSYM/Contents/
+RealmSwift.framework.dSYM/Contents/Resources/
+RealmSwift.framework.dSYM/Contents/Resources/DWARF/
+Regex.framework.dSYM/
+Regex.framework.dSYM/Contents/
+Regex.framework.dSYM/Contents/Resources/
+Regex.framework.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:21 +0000  SwiftRichString.framework.dSYM/
+SwiftRichString.framework.dSYM/Contents/
+SwiftRichString.framework.dSYM/Contents/Resources/
+SwiftRichString.framework.dSYM/Contents/Resources/DWARF/
+SwiftyAttributes.framework.dSYM/
+SwiftyAttributes.framework.dSYM/Contents/
+SwiftyAttributes.framework.dSYM/Contents/Resources/
+SwiftyAttributes.framework.dSYM/Contents/Resources/DWARF/
+SwiftyMarkdown.framework.dSYM/
+SwiftyMarkdown.framework.dSYM/Contents/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/DWARF/
+Wissen.app.dSYM/
+Wissen.app.dSYM/Contents/
+Wissen.app.dSYM/Contents/Resources/
+Wissen.app.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:21 +0000  
+sent 1.71K bytes  received 314 bytes  4.02K bytes/sec
+2018-05-13 21:08:21 +0000  total size is 80.82M  speedup is 41139.59
+2018-05-13 21:08:21 +0000  
+2018-05-13 21:08:21 +0000  
+2018-05-13 21:08:21 +0000  /usr/bin/rsync exited with 02018-05-13 21:08:21 +0000  
+
+2018-05-13 21:08:21 +0000  
+2018-05-13 21:08:21 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Symbols' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftCoreGraphics.dylib'
+2018-05-13 21:08:22 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftCoreGraphics.dylib [armv7, 0.009745 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftCoreGraphics.dylib [armv7s, 0.009745 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftCoreGraphics.dylib [arm64, 0.009745 seconds]:
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  Processing symbols for libswiftCoreImage.dylib
+2018-05-13 21:08:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftCoreImage.dylib' '--link-dest' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:22 +0000  building file list ... 
+2018-05-13 21:08:22 +0000   0 files...2018-05-13 21:08:22 +0000  1 file to consider
+2018-05-13 21:08:22 +0000  
+sent 102 bytes  received 20 bytes  244.00 bytes/sec
+total size is 300.42K  speedup is 2521.57
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  /usr/bin/rsync exited with 0
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '--link-dest' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:22 +0000  building file list ... 
+2018-05-13 21:08:22 +0000   0 files...2018-05-13 21:08:22 +0000  49 files to consider
+2018-05-13 21:08:22 +0000  ./
+2018-05-13 21:08:22 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+Alamofire.framework.dSYM/Contents/Resources/
+2018-05-13 21:08:22 +0000  Alamofire.framework.dSYM/Contents/Resources/DWARF/
+Realm.framework.dSYM/
+Realm.framework.dSYM/Contents/
+Realm.framework.dSYM/Contents/Resources/
+Realm.framework.dSYM/Contents/Resources/DWARF/
+RealmSwift.framework.dSYM/
+RealmSwift.framework.dSYM/Contents/
+RealmSwift.framework.dSYM/Contents/Resources/
+RealmSwift.framework.dSYM/Contents/Resources/DWARF/
+Regex.framework.dSYM/
+Regex.framework.dSYM/Contents/
+Regex.framework.dSYM/Contents/Resources/
+Regex.framework.dSYM/Contents/Resources/DWARF/
+SwiftRichString.framework.dSYM/
+SwiftRichString.framework.dSYM/Contents/
+SwiftRichString.framework.dSYM/Contents/Resources/
+SwiftRichString.framework.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:22 +0000  SwiftyAttributes.framework.dSYM/
+SwiftyAttributes.framework.dSYM/Contents/
+SwiftyAttributes.framework.dSYM/Contents/Resources/
+SwiftyAttributes.framework.dSYM/Contents/Resources/DWARF/
+SwiftyMarkdown.framework.dSYM/
+SwiftyMarkdown.framework.dSYM/Contents/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/DWARF/
+Wissen.app.dSYM/
+Wissen.app.dSYM/Contents/
+Wissen.app.dSYM/Contents/Resources/
+Wissen.app.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:22 +0000  
+sent 1.71K bytes  received 314 bytes  4.02K bytes/sec
+2018-05-13 21:08:22 +0000  total size is 80.82M  speedup is 41139.59
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  /usr/bin/rsync exited with 0
+
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Symbols' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftCoreImage.dylib'
+2018-05-13 21:08:22 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftCoreImage.dylib [armv7, 0.001459 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftCoreImage.dylib [armv7s, 0.001459 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftCoreImage.dylib [arm64, 0.001459 seconds]:
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  Processing symbols for libswiftDarwin.dylib
+2018-05-13 21:08:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftDarwin.dylib' '--link-dest' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:22 +0000  building file list ... 
+2018-05-13 21:08:22 +0000   0 files...2018-05-13 21:08:22 +0000  1 file to consider
+2018-05-13 21:08:22 +0000  
+sent 99 bytes  received 20 bytes  238.00 bytes/sec
+total size is 819.08K  speedup is 7048.20
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  /usr/bin/rsync exited with 0
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '--link-dest' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:22 +0000  building file list ... 
+2018-05-13 21:08:22 +0000   0 files...2018-05-13 21:08:22 +0000  49 files to consider
+2018-05-13 21:08:22 +0000  ./
+2018-05-13 21:08:22 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+2018-05-13 21:08:22 +0000  Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+Realm.framework.dSYM/
+Realm.framework.dSYM/Contents/
+Realm.framework.dSYM/Contents/Resources/
+Realm.framework.dSYM/Contents/Resources/DWARF/
+RealmSwift.framework.dSYM/
+RealmSwift.framework.dSYM/Contents/
+RealmSwift.framework.dSYM/Contents/Resources/
+RealmSwift.framework.dSYM/Contents/Resources/DWARF/
+Regex.framework.dSYM/
+Regex.framework.dSYM/Contents/
+Regex.framework.dSYM/Contents/Resources/
+Regex.framework.dSYM/Contents/Resources/DWARF/
+SwiftRichString.framework.dSYM/
+SwiftRichString.framework.dSYM/Contents/
+SwiftRichString.framework.dSYM/Contents/Resources/
+SwiftRichString.framework.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:22 +0000  SwiftyAttributes.framework.dSYM/
+SwiftyAttributes.framework.dSYM/Contents/
+SwiftyAttributes.framework.dSYM/Contents/Resources/
+SwiftyAttributes.framework.dSYM/Contents/Resources/DWARF/
+SwiftyMarkdown.framework.dSYM/
+SwiftyMarkdown.framework.dSYM/Contents/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/DWARF/
+Wissen.app.dSYM/
+Wissen.app.dSYM/Contents/
+Wissen.app.dSYM/Contents/Resources/
+Wissen.app.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:22 +0000  
+sent 1.71K bytes  received 314 bytes  4.02K bytes/sec
+total size is 80.82M  speedup is 41139.59
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  /usr/bin/rsync exited with 0
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Symbols' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftDarwin.dylib'
+2018-05-13 21:08:22 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftDarwin.dylib [armv7, 0.005642 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftDarwin.dylib [armv7s, 0.005642 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftDarwin.dylib [arm64, 0.005642 seconds]:
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  Processing symbols for libswiftDispatch.dylib
+2018-05-13 21:08:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftDispatch.dylib' '--link-dest' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:22 +0000  building file list ... 
+2018-05-13 21:08:22 +0000   0 files...2018-05-13 21:08:22 +0000  1 file to consider
+2018-05-13 21:08:22 +0000  
+sent 101 bytes  received 20 bytes  242.00 bytes/sec
+2018-05-13 21:08:22 +0000  total size is 2.60M  speedup is 22498.38
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  /usr/bin/rsync exited with 02018-05-13 21:08:22 +0000  
+
+
+2018-05-13 21:08:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '--link-dest' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:22 +0000  building file list ... 
+2018-05-13 21:08:22 +0000   0 files...2018-05-13 21:08:22 +0000  49 files to consider
+2018-05-13 21:08:22 +0000  ./
+2018-05-13 21:08:22 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+2018-05-13 21:08:22 +0000  Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+Realm.framework.dSYM/
+Realm.framework.dSYM/Contents/
+Realm.framework.dSYM/Contents/Resources/
+Realm.framework.dSYM/Contents/Resources/DWARF/
+RealmSwift.framework.dSYM/
+RealmSwift.framework.dSYM/Contents/
+RealmSwift.framework.dSYM/Contents/Resources/
+RealmSwift.framework.dSYM/Contents/Resources/DWARF/
+Regex.framework.dSYM/
+Regex.framework.dSYM/Contents/
+Regex.framework.dSYM/Contents/Resources/
+Regex.framework.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:22 +0000  SwiftRichString.framework.dSYM/
+SwiftRichString.framework.dSYM/Contents/
+SwiftRichString.framework.dSYM/Contents/Resources/
+SwiftRichString.framework.dSYM/Contents/Resources/DWARF/
+SwiftyAttributes.framework.dSYM/
+SwiftyAttributes.framework.dSYM/Contents/
+SwiftyAttributes.framework.dSYM/Contents/Resources/
+SwiftyAttributes.framework.dSYM/Contents/Resources/DWARF/
+SwiftyMarkdown.framework.dSYM/
+SwiftyMarkdown.framework.dSYM/Contents/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:22 +0000  Wissen.app.dSYM/
+Wissen.app.dSYM/Contents/
+Wissen.app.dSYM/Contents/Resources/
+Wissen.app.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  sent 1.71K bytes  received 314 bytes  4.02K bytes/sec
+total size is 80.82M  speedup is 41139.59
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  /usr/bin/rsync exited with 0
+
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Symbols' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftDispatch.dylib'
+2018-05-13 21:08:22 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftDispatch.dylib [armv7, 0.022565 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftDispatch.dylib [armv7s, 0.022565 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftDispatch.dylib [arm64, 0.022565 seconds]:
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  Processing symbols for libswiftFoundation.dylib
+2018-05-13 21:08:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftFoundation.dylib' '--link-dest' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:22 +0000  building file list ... 
+2018-05-13 21:08:22 +0000   0 files...2018-05-13 21:08:22 +0000  1 file to consider
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  sent 103 bytes  received 20 bytes  246.00 bytes/sec
+total size is 28.74M  speedup is 244970.67
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  /usr/bin/rsync exited with 0
+
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '--link-dest' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:22 +0000  building file list ... 
+2018-05-13 21:08:22 +0000   0 files...2018-05-13 21:08:22 +0000  49 files to consider
+2018-05-13 21:08:22 +0000  ./
+2018-05-13 21:08:22 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+2018-05-13 21:08:22 +0000  Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+Realm.framework.dSYM/
+Realm.framework.dSYM/Contents/
+Realm.framework.dSYM/Contents/Resources/
+Realm.framework.dSYM/Contents/Resources/DWARF/
+RealmSwift.framework.dSYM/
+RealmSwift.framework.dSYM/Contents/
+RealmSwift.framework.dSYM/Contents/Resources/
+RealmSwift.framework.dSYM/Contents/Resources/DWARF/
+Regex.framework.dSYM/
+Regex.framework.dSYM/Contents/
+Regex.framework.dSYM/Contents/Resources/
+Regex.framework.dSYM/Contents/Resources/DWARF/
+SwiftRichString.framework.dSYM/
+SwiftRichString.framework.dSYM/Contents/
+SwiftRichString.framework.dSYM/Contents/Resources/
+2018-05-13 21:08:22 +0000  SwiftRichString.framework.dSYM/Contents/Resources/DWARF/
+SwiftyAttributes.framework.dSYM/
+SwiftyAttributes.framework.dSYM/Contents/
+SwiftyAttributes.framework.dSYM/Contents/Resources/
+SwiftyAttributes.framework.dSYM/Contents/Resources/DWARF/
+SwiftyMarkdown.framework.dSYM/
+SwiftyMarkdown.framework.dSYM/Contents/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/DWARF/
+Wissen.app.dSYM/
+Wissen.app.dSYM/Contents/
+Wissen.app.dSYM/Contents/Resources/
+Wissen.app.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:22 +0000  
+sent 1.71K bytes  received 314 bytes  4.02K bytes/sec
+2018-05-13 21:08:22 +0000  total size is 80.82M  speedup is 41139.59
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  /usr/bin/rsync exited with 02018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Symbols' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftFoundation.dylib'
+2018-05-13 21:08:22 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftFoundation.dylib [armv7, 0.135319 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftFoundation.dylib [armv7s, 0.135319 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftFoundation.dylib [arm64, 0.135319 seconds]:
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  Processing symbols for libswiftMetal.dylib
+2018-05-13 21:08:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftMetal.dylib' '--link-dest' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:22 +0000  building file list ... 
+2018-05-13 21:08:22 +0000   0 files...2018-05-13 21:08:22 +0000  1 file to consider
+2018-05-13 21:08:22 +0000  
+sent 98 bytes  received 20 bytes  236.00 bytes/sec
+2018-05-13 21:08:22 +0000  total size is 438.38K  speedup is 3804.20
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  /usr/bin/rsync exited with 02018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '--link-dest' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:22 +0000  building file list ... 
+2018-05-13 21:08:22 +0000   0 files...2018-05-13 21:08:22 +0000  49 files to consider
+2018-05-13 21:08:22 +0000  ./
+2018-05-13 21:08:22 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+2018-05-13 21:08:22 +0000  Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+Realm.framework.dSYM/
+Realm.framework.dSYM/Contents/
+Realm.framework.dSYM/Contents/Resources/
+Realm.framework.dSYM/Contents/Resources/DWARF/
+RealmSwift.framework.dSYM/
+RealmSwift.framework.dSYM/Contents/
+RealmSwift.framework.dSYM/Contents/Resources/
+RealmSwift.framework.dSYM/Contents/Resources/DWARF/
+Regex.framework.dSYM/
+Regex.framework.dSYM/Contents/
+Regex.framework.dSYM/Contents/Resources/
+Regex.framework.dSYM/Contents/Resources/DWARF/
+SwiftRichString.framework.dSYM/
+SwiftRichString.framework.dSYM/Contents/
+SwiftRichString.framework.dSYM/Contents/Resources/
+2018-05-13 21:08:22 +0000  SwiftRichString.framework.dSYM/Contents/Resources/DWARF/
+SwiftyAttributes.framework.dSYM/
+SwiftyAttributes.framework.dSYM/Contents/
+SwiftyAttributes.framework.dSYM/Contents/Resources/
+SwiftyAttributes.framework.dSYM/Contents/Resources/DWARF/
+SwiftyMarkdown.framework.dSYM/
+SwiftyMarkdown.framework.dSYM/Contents/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/DWARF/
+Wissen.app.dSYM/
+Wissen.app.dSYM/Contents/
+Wissen.app.dSYM/Contents/Resources/
+Wissen.app.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:22 +0000  
+sent 1.71K bytes  received 314 bytes  4.02K bytes/sec
+2018-05-13 21:08:22 +0000  total size is 80.82M  speedup is 41139.59
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  /usr/bin/rsync exited with 02018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Symbols' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftMetal.dylib'
+2018-05-13 21:08:22 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftMetal.dylib [armv7, 0.002737 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftMetal.dylib [armv7s, 0.002737 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftMetal.dylib [arm64, 0.002737 seconds]:
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  Processing symbols for libswiftObjectiveC.dylib
+2018-05-13 21:08:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftObjectiveC.dylib' '--link-dest' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:22 +0000  building file list ... 
+2018-05-13 21:08:22 +0000   0 files...2018-05-13 21:08:22 +0000  1 file to consider
+2018-05-13 21:08:22 +0000  
+sent 103 bytes  received 20 bytes  246.00 bytes/sec
+2018-05-13 21:08:22 +0000  total size is 541.11K  speedup is 4504.85
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  /usr/bin/rsync exited with 02018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '--link-dest' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:22 +0000  building file list ... 
+2018-05-13 21:08:22 +0000   0 files...2018-05-13 21:08:22 +0000  49 files to consider
+2018-05-13 21:08:22 +0000  ./
+2018-05-13 21:08:22 +0000  Alamofire.framework.dSYM/
+2018-05-13 21:08:22 +0000  Alamofire.framework.dSYM/Contents/
+Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+Realm.framework.dSYM/
+Realm.framework.dSYM/Contents/
+Realm.framework.dSYM/Contents/Resources/
+Realm.framework.dSYM/Contents/Resources/DWARF/
+RealmSwift.framework.dSYM/
+RealmSwift.framework.dSYM/Contents/
+RealmSwift.framework.dSYM/Contents/Resources/
+RealmSwift.framework.dSYM/Contents/Resources/DWARF/
+Regex.framework.dSYM/
+Regex.framework.dSYM/Contents/
+2018-05-13 21:08:22 +0000  Regex.framework.dSYM/Contents/Resources/
+Regex.framework.dSYM/Contents/Resources/DWARF/
+SwiftRichString.framework.dSYM/
+SwiftRichString.framework.dSYM/Contents/
+SwiftRichString.framework.dSYM/Contents/Resources/
+SwiftRichString.framework.dSYM/Contents/Resources/DWARF/
+SwiftyAttributes.framework.dSYM/
+SwiftyAttributes.framework.dSYM/Contents/
+SwiftyAttributes.framework.dSYM/Contents/Resources/
+SwiftyAttributes.framework.dSYM/Contents/Resources/DWARF/
+SwiftyMarkdown.framework.dSYM/
+SwiftyMarkdown.framework.dSYM/Contents/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:22 +0000  Wissen.app.dSYM/
+Wissen.app.dSYM/Contents/
+Wissen.app.dSYM/Contents/Resources/
+Wissen.app.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:22 +0000  
+sent 1.71K bytes  received 314 bytes  4.02K bytes/sec
+total size is 80.82M  speedup is 41139.59
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  /usr/bin/rsync exited with 0
+
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Symbols' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftObjectiveC.dylib'
+2018-05-13 21:08:22 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftObjectiveC.dylib [armv7, 0.003106 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftObjectiveC.dylib [armv7s, 0.003106 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftObjectiveC.dylib [arm64, 0.003106 seconds]:
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 02018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  Processing symbols for libswiftQuartzCore.dylib
+2018-05-13 21:08:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftQuartzCore.dylib' '--link-dest' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:22 +0000  building file list ... 
+2018-05-13 21:08:22 +0000   0 files...2018-05-13 21:08:22 +0000  1 file to consider
+2018-05-13 21:08:22 +0000  
+sent 103 bytes  received 20 bytes  246.00 bytes/sec
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  total size is 303.34K  speedup is 2525.40
+2018-05-13 21:08:22 +0000  /usr/bin/rsync exited with 0
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '--link-dest' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:22 +0000  building file list ... 
+2018-05-13 21:08:22 +0000   0 files...2018-05-13 21:08:22 +0000  49 files to consider
+2018-05-13 21:08:22 +0000  ./
+2018-05-13 21:08:22 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+2018-05-13 21:08:22 +0000  Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+Realm.framework.dSYM/
+Realm.framework.dSYM/Contents/
+Realm.framework.dSYM/Contents/Resources/
+Realm.framework.dSYM/Contents/Resources/DWARF/
+RealmSwift.framework.dSYM/
+RealmSwift.framework.dSYM/Contents/
+RealmSwift.framework.dSYM/Contents/Resources/
+RealmSwift.framework.dSYM/Contents/Resources/DWARF/
+Regex.framework.dSYM/
+Regex.framework.dSYM/Contents/
+Regex.framework.dSYM/Contents/Resources/
+Regex.framework.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:22 +0000  SwiftRichString.framework.dSYM/
+SwiftRichString.framework.dSYM/Contents/
+SwiftRichString.framework.dSYM/Contents/Resources/
+SwiftRichString.framework.dSYM/Contents/Resources/DWARF/
+SwiftyAttributes.framework.dSYM/
+SwiftyAttributes.framework.dSYM/Contents/
+SwiftyAttributes.framework.dSYM/Contents/Resources/
+SwiftyAttributes.framework.dSYM/Contents/Resources/DWARF/
+SwiftyMarkdown.framework.dSYM/
+SwiftyMarkdown.framework.dSYM/Contents/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/DWARF/
+Wissen.app.dSYM/
+Wissen.app.dSYM/Contents/
+2018-05-13 21:08:22 +0000  Wissen.app.dSYM/Contents/Resources/
+Wissen.app.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:22 +0000  
+sent 1.71K bytes  received 314 bytes  4.02K bytes/sec
+2018-05-13 21:08:22 +0000  total size is 80.82M  speedup is 41139.59
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  /usr/bin/rsync exited with 0
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Symbols' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftQuartzCore.dylib'
+2018-05-13 21:08:22 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftQuartzCore.dylib [armv7, 0.031850 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftQuartzCore.dylib [armv7s, 0.031850 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftQuartzCore.dylib [arm64, 0.031850 seconds]:
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  Processing symbols for libswiftUIKit.dylib
+2018-05-13 21:08:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftUIKit.dylib' '--link-dest' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:22 +0000  building file list ... 
+2018-05-13 21:08:22 +0000   0 files...2018-05-13 21:08:22 +0000  1 file to consider
+2018-05-13 21:08:22 +0000  
+sent 98 bytes  received 20 bytes  236.00 bytes/sec
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  total size is 1018.58K  speedup is 8839.19
+2018-05-13 21:08:22 +0000  /usr/bin/rsync exited with 02018-05-13 21:08:22 +0000  
+
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '--link-dest' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:22 +0000  building file list ... 
+2018-05-13 21:08:22 +0000   0 files...2018-05-13 21:08:22 +0000  49 files to consider
+2018-05-13 21:08:22 +0000  ./
+2018-05-13 21:08:22 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+2018-05-13 21:08:22 +0000  Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+Realm.framework.dSYM/
+Realm.framework.dSYM/Contents/
+Realm.framework.dSYM/Contents/Resources/
+Realm.framework.dSYM/Contents/Resources/DWARF/
+RealmSwift.framework.dSYM/
+RealmSwift.framework.dSYM/Contents/
+RealmSwift.framework.dSYM/Contents/Resources/
+RealmSwift.framework.dSYM/Contents/Resources/DWARF/
+Regex.framework.dSYM/
+Regex.framework.dSYM/Contents/
+Regex.framework.dSYM/Contents/Resources/
+Regex.framework.dSYM/Contents/Resources/DWARF/
+SwiftRichString.framework.dSYM/
+SwiftRichString.framework.dSYM/Contents/
+2018-05-13 21:08:22 +0000  SwiftRichString.framework.dSYM/Contents/Resources/
+SwiftRichString.framework.dSYM/Contents/Resources/DWARF/
+SwiftyAttributes.framework.dSYM/
+SwiftyAttributes.framework.dSYM/Contents/
+SwiftyAttributes.framework.dSYM/Contents/Resources/
+SwiftyAttributes.framework.dSYM/Contents/Resources/DWARF/
+SwiftyMarkdown.framework.dSYM/
+SwiftyMarkdown.framework.dSYM/Contents/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/DWARF/
+Wissen.app.dSYM/
+Wissen.app.dSYM/Contents/
+Wissen.app.dSYM/Contents/Resources/
+Wissen.app.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  sent 1.71K bytes  received 314 bytes  4.02K bytes/sec
+total size is 80.82M  speedup is 41139.59
+2018-05-13 21:08:22 +0000  2018-05-13 21:08:22 +0000  /usr/bin/rsync exited with 0
+
+2018-05-13 21:08:22 +0000  
+2018-05-13 21:08:22 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Symbols' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftUIKit.dylib'
+2018-05-13 21:08:23 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftUIKit.dylib [armv7, 0.006584 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftUIKit.dylib [armv7s, 0.006584 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftUIKit.dylib [arm64, 0.006584 seconds]:
+2018-05-13 21:08:23 +0000  2018-05-13 21:08:23 +0000  
+
+2018-05-13 21:08:23 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-05-13 21:08:23 +0000  
+2018-05-13 21:08:23 +0000  Processing symbols for libswiftos.dylib
+2018-05-13 21:08:23 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftos.dylib' '--link-dest' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:23 +0000  building file list ... 
+2018-05-13 21:08:23 +0000   0 files...2018-05-13 21:08:23 +0000  1 file to consider
+2018-05-13 21:08:23 +0000  
+sent 95 bytes  received 20 bytes  230.00 bytes/sec
+2018-05-13 21:08:23 +0000  total size is 485.50K  speedup is 4323.06
+2018-05-13 21:08:23 +0000  
+2018-05-13 21:08:23 +0000  2018-05-13 21:08:23 +0000  /usr/bin/rsync exited with 02018-05-13 21:08:23 +0000  
+
+
+2018-05-13 21:08:23 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '--link-dest' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/dSYMs/' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ'
+2018-05-13 21:08:23 +0000  building file list ... 
+2018-05-13 21:08:23 +0000   0 files...2018-05-13 21:08:23 +0000  49 files to consider
+2018-05-13 21:08:23 +0000  ./
+2018-05-13 21:08:23 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+2018-05-13 21:08:23 +0000  Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+Realm.framework.dSYM/
+Realm.framework.dSYM/Contents/
+Realm.framework.dSYM/Contents/Resources/
+Realm.framework.dSYM/Contents/Resources/DWARF/
+RealmSwift.framework.dSYM/
+RealmSwift.framework.dSYM/Contents/
+RealmSwift.framework.dSYM/Contents/Resources/
+RealmSwift.framework.dSYM/Contents/Resources/DWARF/
+Regex.framework.dSYM/
+Regex.framework.dSYM/Contents/
+Regex.framework.dSYM/Contents/Resources/
+Regex.framework.dSYM/Contents/Resources/DWARF/
+SwiftRichString.framework.dSYM/
+SwiftRichString.framework.dSYM/Contents/
+2018-05-13 21:08:23 +0000  SwiftRichString.framework.dSYM/Contents/Resources/
+SwiftRichString.framework.dSYM/Contents/Resources/DWARF/
+SwiftyAttributes.framework.dSYM/
+SwiftyAttributes.framework.dSYM/Contents/
+SwiftyAttributes.framework.dSYM/Contents/Resources/
+SwiftyAttributes.framework.dSYM/Contents/Resources/DWARF/
+SwiftyMarkdown.framework.dSYM/
+SwiftyMarkdown.framework.dSYM/Contents/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/
+SwiftyMarkdown.framework.dSYM/Contents/Resources/DWARF/
+Wissen.app.dSYM/
+Wissen.app.dSYM/Contents/
+Wissen.app.dSYM/Contents/Resources/
+Wissen.app.dSYM/Contents/Resources/DWARF/
+2018-05-13 21:08:23 +0000  
+sent 1.71K bytes  received 314 bytes  4.02K bytes/sec
+2018-05-13 21:08:23 +0000  total size is 80.82M  speedup is 41139.59
+2018-05-13 21:08:23 +0000  
+2018-05-13 21:08:23 +0000  2018-05-13 21:08:23 +0000  /usr/bin/rsync exited with 0
+
+2018-05-13 21:08:23 +0000  
+2018-05-13 21:08:23 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Symbols' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftos.dylib'
+2018-05-13 21:08:23 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftos.dylib [armv7, 0.002513 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftos.dylib [armv7s, 0.002513 seconds]:
+/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/libswiftos.dylib [arm64, 0.002513 seconds]:
+2018-05-13 21:08:23 +0000  
+2018-05-13 21:08:23 +0000  
+2018-05-13 21:08:23 +0000  
+2018-05-13 21:08:23 +0000  
+2018-05-13 21:08:23 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-05-13 21:08:23 +0000  
+2018-05-13 21:08:23 +0000  
+2018-05-13 21:08:23 +0000  Excluding symbols for Wissen.app
+2018-05-13 21:08:23 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2018-05-13 21:08:23 +0000  Running /usr/bin/ditto '-V' '/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/SwiftSupport' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/SwiftSupport'
+2018-05-13 21:08:23 +0000  >>> Copying /Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/SwiftSupport 
+2018-05-13 21:08:23 +0000  copying file ./iphoneos/libswiftCoreImage.dylib ... 
+2018-05-13 21:08:23 +0000  351529 bytes for ./iphoneos/libswiftCoreImage.dylib
+2018-05-13 21:08:23 +0000  copying file ./iphoneos/libswiftObjectiveC.dylib ... 
+2018-05-13 21:08:23 +0000  737121 bytes for ./iphoneos/libswiftObjectiveC.dylib
+2018-05-13 21:08:23 +0000  copying file ./iphoneos/libswiftCore.dylib ... 
+2018-05-13 21:08:23 +0000  96713490 bytes for ./iphoneos/libswiftCore.dylib
+2018-05-13 21:08:23 +0000  copying file ./iphoneos/libswiftCoreGraphics.dylib ... 
+2018-05-13 21:08:23 +0000  2199570 bytes for ./iphoneos/libswiftCoreGraphics.dylib
+2018-05-13 21:08:23 +0000  copying file ./iphoneos/libswiftUIKit.dylib ... 
+2018-05-13 21:08:23 +0000  1410757 bytes for ./iphoneos/libswiftUIKit.dylib
+2018-05-13 21:08:23 +0000  copying file ./iphoneos/libswiftMetal.dylib ... 
+2018-05-13 21:08:23 +0000  558438 bytes for ./iphoneos/libswiftMetal.dylib
+2018-05-13 21:08:23 +0000  copying file ./iphoneos/libswiftDispatch.dylib ... 
+2018-05-13 21:08:23 +0000  3697961 bytes for ./iphoneos/libswiftDispatch.dylib
+2018-05-13 21:08:23 +0000  copying file ./iphoneos/libswiftos.dylib ... 
+2018-05-13 21:08:23 +0000  656415 bytes for ./iphoneos/libswiftos.dylib
+2018-05-13 21:08:23 +0000  copying file ./iphoneos/libswiftCoreFoundation.dylib ... 
+2018-05-13 21:08:23 +0000  288225 bytes for ./iphoneos/libswiftCoreFoundation.dylib
+2018-05-13 21:08:23 +0000  copying file ./iphoneos/libswiftDarwin.dylib ... 
+2018-05-13 21:08:23 +0000  1091344 bytes for ./iphoneos/libswiftDarwin.dylib
+2018-05-13 21:08:23 +0000  copying file ./iphoneos/libswiftQuartzCore.dylib ... 
+2018-05-13 21:08:23 +0000  369774 bytes for ./iphoneos/libswiftQuartzCore.dylib
+2018-05-13 21:08:23 +0000  copying file ./iphoneos/libswiftFoundation.dylib ... 
+2018-05-13 21:08:23 +0000  43073646 bytes for ./iphoneos/libswiftFoundation.dylib
+2018-05-13 21:08:23 +0000  
+2018-05-13 21:08:23 +0000  2018-05-13 21:08:23 +0000  /usr/bin/ditto exited with 0
+2018-05-13 21:08:23 +0000  
+
+2018-05-13 21:08:23 +0000  Processing step: IDEDistributionAppThinningStep
+2018-05-13 21:08:23 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-05-13 21:08:23 +0000  Processing step: IDEDistributionODRStep
+2018-05-13 21:08:23 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea66cd6020 'org.cocoapods.Alamofire' '<DVTFilePath:0x7fea4d23edb0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/Alamofire.framework'>'>
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea66565bb0 'org.cocoapods.Realm' '<DVTFilePath:0x7fea4bba0890:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/Realm.framework'>'>
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea65f69ad0 'org.cocoapods.RealmSwift' '<DVTFilePath:0x7fea65c081a0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/RealmSwift.framework'>'>
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea4d24e5e0 'org.cocoapods.Regex' '<DVTFilePath:0x7fea4d230450:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/Regex.framework'>'>
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea68315570 'org.cocoapods.SwiftRichString' '<DVTFilePath:0x7fea683d4080:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/SwiftRichString.framework'>'>
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea4d24c730 'org.cocoapods.SwiftyAttributes' '<DVTFilePath:0x7fea68417520:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/SwiftyAttributes.framework'>'>
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea6672ad40 'org.cocoapods.SwiftyMarkdown' '<DVTFilePath:0x7fea4bc82910:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/SwiftyMarkdown.framework'>'>
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea6837b4a0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fea49f2a200:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftCore.dylib'>'>
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea4d263f90 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fea4bf46180:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea4bd201f0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fea4b8f6410:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea49e3d6b0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fea4bad1640:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea4d1a9970 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fea4bcab600:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea4d259250 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fea4bf3e9d0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea4bac8760 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fea4d245fc0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea4b8715e0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fea4bc99cc0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftMetal.dylib'>'>
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea4d26a2f0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fea66dab9e0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea4ba92ff0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fea4bc51060:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea4d2592f0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fea66ff1d60:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-05-13 21:08:23 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fea683be770 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fea4b8e9b90:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftos.dylib'>'>
+2018-05-13 21:08:23 +0000  Running /usr/bin/xattr '-crs' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app'
+2018-05-13 21:08:23 +0000  2018-05-13 21:08:23 +0000  
+
+2018-05-13 21:08:23 +0000  /usr/bin/xattr exited with 0
+2018-05-13 21:08:23 +0000  
+2018-05-13 21:08:23 +0000  
+2018-05-13 21:08:23 +0000  Processing step: IDEDistributionCodesignStep
+2018-05-13 21:08:23 +0000  Entitlements for <IDEDistributionItem: 0x7fea66cd6020 'org.cocoapods.Alamofire' '<DVTFilePath:0x7fea4d23edb0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/Alamofire.framework'>'>: {
+}
+2018-05-13 21:08:23 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea66cd6020 'org.cocoapods.Alamofire' '<DVTFilePath:0x7fea4d23edb0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/Alamofire.framework'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlements8pIuqe
+2018-05-13 21:08:23 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlements8pIuqe' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/Alamofire.framework'
+2018-05-13 21:08:28 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/Alamofire.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.Alamofire]
+2018-05-13 21:08:28 +0000  2018-05-13 21:08:28 +0000  
+
+2018-05-13 21:08:28 +0000  /usr/bin/codesign exited with 0
+2018-05-13 21:08:28 +0000  
+2018-05-13 21:08:28 +0000  
+2018-05-13 21:08:28 +0000  Entitlements for <IDEDistributionItem: 0x7fea66565bb0 'org.cocoapods.Realm' '<DVTFilePath:0x7fea4bba0890:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/Realm.framework'>'>: {
+}
+2018-05-13 21:08:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea66565bb0 'org.cocoapods.Realm' '<DVTFilePath:0x7fea4bba0890:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/Realm.framework'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlements78lOwB
+2018-05-13 21:08:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlements78lOwB' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/Realm.framework'
+2018-05-13 21:08:34 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/Realm.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.Realm]
+2018-05-13 21:08:34 +0000  2018-05-13 21:08:34 +0000  
+
+2018-05-13 21:08:34 +0000  /usr/bin/codesign exited with 0
+2018-05-13 21:08:34 +0000  
+2018-05-13 21:08:34 +0000  
+2018-05-13 21:08:34 +0000  Entitlements for <IDEDistributionItem: 0x7fea65f69ad0 'org.cocoapods.RealmSwift' '<DVTFilePath:0x7fea65c081a0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/RealmSwift.framework'>'>: {
+}
+2018-05-13 21:08:34 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea65f69ad0 'org.cocoapods.RealmSwift' '<DVTFilePath:0x7fea65c081a0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/RealmSwift.framework'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsAq2vP3
+2018-05-13 21:08:34 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsAq2vP3' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/RealmSwift.framework'
+2018-05-13 21:08:34 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/RealmSwift.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.RealmSwift]
+2018-05-13 21:08:34 +0000  2018-05-13 21:08:34 +0000  
+
+2018-05-13 21:08:34 +0000  /usr/bin/codesign exited with 0
+2018-05-13 21:08:34 +0000  
+2018-05-13 21:08:34 +0000  
+2018-05-13 21:08:34 +0000  Entitlements for <IDEDistributionItem: 0x7fea4d24e5e0 'org.cocoapods.Regex' '<DVTFilePath:0x7fea4d230450:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/Regex.framework'>'>: {
+}
+2018-05-13 21:08:34 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea4d24e5e0 'org.cocoapods.Regex' '<DVTFilePath:0x7fea4d230450:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/Regex.framework'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsY0sJNV
+2018-05-13 21:08:34 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsY0sJNV' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/Regex.framework'
+2018-05-13 21:08:34 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/Regex.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.Regex]
+2018-05-13 21:08:34 +0000  2018-05-13 21:08:34 +0000  
+
+2018-05-13 21:08:34 +0000  /usr/bin/codesign exited with 0
+2018-05-13 21:08:34 +0000  
+2018-05-13 21:08:34 +0000  Entitlements for <IDEDistributionItem: 0x7fea68315570 'org.cocoapods.SwiftRichString' '<DVTFilePath:0x7fea683d4080:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/SwiftRichString.framework'>'>: {
+}
+2018-05-13 21:08:34 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea68315570 'org.cocoapods.SwiftRichString' '<DVTFilePath:0x7fea683d4080:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/SwiftRichString.framework'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsHeoByE
+2018-05-13 21:08:34 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsHeoByE' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/SwiftRichString.framework'
+2018-05-13 21:08:35 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/SwiftRichString.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SwiftRichString]
+2018-05-13 21:08:35 +0000  2018-05-13 21:08:35 +0000  
+
+2018-05-13 21:08:35 +0000  /usr/bin/codesign exited with 0
+2018-05-13 21:08:35 +0000  
+2018-05-13 21:08:35 +0000  Entitlements for <IDEDistributionItem: 0x7fea4d24c730 'org.cocoapods.SwiftyAttributes' '<DVTFilePath:0x7fea68417520:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/SwiftyAttributes.framework'>'>: {
+}
+2018-05-13 21:08:35 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea4d24c730 'org.cocoapods.SwiftyAttributes' '<DVTFilePath:0x7fea68417520:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/SwiftyAttributes.framework'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsQ0Cf6L
+2018-05-13 21:08:35 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsQ0Cf6L' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/SwiftyAttributes.framework'
+2018-05-13 21:08:35 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/SwiftyAttributes.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SwiftyAttributes]
+2018-05-13 21:08:35 +0000  
+2018-05-13 21:08:35 +0000  
+2018-05-13 21:08:35 +0000  /usr/bin/codesign exited with 02018-05-13 21:08:35 +0000  2018-05-13 21:08:35 +0000  
+
+
+2018-05-13 21:08:35 +0000  Entitlements for <IDEDistributionItem: 0x7fea6672ad40 'org.cocoapods.SwiftyMarkdown' '<DVTFilePath:0x7fea4bc82910:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/SwiftyMarkdown.framework'>'>: {
+}
+2018-05-13 21:08:35 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea6672ad40 'org.cocoapods.SwiftyMarkdown' '<DVTFilePath:0x7fea4bc82910:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/SwiftyMarkdown.framework'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsDEbFqF
+2018-05-13 21:08:35 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsDEbFqF' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/SwiftyMarkdown.framework'
+2018-05-13 21:08:35 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/SwiftyMarkdown.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SwiftyMarkdown]
+2018-05-13 21:08:35 +0000  2018-05-13 21:08:35 +0000  
+
+2018-05-13 21:08:35 +0000  /usr/bin/codesign exited with 02018-05-13 21:08:35 +0000  
+
+2018-05-13 21:08:35 +0000  
+2018-05-13 21:08:35 +0000  
+2018-05-13 21:08:35 +0000  Entitlements for <IDEDistributionItem: 0x7fea6837b4a0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fea49f2a200:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-05-13 21:08:35 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea6837b4a0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fea49f2a200:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlements95rnlB
+2018-05-13 21:08:35 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlements95rnlB' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftCore.dylib'
+2018-05-13 21:08:35 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2018-05-13 21:08:36 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2018-05-13 21:08:36 +0000  
+2018-05-13 21:08:36 +0000  
+2018-05-13 21:08:36 +0000  /usr/bin/codesign exited with 02018-05-13 21:08:36 +0000  2018-05-13 21:08:36 +0000  
+
+
+2018-05-13 21:08:36 +0000  Entitlements for <IDEDistributionItem: 0x7fea4d263f90 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fea4bf46180:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-05-13 21:08:36 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea4d263f90 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fea4bf46180:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsn7qH4w
+2018-05-13 21:08:36 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsn7qH4w' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-05-13 21:08:36 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2018-05-13 21:08:37 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-05-13 21:08:37 +0000  2018-05-13 21:08:37 +0000  
+
+2018-05-13 21:08:37 +0000  /usr/bin/codesign exited with 0
+2018-05-13 21:08:37 +0000  
+2018-05-13 21:08:37 +0000  
+2018-05-13 21:08:37 +0000  Entitlements for <IDEDistributionItem: 0x7fea4bd201f0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fea4b8f6410:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-05-13 21:08:37 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea4bd201f0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fea4b8f6410:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsUAvE5F
+2018-05-13 21:08:37 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsUAvE5F' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-05-13 21:08:37 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2018-05-13 21:08:37 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-05-13 21:08:37 +0000  
+2018-05-13 21:08:37 +0000  2018-05-13 21:08:37 +0000  /usr/bin/codesign exited with 0
+
+2018-05-13 21:08:37 +0000  
+2018-05-13 21:08:37 +0000  Entitlements for <IDEDistributionItem: 0x7fea49e3d6b0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fea4bad1640:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-05-13 21:08:37 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea49e3d6b0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fea4bad1640:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsXm3in5
+2018-05-13 21:08:37 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsXm3in5' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftCoreImage.dylib'
+2018-05-13 21:08:37 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2018-05-13 21:08:37 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2018-05-13 21:08:37 +0000  
+2018-05-13 21:08:37 +0000  2018-05-13 21:08:37 +0000  /usr/bin/codesign exited with 0
+2018-05-13 21:08:37 +0000  
+
+2018-05-13 21:08:37 +0000  Entitlements for <IDEDistributionItem: 0x7fea4d1a9970 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fea4bcab600:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-05-13 21:08:37 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea4d1a9970 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fea4bcab600:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsR5MTGk
+2018-05-13 21:08:37 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsR5MTGk' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftDarwin.dylib'
+2018-05-13 21:08:37 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2018-05-13 21:08:37 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2018-05-13 21:08:37 +0000  2018-05-13 21:08:37 +0000  
+
+2018-05-13 21:08:37 +0000  /usr/bin/codesign exited with 0
+2018-05-13 21:08:37 +0000  
+2018-05-13 21:08:37 +0000  
+2018-05-13 21:08:37 +0000  Entitlements for <IDEDistributionItem: 0x7fea4d259250 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fea4bf3e9d0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-05-13 21:08:37 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea4d259250 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fea4bf3e9d0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsX9ma5u
+2018-05-13 21:08:37 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsX9ma5u' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftDispatch.dylib'
+2018-05-13 21:08:38 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2018-05-13 21:08:38 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2018-05-13 21:08:38 +0000  2018-05-13 21:08:38 +0000  
+
+2018-05-13 21:08:38 +0000  /usr/bin/codesign exited with 0
+2018-05-13 21:08:38 +0000  
+2018-05-13 21:08:38 +0000  
+2018-05-13 21:08:38 +0000  Entitlements for <IDEDistributionItem: 0x7fea4bac8760 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fea4d245fc0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-05-13 21:08:38 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea4bac8760 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fea4d245fc0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsItXcmQ
+2018-05-13 21:08:38 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsItXcmQ' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftFoundation.dylib'
+2018-05-13 21:08:38 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2018-05-13 21:08:38 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2018-05-13 21:08:38 +0000  2018-05-13 21:08:38 +0000  
+
+2018-05-13 21:08:38 +0000  /usr/bin/codesign exited with 0
+2018-05-13 21:08:38 +0000  2018-05-13 21:08:38 +0000  
+
+2018-05-13 21:08:38 +0000  Entitlements for <IDEDistributionItem: 0x7fea4b8715e0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fea4bc99cc0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-05-13 21:08:38 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea4b8715e0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fea4bc99cc0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsyaLy2w
+2018-05-13 21:08:38 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsyaLy2w' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftMetal.dylib'
+2018-05-13 21:08:39 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2018-05-13 21:08:39 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2018-05-13 21:08:39 +0000  2018-05-13 21:08:39 +0000  
+
+2018-05-13 21:08:39 +0000  /usr/bin/codesign exited with 0
+2018-05-13 21:08:39 +0000  
+2018-05-13 21:08:39 +0000  
+2018-05-13 21:08:39 +0000  Entitlements for <IDEDistributionItem: 0x7fea4d26a2f0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fea66dab9e0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-05-13 21:08:39 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea4d26a2f0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fea66dab9e0:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsYf2FIu
+2018-05-13 21:08:39 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsYf2FIu' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftObjectiveC.dylib'
+2018-05-13 21:08:39 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2018-05-13 21:08:39 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-05-13 21:08:39 +0000  2018-05-13 21:08:39 +0000  
+
+2018-05-13 21:08:39 +0000  /usr/bin/codesign exited with 0
+2018-05-13 21:08:39 +0000  2018-05-13 21:08:39 +0000  
+
+2018-05-13 21:08:39 +0000  Entitlements for <IDEDistributionItem: 0x7fea4ba92ff0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fea4bc51060:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-05-13 21:08:39 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea4ba92ff0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fea4bc51060:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsaTzzv6
+2018-05-13 21:08:39 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsaTzzv6' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftQuartzCore.dylib'
+2018-05-13 21:08:39 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2018-05-13 21:08:39 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-05-13 21:08:39 +0000  
+2018-05-13 21:08:39 +0000  
+2018-05-13 21:08:39 +0000  /usr/bin/codesign exited with 0
+2018-05-13 21:08:39 +0000  
+2018-05-13 21:08:39 +0000  
+2018-05-13 21:08:39 +0000  Entitlements for <IDEDistributionItem: 0x7fea4d2592f0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fea66ff1d60:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2018-05-13 21:08:39 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea4d2592f0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fea66ff1d60:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlements7xA0gK
+2018-05-13 21:08:39 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlements7xA0gK' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftUIKit.dylib'
+2018-05-13 21:08:39 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2018-05-13 21:08:39 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2018-05-13 21:08:39 +0000  2018-05-13 21:08:39 +0000  
+
+2018-05-13 21:08:39 +0000  /usr/bin/codesign exited with 02018-05-13 21:08:39 +0000  
+2018-05-13 21:08:39 +0000  
+
+2018-05-13 21:08:39 +0000  Entitlements for <IDEDistributionItem: 0x7fea683be770 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fea4b8e9b90:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-05-13 21:08:39 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea683be770 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fea4b8e9b90:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsiM2u6j
+2018-05-13 21:08:39 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlementsiM2u6j' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftos.dylib'
+2018-05-13 21:08:40 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftos.dylib: replacing existing signature
+2018-05-13 21:08:40 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2018-05-13 21:08:40 +0000  2018-05-13 21:08:40 +0000  
+
+2018-05-13 21:08:40 +0000  /usr/bin/codesign exited with 0
+2018-05-13 21:08:40 +0000  2018-05-13 21:08:40 +0000  
+
+2018-05-13 21:08:40 +0000  Entitlements for <IDEDistributionItem: 0x7fea4d1b29d0 'com.wissen.Wissen' '<DVTFilePath:0x7fea667c3570:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app'>'>: {
+    "application-identifier" = "WWJCJL8K6H.com.wissen.Wissen";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = WWJCJL8K6H;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "WWJCJL8K6H.com.wissen.Wissen"
+    );
+}
+2018-05-13 21:08:40 +0000  Writing entitlements for <IDEDistributionItem: 0x7fea4d1b29d0 'com.wissen.Wissen' '<DVTFilePath:0x7fea667c3570:'/Users/isaacalmanza/Library/Developer/Xcode/Archives/2018-05-12/Wissen 05-12-18 10.04 p. m..xcarchive/Products/Applications/Wissen.app'>'> to: /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlements0LMqhB
+2018-05-13 21:08:40 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1CF335514143A26DD759A05029BFB7ED32800059' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/entitlements0LMqhB' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app'
+2018-05-13 21:08:41 +0000  /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root/Payload/Wissen.app: signed app bundle with Mach-O thin (arm64) [com.wissen.Wissen]
+2018-05-13 21:08:41 +0000  2018-05-13 21:08:41 +0000  
+
+2018-05-13 21:08:41 +0000  /usr/bin/codesign exited with 0
+2018-05-13 21:08:41 +0000  
+2018-05-13 21:08:41 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-13 21:08:41 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-05-13 21:08:41 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Symbols' '--link-dest' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root'
+2018-05-13 21:08:41 +0000  building file list ... 
+2018-05-13 21:08:41 +0000   0 files...2018-05-13 21:08:41 +0000  37 files to consider
+2018-05-13 21:08:41 +0000  Symbols/
+2018-05-13 21:08:41 +0000  
+sent 2.00K bytes  received 26 bytes  4.05K bytes/sec
+total size is 15.28M  speedup is 7728.89
+2018-05-13 21:08:41 +0000  2018-05-13 21:08:41 +0000  
+
+2018-05-13 21:08:41 +0000  /usr/bin/rsync exited with 0
+2018-05-13 21:08:41 +0000  
+2018-05-13 21:08:41 +0000  
+2018-05-13 21:08:41 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root' '/var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Packages/Wissen.ipa'
+2018-05-13 21:08:41 +0000  >>> Copying /var/folders/qk/w2yc3ft51v54k5gb355c_6nc0000gn/T/XcodeDistPipeline.yjZ/Root 
+2018-05-13 21:08:41 +0000  copying file ./BCSymbolMaps/1885C1BB-E65F-3BBF-8B88-17EC38837BEC.bcsymbolmap ... 
+2018-05-13 21:08:41 +0000  99206 bytes for ./BCSymbolMaps/1885C1BB-E65F-3BBF-8B88-17EC38837BEC.bcsymbolmap
+copying file ./BCSymbolMaps/B2389590-6305-342D-A2E1-D211F8ECF457.bcsymbolmap ... 
+2018-05-13 21:08:41 +0000  914268 bytes for ./BCSymbolMaps/B2389590-6305-342D-A2E1-D211F8ECF457.bcsymbolmap
+copying file ./BCSymbolMaps/95CE091A-D31E-3C04-9B3B-8058EC5FDA4F.bcsymbolmap ... 
+2018-05-13 21:08:41 +0000  310162 bytes for ./BCSymbolMaps/95CE091A-D31E-3C04-9B3B-8058EC5FDA4F.bcsymbolmap
+copying file ./BCSymbolMaps/A3228432-D6D6-3858-86F8-7828E9E99C5D.bcsymbolmap ... 
+2018-05-13 21:08:41 +0000  67398 bytes for ./BCSymbolMaps/A3228432-D6D6-3858-86F8-7828E9E99C5D.bcsymbolmap
+copying file ./BCSymbolMaps/1E484485-AB4E-3371-87AB-92CEE7256AFD.bcsymbolmap ... 
+2018-05-13 21:08:41 +0000  107853 bytes for ./BCSymbolMaps/1E484485-AB4E-3371-87AB-92CEE7256AFD.bcsymbolmap
+2018-05-13 21:08:41 +0000  copying file ./BCSymbolMaps/93C63362-E985-3206-AD0B-D4028F861439.bcsymbolmap ... 
+2018-05-13 21:08:41 +0000  110816 bytes for ./BCSymbolMaps/93C63362-E985-3206-AD0B-D4028F861439.bcsymbolmap
+copying file ./BCSymbolMaps/B20B0FE3-D886-3579-A341-4FF67C4F20DC.bcsymbolmap ... 
+2018-05-13 21:08:41 +0000  253272 bytes for ./BCSymbolMaps/B20B0FE3-D886-3579-A341-4FF67C4F20DC.bcsymbolmap
+copying file ./BCSymbolMaps/81FBEE1A-76AC-383B-89DF-28001F6138A7.bcsymbolmap ... 
+2018-05-13 21:08:41 +0000  41096 bytes for ./BCSymbolMaps/81FBEE1A-76AC-383B-89DF-28001F6138A7.bcsymbolmap
+2018-05-13 21:08:41 +0000  copying file ./Payload/Wissen.app/_CodeSignature/CodeResources ... 
+2018-05-13 21:08:41 +0000  18877 bytes for ./Payload/Wissen.app/_CodeSignature/CodeResources
+2018-05-13 21:08:41 +0000  copying file ./Payload/Wissen.app/BookCollectionViewCell.nib ... 
+2018-05-13 21:08:41 +0000  3205 bytes for ./Payload/Wissen.app/BookCollectionViewCell.nib
+copying file ./Payload/Wissen.app/Tiempo-Bold.ttf ... 
+2018-05-13 21:08:41 +0000  56324 bytes for ./Payload/Wissen.app/Tiempo-Bold.ttf
+copying file ./Payload/Wissen.app/Tiempo-Bold-Italic.ttf ... 
+2018-05-13 21:08:41 +0000  56469 bytes for ./Payload/Wissen.app/Tiempo-Bold-Italic.ttf
+copying file ./Payload/Wissen.app/TopBarNav.nib ... 
+2018-05-13 21:08:41 +0000  6290 bytes for ./Payload/Wissen.app/TopBarNav.nib
+2018-05-13 21:08:41 +0000  copying file ./Payload/Wissen.app/Base.lproj/Main.storyboardc/parserVC.nib ... 
+2018-05-13 21:08:41 +0000  2746 bytes for ./Payload/Wissen.app/Base.lproj/Main.storyboardc/parserVC.nib
+copying file ./Payload/Wissen.app/Base.lproj/Main.storyboardc/searchVC.nib ... 
+2018-05-13 21:08:41 +0000  1091 bytes for ./Payload/Wissen.app/Base.lproj/Main.storyboardc/searchVC.nib
+copying file ./Payload/Wissen.app/Base.lproj/Main.storyboardc/8wa-9t-y29-view-G4B-Tz-8kl.nib ... 
+2018-05-13 21:08:41 +0000  7626 bytes for ./Payload/Wissen.app/Base.lproj/Main.storyboardc/8wa-9t-y29-view-G4B-Tz-8kl.nib
+copying file ./Payload/Wissen.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-05-13 21:08:41 +0000  4342 bytes for ./Payload/Wissen.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/Wissen.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-05-13 21:08:41 +0000  159 bytes for ./Payload/Wissen.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/Wissen.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-05-13 21:08:41 +0000  1136 bytes for ./Payload/Wissen.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/Wissen.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-05-13 21:08:41 +0000  832 bytes for ./Payload/Wissen.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Wissen.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/Wissen.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/Wissen.app/Assets.car ... 
+2018-05-13 21:08:41 +0000  24584 bytes for ./Payload/Wissen.app/Assets.car
+2018-05-13 21:08:41 +0000  copying file ./Payload/Wissen.app/Tiempo-Regular.ttf ... 
+2018-05-13 21:08:41 +0000  56173 bytes for ./Payload/Wissen.app/Tiempo-Regular.ttf
+2018-05-13 21:08:41 +0000  copying file ./Payload/Wissen.app/Frameworks/libswiftCoreImage.dylib ... 
+2018-05-13 21:08:41 +0000  307984 bytes for ./Payload/Wissen.app/Frameworks/libswiftCoreImage.dylib
+2018-05-13 21:08:41 +0000  copying file ./Payload/Wissen.app/Frameworks/RealmSwift.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/Wissen.app/Frameworks/RealmSwift.framework/_CodeSignature/CodeResources
+2018-05-13 21:08:41 +0000  copying file ./Payload/Wissen.app/Frameworks/RealmSwift.framework/RealmSwift ... 
+2018-05-13 21:08:41 +0000  1885040 bytes for ./Payload/Wissen.app/Frameworks/RealmSwift.framework/RealmSwift
+copying file ./Payload/Wissen.app/Frameworks/RealmSwift.framework/Info.plist ... 
+2018-05-13 21:08:41 +0000  742 bytes for ./Payload/Wissen.app/Frameworks/RealmSwift.framework/Info.plist
+copying file ./Payload/Wissen.app/Frameworks/libswiftObjectiveC.dylib ... 
+2018-05-13 21:08:41 +0000  554448 bytes for ./Payload/Wissen.app/Frameworks/libswiftObjectiveC.dylib
+2018-05-13 21:08:41 +0000  copying file ./Payload/Wissen.app/Frameworks/SwiftRichString.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/Wissen.app/Frameworks/SwiftRichString.framework/_CodeSignature/CodeResources
+copying file ./Payload/Wissen.app/Frameworks/SwiftRichString.framework/SwiftRichString ... 
+2018-05-13 21:08:41 +0000  1002720 bytes for ./Payload/Wissen.app/Frameworks/SwiftRichString.framework/SwiftRichString
+copying file ./Payload/Wissen.app/Frameworks/SwiftRichString.framework/Info.plist ... 
+2018-05-13 21:08:41 +0000  754 bytes for ./Payload/Wissen.app/Frameworks/SwiftRichString.framework/Info.plist
+copying file ./Payload/Wissen.app/Frameworks/SwiftyAttributes.framework/_CodeSignature/CodeResources ... 
+2018-05-13 21:08:41 +0000  2202 bytes for ./Payload/Wissen.app/Frameworks/SwiftyAttributes.framework/_CodeSignature/CodeResources
+copying file ./Payload/Wissen.app/Frameworks/SwiftyAttributes.framework/SwiftyAttributes ... 
+2018-05-13 21:08:41 +0000  477376 bytes for ./Payload/Wissen.app/Frameworks/SwiftyAttributes.framework/SwiftyAttributes
+copying file ./Payload/Wissen.app/Frameworks/SwiftyAttributes.framework/Info.plist ... 
+2018-05-13 21:08:41 +0000  756 bytes for ./Payload/Wissen.app/Frameworks/SwiftyAttributes.framework/Info.plist
+2018-05-13 21:08:41 +0000  copying file ./Payload/Wissen.app/Frameworks/libswiftCore.dylib ... 
+2018-05-13 21:08:44 +0000  66629920 bytes for ./Payload/Wissen.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/Wissen.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2018-05-13 21:08:44 +0000  1628912 bytes for ./Payload/Wissen.app/Frameworks/libswiftCoreGraphics.dylib
+2018-05-13 21:08:44 +0000  copying file ./Payload/Wissen.app/Frameworks/libswiftUIKit.dylib ... 
+2018-05-13 21:08:44 +0000  1043376 bytes for ./Payload/Wissen.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/Wissen.app/Frameworks/libswiftMetal.dylib ... 
+2018-05-13 21:08:44 +0000  449248 bytes for ./Payload/Wissen.app/Frameworks/libswiftMetal.dylib
+copying file ./Payload/Wissen.app/Frameworks/libswiftDispatch.dylib ... 
+2018-05-13 21:08:44 +0000  2722656 bytes for ./Payload/Wissen.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/Wissen.app/Frameworks/libswiftos.dylib ... 
+2018-05-13 21:08:44 +0000  497504 bytes for ./Payload/Wissen.app/Frameworks/libswiftos.dylib
+2018-05-13 21:08:44 +0000  copying file ./Payload/Wissen.app/Frameworks/Realm.framework/_CodeSignature/CodeResources ... 
+2018-05-13 21:08:44 +0000  2202 bytes for ./Payload/Wissen.app/Frameworks/Realm.framework/_CodeSignature/CodeResources
+copying file ./Payload/Wissen.app/Frameworks/Realm.framework/Info.plist ... 
+2018-05-13 21:08:44 +0000  732 bytes for ./Payload/Wissen.app/Frameworks/Realm.framework/Info.plist
+copying file ./Payload/Wissen.app/Frameworks/Realm.framework/Realm ... 
+2018-05-13 21:08:45 +0000  22658272 bytes for ./Payload/Wissen.app/Frameworks/Realm.framework/Realm
+2018-05-13 21:08:45 +0000  copying file ./Payload/Wissen.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2018-05-13 21:08:45 +0000  258096 bytes for ./Payload/Wissen.app/Frameworks/libswiftCoreFoundation.dylib
+2018-05-13 21:08:45 +0000  copying file ./Payload/Wissen.app/Frameworks/SwiftyMarkdown.framework/_CodeSignature/CodeResources ... 
+2018-05-13 21:08:45 +0000  2202 bytes for ./Payload/Wissen.app/Frameworks/SwiftyMarkdown.framework/_CodeSignature/CodeResources
+copying file ./Payload/Wissen.app/Frameworks/SwiftyMarkdown.framework/SwiftyMarkdown ... 
+2018-05-13 21:08:45 +0000  387696 bytes for ./Payload/Wissen.app/Frameworks/SwiftyMarkdown.framework/SwiftyMarkdown
+2018-05-13 21:08:45 +0000  copying file ./Payload/Wissen.app/Frameworks/SwiftyMarkdown.framework/Info.plist ... 
+750 bytes for ./Payload/Wissen.app/Frameworks/SwiftyMarkdown.framework/Info.plist
+copying file ./Payload/Wissen.app/Frameworks/libswiftDarwin.dylib ... 
+2018-05-13 21:08:45 +0000  839088 bytes for ./Payload/Wissen.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/Wissen.app/Frameworks/libswiftQuartzCore.dylib ... 
+2018-05-13 21:08:45 +0000  310960 bytes for ./Payload/Wissen.app/Frameworks/libswiftQuartzCore.dylib
+2018-05-13 21:08:45 +0000  copying file ./Payload/Wissen.app/Frameworks/Regex.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/Wissen.app/Frameworks/Regex.framework/_CodeSignature/CodeResources
+copying file ./Payload/Wissen.app/Frameworks/Regex.framework/Regex ... 
+2018-05-13 21:08:45 +0000  576752 bytes for ./Payload/Wissen.app/Frameworks/Regex.framework/Regex
+copying file ./Payload/Wissen.app/Frameworks/Regex.framework/Info.plist ... 
+2018-05-13 21:08:45 +0000  732 bytes for ./Payload/Wissen.app/Frameworks/Regex.framework/Info.plist
+copying file ./Payload/Wissen.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+2018-05-13 21:08:45 +0000  2202 bytes for ./Payload/Wissen.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+copying file ./Payload/Wissen.app/Frameworks/Alamofire.framework/Alamofire ... 
+2018-05-13 21:08:45 +0000  2609408 bytes for ./Payload/Wissen.app/Frameworks/Alamofire.framework/Alamofire
+copying file ./Payload/Wissen.app/Frameworks/Alamofire.framework/Info.plist ... 
+2018-05-13 21:08:45 +0000  740 bytes for ./Payload/Wissen.app/Frameworks/Alamofire.framework/Info.plist
+copying file ./Payload/Wissen.app/Frameworks/libswiftFoundation.dylib ... 
+2018-05-13 21:08:46 +0000  30131744 bytes for ./Payload/Wissen.app/Frameworks/libswiftFoundation.dylib
+2018-05-13 21:08:46 +0000  copying file ./Payload/Wissen.app/embedded.mobileprovision ... 
+7539 bytes for ./Payload/Wissen.app/embedded.mobileprovision
+copying file ./Payload/Wissen.app/Wissen ... 
+2018-05-13 21:08:46 +0000  845328 bytes for ./Payload/Wissen.app/Wissen
+copying file ./Payload/Wissen.app/Info.plist ... 
+2018-05-13 21:08:46 +0000  1275 bytes for ./Payload/Wissen.app/Info.plist
+copying file ./Payload/Wissen.app/Tiempo-Italic.ttf ... 
+2018-05-13 21:08:46 +0000  57419 bytes for ./Payload/Wissen.app/Tiempo-Italic.ttf
+2018-05-13 21:08:46 +0000  copying file ./Payload/Wissen.app/PkgInfo ... 
+8 bytes for ./Payload/Wissen.app/PkgInfo
+2018-05-13 21:08:46 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreImage.dylib ... 
+2018-05-13 21:08:46 +0000  307520 bytes for ./SwiftSupport/iphoneos/libswiftCoreImage.dylib
+copying file ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib ... 
+2018-05-13 21:08:46 +0000  553984 bytes for ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCore.dylib ... 
+2018-05-13 21:08:50 +0000  66629456 bytes for ./SwiftSupport/iphoneos/libswiftCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib ... 
+2018-05-13 21:08:50 +0000  1628432 bytes for ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib
+copying file ./SwiftSupport/iphoneos/libswiftUIKit.dylib ... 
+2018-05-13 21:08:50 +0000  1042912 bytes for ./SwiftSupport/iphoneos/libswiftUIKit.dylib
+copying file ./SwiftSupport/iphoneos/libswiftMetal.dylib ... 
+2018-05-13 21:08:50 +0000  448768 bytes for ./SwiftSupport/iphoneos/libswiftMetal.dylib
+2018-05-13 21:08:50 +0000  copying file ./SwiftSupport/iphoneos/libswiftDispatch.dylib ... 
+2018-05-13 21:08:50 +0000  2722176 bytes for ./SwiftSupport/iphoneos/libswiftDispatch.dylib
+copying file ./SwiftSupport/iphoneos/libswiftos.dylib ... 
+2018-05-13 21:08:50 +0000  497040 bytes for ./SwiftSupport/iphoneos/libswiftos.dylib
+2018-05-13 21:08:50 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib ... 
+2018-05-13 21:08:50 +0000  257616 bytes for ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib
+2018-05-13 21:08:50 +0000  copying file ./SwiftSupport/iphoneos/libswiftDarwin.dylib ... 
+2018-05-13 21:08:50 +0000  838608 bytes for ./SwiftSupport/iphoneos/libswiftDarwin.dylib
+copying file ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib ... 
+2018-05-13 21:08:50 +0000  310496 bytes for ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftFoundation.dylib ... 
+2018-05-13 21:08:51 +0000  30131264 bytes for ./SwiftSupport/iphoneos/libswiftFoundation.dylib
+2018-05-13 21:08:51 +0000  copying file ./Symbols/DCFD7479-6F7F-3200-AF77-BF3EBA498355.symbols ... 
+2018-05-13 21:08:51 +0000  2368 bytes for ./Symbols/DCFD7479-6F7F-3200-AF77-BF3EBA498355.symbols
+copying file ./Symbols/52EBEF45-5DF1-317D-8310-F05CEE9ED74D.symbols ... 
+2018-05-13 21:08:51 +0000  13208 bytes for ./Symbols/52EBEF45-5DF1-317D-8310-F05CEE9ED74D.symbols
+2018-05-13 21:08:51 +0000  copying file ./Symbols/823D89E9-5018-3004-B07A-8385380D65C7.symbols ... 
+2018-05-13 21:08:51 +0000  6592 bytes for ./Symbols/823D89E9-5018-3004-B07A-8385380D65C7.symbols
+copying file ./Symbols/6E35C3D1-15C2-316C-87B3-DDA8AF5F1D72.symbols ... 
+2018-05-13 21:08:51 +0000  43960 bytes for ./Symbols/6E35C3D1-15C2-316C-87B3-DDA8AF5F1D72.symbols
+2018-05-13 21:08:51 +0000  copying file ./Symbols/81F66E04-BAB1-33FE-B336-9B4162A68AFC.symbols ... 
+2018-05-13 21:08:51 +0000  2472 bytes for ./Symbols/81F66E04-BAB1-33FE-B336-9B4162A68AFC.symbols
+copying file ./Symbols/CACBF3AE-8ABB-362C-B85E-1BFC5879DDF8.symbols ... 
+2018-05-13 21:08:51 +0000  21552 bytes for ./Symbols/CACBF3AE-8ABB-362C-B85E-1BFC5879DDF8.symbols
+2018-05-13 21:08:51 +0000  copying file ./Symbols/99FE325C-BA6F-32B8-80AF-4F65D3411517.symbols ... 
+2018-05-13 21:08:52 +0000  3348520 bytes for ./Symbols/99FE325C-BA6F-32B8-80AF-4F65D3411517.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/A8918F61-41B8-31F7-8310-248489B980D5.symbols ... 
+2018-05-13 21:08:52 +0000  44536 bytes for ./Symbols/A8918F61-41B8-31F7-8310-248489B980D5.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/5C914A0C-CE08-38DE-8250-E6896D037E6A.symbols ... 
+2018-05-13 21:08:52 +0000  12952 bytes for ./Symbols/5C914A0C-CE08-38DE-8250-E6896D037E6A.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/51BCAE24-E868-3046-B714-A4DC8AD58AE4.symbols ... 
+2018-05-13 21:08:52 +0000  103104 bytes for ./Symbols/51BCAE24-E868-3046-B714-A4DC8AD58AE4.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/B6FA4187-E4D5-3312-9FAC-8A7793454110.symbols ... 
+2018-05-13 21:08:52 +0000  223640 bytes for ./Symbols/B6FA4187-E4D5-3312-9FAC-8A7793454110.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/901FAE5E-9E96-37BC-B743-01B3B63E235D.symbols ... 
+2018-05-13 21:08:52 +0000  21552 bytes for ./Symbols/901FAE5E-9E96-37BC-B743-01B3B63E235D.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/E3FAAA76-0D12-35BA-92BA-2D22987F0638.symbols ... 
+2018-05-13 21:08:52 +0000  6592 bytes for ./Symbols/E3FAAA76-0D12-35BA-92BA-2D22987F0638.symbols
+copying file ./Symbols/39B93A13-DBC8-3E0C-A1B3-35FABA5480B1.symbols ... 
+2018-05-13 21:08:52 +0000  2728 bytes for ./Symbols/39B93A13-DBC8-3E0C-A1B3-35FABA5480B1.symbols
+copying file ./Symbols/8ED77568-C9ED-3229-BA7A-6B0D92719402.symbols ... 
+2018-05-13 21:08:52 +0000  21592 bytes for ./Symbols/8ED77568-C9ED-3229-BA7A-6B0D92719402.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/84C6189D-14AC-327A-AD00-F813181D2BD1.symbols ... 
+2018-05-13 21:08:52 +0000  3347936 bytes for ./Symbols/84C6189D-14AC-327A-AD00-F813181D2BD1.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/966DDD4D-8A03-3041-9D42-A37268354104.symbols ... 
+2018-05-13 21:08:52 +0000  6928 bytes for ./Symbols/966DDD4D-8A03-3041-9D42-A37268354104.symbols
+copying file ./Symbols/F1F2287F-B515-3A28-BEEA-12EC2D547BF8.symbols ... 
+2018-05-13 21:08:52 +0000  102384 bytes for ./Symbols/F1F2287F-B515-3A28-BEEA-12EC2D547BF8.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/F8DBDC31-7EB7-3A35-AC52-2490830DDBD4.symbols ... 
+2018-05-13 21:08:52 +0000  60328 bytes for ./Symbols/F8DBDC31-7EB7-3A35-AC52-2490830DDBD4.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/DBD251FE-2608-3963-A0A0-D8A86EB64E0C.symbols ... 
+2018-05-13 21:08:52 +0000  13208 bytes for ./Symbols/DBD251FE-2608-3963-A0A0-D8A86EB64E0C.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/9433FC53-F726-30DC-8C53-851703DD440B.symbols ... 
+2018-05-13 21:08:52 +0000  2816 bytes for ./Symbols/9433FC53-F726-30DC-8C53-851703DD440B.symbols
+copying file ./Symbols/1194F495-00EA-38CB-BCBA-E0EF1A3B0D14.symbols ... 
+2018-05-13 21:08:52 +0000  60000 bytes for ./Symbols/1194F495-00EA-38CB-BCBA-E0EF1A3B0D14.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/844914D5-7322-3A0B-95E1-1B380BE9D18B.symbols ... 
+2018-05-13 21:08:52 +0000  1510736 bytes for ./Symbols/844914D5-7322-3A0B-95E1-1B380BE9D18B.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/402FD36F-3025-37FF-93CD-C58DCA7ED35D.symbols ... 
+2018-05-13 21:08:52 +0000  13120 bytes for ./Symbols/402FD36F-3025-37FF-93CD-C58DCA7ED35D.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/CA49E7B9-407C-3436-9E71-1BD96983265C.symbols ... 
+2018-05-13 21:08:52 +0000  2368 bytes for ./Symbols/CA49E7B9-407C-3436-9E71-1BD96983265C.symbols
+copying file ./Symbols/8AEF7D3A-C8E4-3618-A204-14353E0A88FB.symbols ... 
+2018-05-13 21:08:52 +0000  2728 bytes for ./Symbols/8AEF7D3A-C8E4-3618-A204-14353E0A88FB.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/93D62379-9897-3127-BFD3-526BB4013E5F.symbols ... 
+2018-05-13 21:08:52 +0000  12952 bytes for ./Symbols/93D62379-9897-3127-BFD3-526BB4013E5F.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/31302350-F2A9-398B-9DB7-89AF41C9F6C8.symbols ... 
+2018-05-13 21:08:52 +0000  12760 bytes for ./Symbols/31302350-F2A9-398B-9DB7-89AF41C9F6C8.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/3A18E7ED-93D3-385A-968F-4EB382A46370.symbols ... 
+2018-05-13 21:08:52 +0000  103176 bytes for ./Symbols/3A18E7ED-93D3-385A-968F-4EB382A46370.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/3DB343D4-7102-3B33-8565-DF200CC0197E.symbols ... 
+2018-05-13 21:08:52 +0000  3329432 bytes for ./Symbols/3DB343D4-7102-3B33-8565-DF200CC0197E.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/E82A7F82-30CF-326A-B53A-424CF8E39570.symbols ... 
+2018-05-13 21:08:52 +0000  221720 bytes for ./Symbols/E82A7F82-30CF-326A-B53A-424CF8E39570.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/83D74E0A-99F2-3658-A591-F4ABBD60C578.symbols ... 
+2018-05-13 21:08:52 +0000  44536 bytes for ./Symbols/83D74E0A-99F2-3658-A591-F4ABBD60C578.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/39002AAF-2C42-3487-80AB-6EBA82C171E1.symbols ... 
+2018-05-13 21:08:52 +0000  1504856 bytes for ./Symbols/39002AAF-2C42-3487-80AB-6EBA82C171E1.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/ED0A87D8-337C-3482-8319-4442A2EC42BF.symbols ... 
+2018-05-13 21:08:52 +0000  1510592 bytes for ./Symbols/ED0A87D8-337C-3482-8319-4442A2EC42BF.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/9B2B8FE3-E073-3684-A26F-B8CBB8A7C9AE.symbols ... 
+2018-05-13 21:08:52 +0000  60328 bytes for ./Symbols/9B2B8FE3-E073-3684-A26F-B8CBB8A7C9AE.symbols
+2018-05-13 21:08:52 +0000  copying file ./Symbols/9E1FC0B9-5A61-3A1D-98D5-BAC795B97779.symbols ... 
+2018-05-13 21:08:52 +0000  223712 bytes for ./Symbols/9E1FC0B9-5A61-3A1D-98D5-BAC795B97779.symbols
+2018-05-13 21:08:52 +0000  2018-05-13 21:08:52 +0000  
+
+2018-05-13 21:08:52 +0000  /usr/bin/ditto exited with 02018-05-13 21:08:52 +0000  
+
+2018-05-13 21:08:52 +0000  
+2018-05-13 21:08:52 +0000  Processing step: IDEDistributionCreateManifestStep
+2018-05-13 21:08:52 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

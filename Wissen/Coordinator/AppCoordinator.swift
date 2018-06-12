@@ -28,12 +28,22 @@ class AppCoordinator : AppCoordinatorProtocol{
 		
 	}
 	
+	private func configureNavigationBar() {
+		self.navigationController.isNavigationBarHidden = false
+		self.navigationController.navigationBar.backgroundColor = UIColor.white
+		self.navigationController.navigationBar.isTranslucent = false
+		self.navigationController.navigationBar.tintColor = UIColor.black
+		self.navigationController.navigationItem.backBarButtonItem?.title = ""
+	}
+	
 	func launchBook(book: Book?) {
 		let view = getViewController(withIdentifier:"parserVC", to: ParserVC.self)
 		let parserViewModel = ParserViewModel(viewDelegate: view, navDelegate: self)
 		
 		view.viewModel = parserViewModel
 		view.book = book
+		
+		configureNavigationBar()
 		
 		navigationController.show(view, sender: self)
 	}

@@ -8,6 +8,36 @@
 import Foundation
 import RealmSwift
 
+struct Info : Codable {
+	let PDFFormatVersion: String?
+	let Title: String?
+	let Author: String?
+	let Keywords: String?
+}
+struct Metadata : Codable {
+	let info: Info?
+	
+	func toJSON() -> [String:Any] {
+		return [
+			"info": info ?? "",
+		]
+	}
+}
+
+struct BookElement: Codable {
+	let book: String
+	let metadata: Metadata?
+	let pages: Int?
+	
+	func toJSON() -> [String:Any] {
+		return [
+			"book": book,
+			"metadata": metadata ?? "",
+			"pages" : pages ?? "",
+		]
+	}
+}
+
 extension Object {
 	func incrementID<T:Object>(_ value: T) -> Int {
 		let realm = try! Realm()
@@ -21,6 +51,7 @@ class Book : Object, Codable {
 	@objc dynamic var url: String = ""
 	@objc dynamic var cover: String = ""
 	@objc dynamic var content: String = ""
+	@objc dynamic var metadata: String = ""
 
 	convenience init(url: String) {
 		self.init()
@@ -33,6 +64,15 @@ class Book : Object, Codable {
 		self.name = name + String(self.ID)
 		self.url = url ?? ""
 		self.content = content
+	}
+	
+	convenience init(name: String, url: String?, content: String, metadata: String) {
+		self.init()
+		self.ID = incrementID(self)
+		self.name = name + String(self.ID)
+		self.url = url ?? ""
+		self.content = content
+		self.metadata = metadata
 	}
 	
 	override static func primaryKey() -> String? {

@@ -11,5 +11,7 @@ target 'Wissen' do
   pod 'RealmSwift'
   pod 'SwiftyAttributes'
   pod 'SwiftRichString'
+  pod 'CrossroadRegex'
+  pod 'SwiftGifOrigin', '~> 1.6.1'
 end
 

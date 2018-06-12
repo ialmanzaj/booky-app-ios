@@ -8,8 +8,11 @@
 
 import Foundation
 
-let IP = "192.168.0.170"
+let IP = "192.168.86.144"
 
-let API_URL = "http://\(IP):3000/"
+let LOCAL = "http://\(IP):3000"
+let PROD =  "https://wissen-server-ghwxjkjsid.now.sh"
+
+let API_URL = PROD
 
 let PRINCIPLES = "http://res.cloudinary.com/dcq6ukcve/raw/upload/v1507138524/principles.pdf"

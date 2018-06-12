@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 class Parser {
 	
 	private enum DecodeError: String, Error {
@@ -16,11 +15,15 @@ class Parser {
 		case unknownError = "Something failed during decoding"
 	}
 	
-	static func convert<T : Decodable>(from dict: Any, to resultClass: T.Type) -> T? {
+	static func convert<T : Decodable>(from dict: Any?, to resultClass: T.Type) -> T? {
 		//print("convert from dict")
 		do {
 
-			//print("object \(object)")
+			guard let dict = dict else {
+				throw DecodeError.emptyObject
+			}
+			
+			//print("object \(dict)")
 			
 			guard let data = try? JSONSerialization.data(withJSONObject: dict, options: []) else {
 				throw DecodeError.unknownError
@@ -42,7 +45,7 @@ class Parser {
 		}
 	}
 	
-	static func convert<T : Decodable>(fromData data: Data?, to resultClass: T.Type) -> T? {
+	static func convert<T : Decodable>(from data: Data?, to resultClass: T.Type) -> T? {
 		//print("convert from data")
 		do {
 			
@@ -50,10 +53,11 @@ class Parser {
 				throw DecodeError.emptyObject
 			}
 			
+			
 			guard let result = try? JSONDecoder().decode(resultClass, from: data) else {
 				throw DecodeError.unknownError
 			}
-			
+
 			//print("\n result \(result)")
 			
 			return result

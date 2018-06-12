@@ -13,23 +13,60 @@ protocol BookCollectionAdapterDelegate {
 }
 class BookCollectionAdapter: NSObject, UICollectionViewDataSource, UICollectionViewDelegate {
 	
+	typealias FetchData = ((_ data: Any) -> Any)
+
 	fileprivate let sectionInsets = UIEdgeInsets(top: 0, left:0, bottom: 0, right: 0)
 	fileprivate let itemsPerRow: CGFloat = 4
 	
-	private var delegate: BookCollectionAdapterDelegate!
+	var refresher: UIRefreshControl!
 	
+	private var delegate: BookCollectionAdapterDelegate!
 	private var container: CGSize
 	private var books: [Book] = []
+	var collectionView: UICollectionView!
+	var data: FetchData!
+	
 	
 	init(container size:  CGSize, delegate: BookCollectionAdapterDelegate) {
 		self.container = size
 		self.delegate = delegate
+		refresher = UIRefreshControl()
+	}
+	
+	
+	func addRefresher(){
+		collectionView.addSubview(refresher)
+		refresher.attributedTitle = NSAttributedString(string: "Pull to refresh")
+		refresher.tintColor = UIColor(red: 1.00, green: 0.21, blue: 0.55, alpha: 1.0)
+		refresher.addTarget(collectionView, action: #selector(refresh), for: .valueChanged)
+	}
+	
+	@objc func refresh(){
+		collectionView.reloadData()
+		refresher.endRefreshing()
 	}
 	
 	func setData(_ books: [Book]) {
 		self.books = books
+		collectionView.reloadData()
 	}
 	
+	func add(_ book: Book) {
+		self.books.append(book)
+	}
+	
+
+	func count() -> Int{
+		return self.books.count
+	}
+	
+	func remove(_ position: Int) {
+		do {
+			try? self.books.remove(at: position)
+		}catch{
+			print("no disponible")
+		}
+	}
 	
 	func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
 		delegate.onBookSelected(book: books[indexPath.row])
@@ -46,7 +83,6 @@ class BookCollectionAdapter: NSObject, UICollectionViewDataSource, UICollectionV
 		let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "book_cell", for: indexPath ) as! BookCollectionViewCell
 		
 		let book = books[indexPath.row]
-		
 		
 		cell.bookName.text = book.name
 		

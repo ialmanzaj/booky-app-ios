@@ -8,6 +8,7 @@
 import UIKit
 import SwiftyMarkdown
 import SwiftyAttributes
+import SwiftRichString
 
 class ParserVC: BaseVC {
 	
@@ -26,21 +27,14 @@ class ParserVC: BaseVC {
 		
 		textContainer.textContainerInset = PADDING
 		
-		if (book.name.isEmpty) {
-			viewModel.fetchBook(url: book.url)
-		}else {
-			bookResult(content: book.content)
-		}
+		
+		bookResult(BookElement(book: book.content, metadata: nil, pages: nil))
 		
 		
 		header.setNavigator(viewController: self)
-		
 		header.config(title: "", viewController: self)
-	
-
 
 		Utility.logAllAvailableFonts()
-	
 	}
 	
 	override func viewDidLayoutSubviews() {
@@ -53,83 +47,58 @@ class ParserVC: BaseVC {
 }
 
 extension ParserVC : ParserViewModelDelegate {
-	func onLoading() {
-		view.addSubview(loadingView)
-	}
 	
-	func onError(error: BaseService.Error) {
-		hideLoading()
+	func bookResult(_ bookElement: BookElement){
 		
-		print("error \(error)")
-	}
-	
-	func onEmpty() {
-		print("onEmpty")
-	}
-	
-	func bookResult(content: String){
-		hideLoading()
-		if book.name.isEmpty{
-			viewModel.saveBook(book:
-				Book(name: "Book #", url: book.url, content: content))
-		}
+		let content = bookElement.book
 		
-		
-//
 		let result = SwiftyMarkdown(string:
 			content
-				//.replacingOccurrences(of: "\\#+\n\\s*", with: "$1", options: [.regularExpression])
-				
-			.replacingOccurrences(of: "(\\#+)", with: "\n$1", options: [.regularExpression])
+				//.replacingOccurrences(of: "\\n{2,}", with: "$1\n", options: [.regularExpression])
+				.replacingOccurrences(of: "\\#+\n\\s*", with: "$1", options: [.regularExpression])
+				.replacingOccurrences(of: "(\\#+)", with: "\n$1", options: [.regularExpression])
 			//.replacingOccurrences(of: "(\\[A-Z]+)", with: "\n$1\n", options: [.regularExpression])
-			
 		)
-		
-		//print("\(content)")
-		
-		result.h1.fontName = "Tiempo-BoldItalic"
-		result.italic.fontName = "Tiempo-Italic"
-		result.bold.fontName = "Tiempo-Bold"
-		result.body.fontName = "Tiempo-"
-		
-		
-		result.h1.fontSize = 25
-		result.h2.fontSize = 23
-		result.h3.fontSize = 22
-		result.h4.fontSize = 20
-		result.h5.fontSize = 19
-		result.h6.fontSize = 18
-		
-		result.body.fontSize = 17
-		result.code.fontSize = 16
-		
-	
-//		let myStyle = Style("super", {
-//			$0.font = FontAttribute(.TimesNewRomanPS_BoldItalicMT, size: 40) // font + size
-//			$0.underline = UnderlineAttribute(color: UIColor.blue, style: NSUnderlineStyle.styleSingle) // underline attributes
-//			$0.color = UIColor(hex: "#FF4555") // text color
-//			$0.align = .center // text alignment
-//		})
+
+		result.h1.fontName = "Helvetica-BoldOblique"
+		result.italic.fontName = "Helvetica-Oblique"
+		result.bold.fontName = "Helvetica-Bold"
+		result.body.fontName = "Helvetica"
+
+		result.h1.fontSize = 27
+		result.h2.fontSize = 25
+		result.h3.fontSize = 24
+		result.h4.fontSize = 23
+		result.h5.fontSize = 22
+		result.h6.fontSize = 21
+
+		result.body.fontSize = 18
+		result.code.fontSize = 17
+
+
+//		let normal = Style.default {
+//			let lineSpacing: CGFloat = 6.2
+//			$0.lineSpacing = Float(lineSpacing)
+//			$0.paragraphSpacing = Float(CGFloat(0.25 * lineSpacing))
+//			$0.align = .left // text alignment
+//			$0.lineBreak = .byCharWrapping
+//		}
 //
 		let lineSpacing: CGFloat = 6.2
-		
+
 		let paragraphStyle = NSMutableParagraphStyle()
 		paragraphStyle.lineSpacing = lineSpacing
 		paragraphStyle.paragraphSpacing = CGFloat(0.50 * lineSpacing)
 		paragraphStyle.alignment = .left
+		paragraphStyle.lineBreakMode = .byWordWrapping
+
+
+		let book_final = result.attributedString().withAttribute(Attribute.paragraphStyle(paragraphStyle))
 		
 		
-		textContainer.attributedText =  result
-			.attributedString()
-			.withAttribute(Attribute.paragraphStyle(paragraphStyle)
-		)
+		textContainer.attributedText = book_final
+
 	}
-	
-	func hideLoading() {
-		loadingView.removeFromSuperview()
-	}
-	
-	
 
 }
 

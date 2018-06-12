@@ -1,17 +1,21 @@
 PODS:
   - Alamofire (4.7.0)
+  - CrossroadRegex (1.1.0)
   - Realm (3.1.1):
     - Realm/Headers (= 3.1.1)
   - Realm/Headers (3.1.1)
   - RealmSwift (3.1.1):
     - Realm (= 3.1.1)
+  - SwiftGifOrigin (1.6.1)
   - SwiftRichString (1.1.0)
   - SwiftyAttributes (4.1.0)
   - SwiftyMarkdown (0.5.1)
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
+  - CrossroadRegex
   - RealmSwift
+  - SwiftGifOrigin (~> 1.6.1)
   - SwiftRichString
   - SwiftyAttributes
   - SwiftyMarkdown
@@ -19,20 +23,24 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - CrossroadRegex
     - Realm
     - RealmSwift
+    - SwiftGifOrigin
     - SwiftRichString
     - SwiftyAttributes
     - SwiftyMarkdown
 
 SPEC CHECKSUMS:
   Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  CrossroadRegex: 5eaadb3f7b4014728f1cbd1014756b126c1dbd9a
   Realm: 42d1c38a5b1bbcc828b48a7ce702cb86fc68adf4
   RealmSwift: d31937ca6a6ee54acde64ec839523c0a3c04924b
+  SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
   SwiftRichString: 49c75726140c7f780fad1d067f804491d51188fa
   SwiftyAttributes: cef9463f6e7da1ab393896ca036c9ac37d8a406b
   SwiftyMarkdown: 743af3e87931391bc4836b825fec3d98785b2e3a
 
-PODFILE CHECKSUM: d906fcdc112ed0b01684b64735a56da24f0af9de
+PODFILE CHECKSUM: 4ad377daf8cabb3bf985d5fdf5f287ae3ce44383
 
 COCOAPODS: 1.5.0

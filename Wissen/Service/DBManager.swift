@@ -63,9 +63,10 @@ class DBManager {
 		}
 	}
 	
-	func deleteFromDb(object: Object)   {
+	func delete<T : Object>(_ value: T, primaryKey: Int)   {
 		try!   database.write {
-			database.delete(object)
+			let obj = database.object(ofType: T.self, forPrimaryKey: primaryKey)
+			database.delete(obj!)
 		}
 	}
 }
