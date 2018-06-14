@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Fabric
+import Crashlytics
+import Mixpanel
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +19,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+		
+		//setup fabric
+		Fabric.with([Crashlytics.self])
+		
+		//setup mix panel
+		Mixpanel.initialize(token: "02e2770f9f820e3d9d5ac65b01916738")
+		
 		
 		// Override point for customization after application launch.
 		self.window = UIWindow(frame: UIScreen.main.bounds)

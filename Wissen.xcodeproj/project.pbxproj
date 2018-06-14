@@ -13,7 +13,6 @@
 		0D37DE0D20960C02006EBFBF /* Tiempo-Bold-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D37DE0920960C01006EBFBF /* Tiempo-Bold-Italic.ttf */; };
 		0D37DE0E20960C02006EBFBF /* Tiempo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D37DE0A20960C02006EBFBF /* Tiempo-Italic.ttf */; };
 		0D37DE0F20960C02006EBFBF /* Tiempo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D37DE0B20960C02006EBFBF /* Tiempo-Regular.ttf */; };
-		0D466E6D20CF31BB008E4CE0 /* book 17-38-05-649.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 0D466E6C20CF31BB008E4CE0 /* book 17-38-05-649.imageset */; };
 		0DBF7F852097FA3B00030F84 /* TopBarNav.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DBF7F842097FA3B00030F84 /* TopBarNav.xib */; };
 		0DBF7F892097FE5E00030F84 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF7F882097FE5E00030F84 /* CustomView.swift */; };
 		0DBF7F8B2098017600030F84 /* TopBarNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF7F8A2098017600030F84 /* TopBarNav.swift */; };
@@ -75,7 +74,6 @@
 		0D37DE0920960C01006EBFBF /* Tiempo-Bold-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tiempo-Bold-Italic.ttf"; sourceTree = "<group>"; };
 		0D37DE0A20960C02006EBFBF /* Tiempo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tiempo-Italic.ttf"; sourceTree = "<group>"; };
 		0D37DE0B20960C02006EBFBF /* Tiempo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tiempo-Regular.ttf"; sourceTree = "<group>"; };
-		0D466E6C20CF31BB008E4CE0 /* book 17-38-05-649.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "book 17-38-05-649.imageset"; sourceTree = "<group>"; };
 		0DBF7F842097FA3B00030F84 /* TopBarNav.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopBarNav.xib; sourceTree = "<group>"; };
 		0DBF7F882097FE5E00030F84 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		0DBF7F8A2098017600030F84 /* TopBarNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarNav.swift; sourceTree = "<group>"; };
@@ -165,18 +163,9 @@
 			path = Tiempo;
 			sourceTree = "<group>";
 		};
-		0D466E6B20CF3156008E4CE0 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				0D466E6C20CF31BB008E4CE0 /* book 17-38-05-649.imageset */,
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
 		0DD4FB8620917A5D00402CA3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0D466E6B20CF3156008E4CE0 /* images */,
 				0DD5E932208D4BE2009FD06B /* Main.storyboard */,
 				0DD5E937208D4BE3009FD06B /* LaunchScreen.storyboard */,
 				0DBF7F882097FE5E00030F84 /* CustomView.swift */,
@@ -358,6 +347,7 @@
 				0DD5E928208D4BE2009FD06B /* Frameworks */,
 				0DD5E929208D4BE2009FD06B /* Resources */,
 				8F654E75A5974E53FD90404E /* [CP] Embed Pods Frameworks */,
+				0D628AA520D2EA040095C198 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -457,7 +447,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D466E6D20CF31BB008E4CE0 /* book 17-38-05-649.imageset in Resources */,
 				0DD5E939208D4BE3009FD06B /* LaunchScreen.storyboard in Resources */,
 				0DD4FB9020917C8000402CA3 /* BookCollectionViewCell.xib in Resources */,
 				0D37DE0E20960C02006EBFBF /* Tiempo-Italic.ttf in Resources */,
@@ -487,6 +476,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0D628AA520D2EA040095C198 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 3cb5c16e4613eb689304ca9917343cd051ae416e a6d70a7856f6b86691c1d822f9d1017dbe2ea2b9476e18c72aa7fe6013b357ff";
+		};
 		8F654E75A5974E53FD90404E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -496,6 +498,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Wissen/Pods-Wissen-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CrossroadRegex/Regex.framework",
+				"${BUILT_PRODUCTS_DIR}/Mixpanel-swift/Mixpanel.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
@@ -507,6 +510,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Regex.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mixpanel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
@@ -723,6 +727,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -733,6 +738,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -749,10 +755,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WWJCJL8K6H;
 				INFOPLIST_FILE = Wissen/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wissen.Wissen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -769,10 +773,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WWJCJL8K6H;
 				INFOPLIST_FILE = Wissen/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wissen.Wissen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -787,11 +789,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WissenTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wissen.WissenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -807,11 +805,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WissenTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wissen.WissenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -826,11 +820,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WissenUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wissen.WissenUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -845,11 +835,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WissenUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wissen.WissenUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

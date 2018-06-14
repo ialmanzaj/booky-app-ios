@@ -1,6 +1,12 @@
 PODS:
   - Alamofire (4.7.0)
+  - Crashlytics (3.10.1):
+    - Fabric (~> 1.7.5)
   - CrossroadRegex (1.1.0)
+  - Fabric (1.7.5)
+  - Mixpanel-swift (2.3.2):
+    - Mixpanel-swift/Complete (= 2.3.2)
+  - Mixpanel-swift/Complete (2.3.2)
   - Realm (3.1.1):
     - Realm/Headers (= 3.1.1)
   - Realm/Headers (3.1.1)
@@ -13,7 +19,10 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
+  - Crashlytics
   - CrossroadRegex
+  - Fabric
+  - Mixpanel-swift
   - RealmSwift
   - SwiftGifOrigin (~> 1.6.1)
   - SwiftRichString
@@ -23,7 +32,10 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - Crashlytics
     - CrossroadRegex
+    - Fabric
+    - Mixpanel-swift
     - Realm
     - RealmSwift
     - SwiftGifOrigin
@@ -33,7 +45,10 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  Crashlytics: aee1a064cbbf99b32efa3f056a5f458d846bc8ff
   CrossroadRegex: 5eaadb3f7b4014728f1cbd1014756b126c1dbd9a
+  Fabric: ae7146a5f505ea370a1e44820b4b1dc8890e2890
+  Mixpanel-swift: 46ca4db5da03906b9a5cf92195d08fa2add3014b
   Realm: 42d1c38a5b1bbcc828b48a7ce702cb86fc68adf4
   RealmSwift: d31937ca6a6ee54acde64ec839523c0a3c04924b
   SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
@@ -41,6 +56,6 @@ SPEC CHECKSUMS:
   SwiftyAttributes: cef9463f6e7da1ab393896ca036c9ac37d8a406b
   SwiftyMarkdown: 743af3e87931391bc4836b825fec3d98785b2e3a
 
-PODFILE CHECKSUM: 4ad377daf8cabb3bf985d5fdf5f287ae3ce44383
+PODFILE CHECKSUM: 8bc55d0e1e94cc451f9680880c20a6d1206dbc13
 
 COCOAPODS: 1.5.0

@@ -19,7 +19,6 @@ class SearchVC: BaseVC {
 	
 	@IBOutlet weak var booksCollections: UICollectionView!
 	//@IBOutlet weak var searchTextField: UITextField!
-	@IBOutlet weak var progressBar: UIProgressView!
 
 	
 	var viewModel: HomeViewModelProtocol!
@@ -34,8 +33,7 @@ class SearchVC: BaseVC {
 		let folderURL = FileManager.default.url(forUbiquityContainerIdentifier: nil)
 		if let unwrappedFolderURL = folderURL {
 			print("cloud access is available")
-		}
-		else {
+		}else {
 			//cloud access is not available.
 			print("cloud access is not available.")
 		}
@@ -126,7 +124,7 @@ extension SearchVC : HomeViewModelDelegate {
 	}
 	
 	func bookResult(_ book: BookElement) {
-		Toast.showPositiveMessage(message: "Exito 👍")
+		Toast.showPositiveMessage(message: "Exito! 🙌🏻")
 		//progressBar.isHidden = true
 	
 		viewModel.saveBook(book: Book(
