@@ -14,6 +14,6 @@ target 'Wissen' do
   pod 'SwiftyAttributes'
   pod 'SwiftRichString'
   pod 'CrossroadRegex'
-  pod 'SwiftGifOrigin', '~> 1.6.1'
+  pod 'SwiftGifOrigin'
 end
 

@@ -26,7 +26,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		//setup mix panel
 		Mixpanel.initialize(token: "02e2770f9f820e3d9d5ac65b01916738")
 		
-		
 		// Override point for customization after application launch.
 		self.window = UIWindow(frame: UIScreen.main.bounds)
 		self.window?.rootViewController = UINavigationController()
