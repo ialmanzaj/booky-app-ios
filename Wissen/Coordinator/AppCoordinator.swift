@@ -9,8 +9,6 @@ import UIKit
 
 class AppCoordinator : AppCoordinatorProtocol{
 
-	
-	
 	internal var navigationController: UINavigationController!
 	var parentCoordinator: AuthCoordinatorProtocol!
 	
@@ -30,7 +28,7 @@ class AppCoordinator : AppCoordinatorProtocol{
 	
 	private func configureNavigationBar() {
 		self.navigationController.isNavigationBarHidden = false
-		self.navigationController.navigationBar.backgroundColor = UIColor.white
+		self.navigationController.navigationBar.backgroundColor = UIColor.blue
 		self.navigationController.navigationBar.isTranslucent = false
 		self.navigationController.navigationBar.tintColor = UIColor.black
 		self.navigationController.navigationItem.backBarButtonItem?.title = ""

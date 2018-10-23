@@ -9,6 +9,8 @@ import UIKit
 import SwiftyMarkdown
 import SwiftyAttributes
 import SwiftRichString
+import Highlighter
+
 
 class ParserVC: BaseVC {
 	
@@ -46,6 +48,9 @@ class ParserVC: BaseVC {
 	
 }
 
+extension ParserVC : HighlightableContainer {
+	
+}
 extension ParserVC : ParserViewModelDelegate {
 	
 	func bookResult(_ bookElement: BookElement){

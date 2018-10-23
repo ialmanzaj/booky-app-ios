@@ -8,9 +8,25 @@
 
 import UIKit
 import MobileCoreServices
-import SwiftGifOrigin
+
 
 class SearchVC: BaseVC {
+	
+	
+	// to hide navigation bar
+	override func viewWillAppear(_ animated: Bool) {
+		super.viewWillAppear(animated)
+		
+		// Hide the navigation bar on the this view controller
+		self.navigationController?.setNavigationBarHidden(true, animated: animated)
+	}
+	
+	override func viewWillDisappear(_ animated: Bool) {
+		super.viewWillDisappear(animated)
+		
+		// Show the navigation bar on other view controllers
+		self.navigationController?.setNavigationBarHidden(false, animated: animated)
+	}
 	
 	@IBOutlet var emptyScreen: UIView!
 	@IBOutlet var loadingScreen: UIView!

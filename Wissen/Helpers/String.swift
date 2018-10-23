@@ -20,7 +20,7 @@ extension NSAttributedString {
 extension UIImage {
 	public class func gif(asset: String) -> UIImage? {
 		if let asset = NSDataAsset(name: asset) {
-			return UIImage.gif(data: asset.data)
+			return nil
 		}
 		return nil
 	}
