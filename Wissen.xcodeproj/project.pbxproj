@@ -22,6 +22,11 @@
 		0DC0B1C820919C97008071CE /* DecodableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC0B1C720919C97008071CE /* DecodableItem.swift */; };
 		0DC6B2CA208D4F0E002D536D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC6B2C9208D4F0E002D536D /* Constants.swift */; };
 		0DC8472420B0B4FB001445B9 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC8472320B0B4FB001445B9 /* Toast.swift */; };
+		0DCA811022230F3F00BBFCB9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA810F22230F3F00BBFCB9 /* LoginVC.swift */; };
+		0DCA81122223107000BBFCB9 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA81112223107000BBFCB9 /* SignUpVC.swift */; };
+		0DCA811422234EA000BBFCB9 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA811322234EA000BBFCB9 /* OnboardingVC.swift */; };
+		0DCA811622234F6C00BBFCB9 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA811522234F6C00BBFCB9 /* Slide.swift */; };
+		0DCA811822234F8900BBFCB9 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DCA811722234F8900BBFCB9 /* Slide.xib */; };
 		0DD4FB8920917B3C00402CA3 /* BookCollectionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4FB8820917B3C00402CA3 /* BookCollectionAdapter.swift */; };
 		0DD4FB8C20917B7700402CA3 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4FB8B20917B7700402CA3 /* Book.swift */; };
 		0DD4FB8F20917C8000402CA3 /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4FB8D20917C8000402CA3 /* BookCollectionViewCell.swift */; };
@@ -83,6 +88,11 @@
 		0DC0B1C720919C97008071CE /* DecodableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableItem.swift; sourceTree = "<group>"; };
 		0DC6B2C9208D4F0E002D536D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0DC8472320B0B4FB001445B9 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		0DCA810F22230F3F00BBFCB9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		0DCA81112223107000BBFCB9 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		0DCA811322234EA000BBFCB9 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		0DCA811522234F6C00BBFCB9 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		0DCA811722234F8900BBFCB9 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
 		0DD4FB8820917B3C00402CA3 /* BookCollectionAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionAdapter.swift; sourceTree = "<group>"; };
 		0DD4FB8B20917B7700402CA3 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		0DD4FB8D20917C8000402CA3 /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -163,12 +173,22 @@
 			path = Tiempo;
 			sourceTree = "<group>";
 		};
+		0DCA811922234F9900BBFCB9 /* Slide */ = {
+			isa = PBXGroup;
+			children = (
+				0DCA811522234F6C00BBFCB9 /* Slide.swift */,
+				0DCA811722234F8900BBFCB9 /* Slide.xib */,
+			);
+			path = Slide;
+			sourceTree = "<group>";
+		};
 		0DD4FB8620917A5D00402CA3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				0DD5E932208D4BE2009FD06B /* Main.storyboard */,
 				0DD5E937208D4BE3009FD06B /* LaunchScreen.storyboard */,
 				0DBF7F882097FE5E00030F84 /* CustomView.swift */,
+				0DCA811922234F9900BBFCB9 /* Slide */,
 				0D37DE0720960BB4006EBFBF /* fonts */,
 				0DD4FB8D20917C8000402CA3 /* BookCollectionViewCell.swift */,
 				0DD4FB8E20917C8000402CA3 /* BookCollectionViewCell.xib */,
@@ -267,9 +287,12 @@
 		0DEB2C38208EB48E00031C91 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				0DCA810F22230F3F00BBFCB9 /* LoginVC.swift */,
 				0DEB2C3B208EB74D00031C91 /* BaseVC.swift */,
 				0DF76F79208D948B00E869AD /* SearchVC.swift */,
 				0DD5E930208D4BE2009FD06B /* ParserVC.swift */,
+				0DCA81112223107000BBFCB9 /* SignUpVC.swift */,
+				0DCA811322234EA000BBFCB9 /* OnboardingVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -452,6 +475,7 @@
 				0D37DE0E20960C02006EBFBF /* Tiempo-Italic.ttf in Resources */,
 				0D37DE0C20960C02006EBFBF /* Tiempo-Bold.ttf in Resources */,
 				0D37DE0D20960C02006EBFBF /* Tiempo-Bold-Italic.ttf in Resources */,
+				0DCA811822234F8900BBFCB9 /* Slide.xib in Resources */,
 				0DD5E936208D4BE3009FD06B /* Assets.xcassets in Resources */,
 				0D37DE0F20960C02006EBFBF /* Tiempo-Regular.ttf in Resources */,
 				0DBF7F852097FA3B00030F84 /* TopBarNav.xib in Resources */,
@@ -553,6 +577,8 @@
 				0D37DE02209568E7006EBFBF /* String.swift in Sources */,
 				0D20A0E820ACB592008556C8 /* SwiftiCloudTest.swift in Sources */,
 				0DC6B2CA208D4F0E002D536D /* Constants.swift in Sources */,
+				0DCA811422234EA000BBFCB9 /* OnboardingVC.swift in Sources */,
+				0DCA811022230F3F00BBFCB9 /* LoginVC.swift in Sources */,
 				0DD4FB8F20917C8000402CA3 /* BookCollectionViewCell.swift in Sources */,
 				0DEB2C3C208EB74D00031C91 /* BaseVC.swift in Sources */,
 				0DEB2C45208EB91400031C91 /* AuthCoordinatorProtocol.swift in Sources */,
@@ -569,12 +595,14 @@
 				0DD5E931208D4BE2009FD06B /* ParserVC.swift in Sources */,
 				0DEB2C41208EB85400031C91 /* AppCoordinatorProtocol.swift in Sources */,
 				0DD4FB8920917B3C00402CA3 /* BookCollectionAdapter.swift in Sources */,
+				0DCA811622234F6C00BBFCB9 /* Slide.swift in Sources */,
 				0DD5E92F208D4BE2009FD06B /* AppDelegate.swift in Sources */,
 				0DBF7F892097FE5E00030F84 /* CustomView.swift in Sources */,
 				0DC0B1C820919C97008071CE /* DecodableItem.swift in Sources */,
 				0DC0B1C22091826B008071CE /* DBManager.swift in Sources */,
 				0DD4FB8C20917B7700402CA3 /* Book.swift in Sources */,
 				0DC0B1C620919AB2008071CE /* Parser.swift in Sources */,
+				0DCA81122223107000BBFCB9 /* SignUpVC.swift in Sources */,
 				0DBF7F8B2098017600030F84 /* TopBarNav.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -760,7 +788,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wissen.Wissen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.getwissen.Wissen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -781,7 +809,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wissen.Wissen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.getwissen.Wissen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;

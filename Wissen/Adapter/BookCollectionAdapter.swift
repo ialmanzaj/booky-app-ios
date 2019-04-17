@@ -11,12 +11,12 @@ import UIKit
 protocol BookCollectionAdapterDelegate {
 	func onBookSelected(book: Book)
 }
-class BookCollectionAdapter: NSObject, UICollectionViewDataSource, UICollectionViewDelegate {
+class BookCollectionAdapter: NSObject, UICollectionViewDataSource, UICollectionViewDelegate, UIGestureRecognizerDelegate {
 	
 	typealias FetchData = ((_ data: Any) -> Any)
 
-	fileprivate let sectionInsets = UIEdgeInsets(top: 0, left:0, bottom: 0, right: 0)
-	fileprivate let itemsPerRow: CGFloat = 4
+	fileprivate let sectionInsets = UIEdgeInsets(top: 12, left: 12, bottom: 12, right: 12)
+	fileprivate let itemsPerRow: CGFloat = 5
 	
 	var refresher: UIRefreshControl!
 	
@@ -26,11 +26,28 @@ class BookCollectionAdapter: NSObject, UICollectionViewDataSource, UICollectionV
 	var collectionView: UICollectionView!
 	var data: FetchData!
 	
-	
+	fileprivate var longPressGesture: UILongPressGestureRecognizer!
+
 	init(container size:  CGSize, delegate: BookCollectionAdapterDelegate) {
 		self.container = size
 		self.delegate = delegate
 		refresher = UIRefreshControl()
+	}
+	
+	@objc func handleLongGesture(gesture: UILongPressGestureRecognizer) {
+		switch(gesture.state) {
+		case .began:
+			guard let selectedIndexPath = collectionView.indexPathForItem(at: gesture.location(in: collectionView)) else {
+				break
+			}
+			collectionView.beginInteractiveMovementForItem(at: selectedIndexPath)
+		case .changed:
+			collectionView.updateInteractiveMovementTargetPosition(gesture.location(in: gesture.view!))
+		case .ended:
+			collectionView.endInteractiveMovement()
+		default:
+			collectionView.cancelInteractiveMovement()
+		}
 	}
 	
 	
@@ -61,11 +78,8 @@ class BookCollectionAdapter: NSObject, UICollectionViewDataSource, UICollectionV
 	}
 	
 	func remove(_ position: Int) {
-		do {
-			try? self.books.remove(at: position)
-		}catch{
-			print("no disponible")
-		}
+		self.books.remove(at: position)
+
 	}
 	
 	func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -77,10 +91,32 @@ class BookCollectionAdapter: NSObject, UICollectionViewDataSource, UICollectionV
 		return books.count
 	}
 	
+	func collectionView(_ collectionView: UICollectionView, canMoveItemAt indexPath: IndexPath) -> Bool {
+		return true
+	}
+	
+	func collectionView(_ collectionView: UICollectionView, moveItemAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+		print("Starting Index: \(sourceIndexPath.item)")
+		print("Ending Index: \(destinationIndexPath.item)")
+	}
+
+	
 	func collectionView(_ collectionView: UICollectionView,
 						cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 		
 		let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "book_cell", for: indexPath ) as! BookCollectionViewCell
+		
+		cell.contentView.layer.cornerRadius = 2.0
+		cell.contentView.layer.borderWidth = 1.0
+		cell.contentView.layer.borderColor = UIColor.clear.cgColor
+		cell.contentView.layer.masksToBounds = true
+		
+		cell.layer.shadowColor = UIColor.lightGray.cgColor
+		cell.layer.shadowOffset = CGSize(width:0, height: 2.0)
+		cell.layer.shadowRadius = 3.0
+		cell.layer.shadowOpacity = 1.0
+		cell.layer.masksToBounds = false
+		cell.layer.shadowPath = UIBezierPath(roundedRect:cell.bounds, cornerRadius: cell.contentView.layer.cornerRadius).cgPath
 		
 		let book = books[indexPath.row]
 		
@@ -101,7 +137,7 @@ extension BookCollectionAdapter : UICollectionViewDelegateFlowLayout  {
 		let availableWidth = container.width
 		let widthPerItem = availableWidth / itemsPerRow
 		
-		let heightPerItem = widthPerItem / 2
+		let heightPerItem = widthPerItem * 1.48
 		
 		//print("availableWidth: \(availableWidth)")
 		//print("widthPerItem: \(widthPerItem)")

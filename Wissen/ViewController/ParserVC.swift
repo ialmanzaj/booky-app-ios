@@ -9,7 +9,7 @@ import UIKit
 import SwiftyMarkdown
 import SwiftyAttributes
 import SwiftRichString
-import Highlighter
+
 
 
 class ParserVC: BaseVC {
@@ -48,9 +48,7 @@ class ParserVC: BaseVC {
 	
 }
 
-extension ParserVC : HighlightableContainer {
-	
-}
+
 extension ParserVC : ParserViewModelDelegate {
 	
 	func bookResult(_ bookElement: BookElement){
@@ -64,11 +62,13 @@ extension ParserVC : ParserViewModelDelegate {
 				.replacingOccurrences(of: "(\\#+)", with: "\n$1", options: [.regularExpression])
 			//.replacingOccurrences(of: "(\\[A-Z]+)", with: "\n$1\n", options: [.regularExpression])
 		)
+		
+		Utility.logAllAvailableFonts()
 
-		result.h1.fontName = "Helvetica-BoldOblique"
-		result.italic.fontName = "Helvetica-Oblique"
-		result.bold.fontName = "Helvetica-Bold"
-		result.body.fontName = "Helvetica"
+		result.h1.fontName = "Futura-CondensedExtraBold"
+		result.italic.fontName = "Futura-MediumItalic"
+		result.bold.fontName = "Futura-Bold"
+		result.body.fontName = "Futura-Medium"
 
 		result.h1.fontSize = 27
 		result.h2.fontSize = 25
@@ -77,8 +77,8 @@ extension ParserVC : ParserViewModelDelegate {
 		result.h5.fontSize = 22
 		result.h6.fontSize = 21
 
-		result.body.fontSize = 18
-		result.code.fontSize = 17
+		result.body.fontSize = 17
+		result.code.fontSize = 16
 
 
 //		let normal = Style.default {
@@ -89,20 +89,19 @@ extension ParserVC : ParserViewModelDelegate {
 //			$0.lineBreak = .byCharWrapping
 //		}
 //
-		let lineSpacing: CGFloat = 6.2
+		let lineSpacing: CGFloat = 4.5
 
 		let paragraphStyle = NSMutableParagraphStyle()
 		paragraphStyle.lineSpacing = lineSpacing
-		paragraphStyle.paragraphSpacing = CGFloat(0.50 * lineSpacing)
+		paragraphStyle.paragraphSpacing = CGFloat(0.60 * lineSpacing)
 		paragraphStyle.alignment = .left
 		paragraphStyle.lineBreakMode = .byWordWrapping
 
 
 		let book_final = result.attributedString().withAttribute(Attribute.paragraphStyle(paragraphStyle))
 		
-		
-		textContainer.attributedText = book_final
 
+		textContainer.attributedText = book_final
 	}
 
 }

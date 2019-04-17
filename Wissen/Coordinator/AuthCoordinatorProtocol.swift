@@ -32,6 +32,7 @@ class AuthCoordinator: AuthCoordinatorProtocol {
 	
 	func start() {
 		goHome()
+		//showAuthentication()
 		
 //		if (currentUser == nil || person == nil) {
 //			showAuthentication()
@@ -40,13 +41,14 @@ class AuthCoordinator: AuthCoordinatorProtocol {
 //		}
 	}
 	
-//	func showAuthentication()  {
-//		let loginView = getViewController(withIdentifier: "loginViewController",to: LoginVC.self)
-//		let loginViewModel = LoginViewModel(viewDelegate: loginView, navDelegate: self)
-//		loginView.viewModel = loginViewModel
-//
-//		navigationController.pushViewController(loginView, animated: false)
-//	}
+	func showAuthentication()  {
+		let loginView = getViewController(withIdentifier: "onBoardingVC",to: OnboardingVC.self)
+		//let loginViewModel = LoginViewModel(viewDelegate: loginView, navDelegate: self)
+		//loginView.viewModel = loginViewModel
+		
+
+		navigationController.pushViewController(loginView, animated: false)
+	}
 	
 	func goHome()  {
 		appCoordinator.start()

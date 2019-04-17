@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Slide" customModule="Wissen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Lh-Vx-9K2">
+                    <rect key="frame" x="0.0" y="62" width="380" height="173"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="8Lh-Vx-9K2" secondAttribute="height" multiplier="380:173" id="1qr-0l-0zx"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2U-BE-HCh">
+                    <rect key="frame" x="30" y="320" width="315" height="95"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="P2U-BE-HCh" secondAttribute="height" multiplier="63:19" id="Pku-vZ-AT0"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="Label">
+                            <attributes>
+                                <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUk-n7-mtn">
+                    <rect key="frame" x="150.5" y="270" width="74" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="hUk-n7-mtn" secondAttribute="height" multiplier="37:10" id="Iuz-9v-SIy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" red="0.54826199850000001" green="0.37182292459999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="P2U-BE-HCh" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="41T-r7-90Y"/>
+                <constraint firstItem="P2U-BE-HCh" firstAttribute="top" secondItem="hUk-n7-mtn" secondAttribute="bottom" constant="30" id="9M5-C0-Rh8"/>
+                <constraint firstItem="hUk-n7-mtn" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="9eB-0t-KXX"/>
+                <constraint firstItem="P2U-BE-HCh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="BvQ-7V-WAa"/>
+                <constraint firstItem="8Lh-Vx-9K2" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" constant="5" id="InS-jI-fvC"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="P2U-BE-HCh" secondAttribute="trailing" constant="30" id="MdS-HA-Yer"/>
+                <constraint firstItem="hUk-n7-mtn" firstAttribute="top" secondItem="8Lh-Vx-9K2" secondAttribute="bottom" constant="35" id="eOp-4h-r6q"/>
+                <constraint firstItem="8Lh-Vx-9K2" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="42" id="oZ7-fZ-9Zt"/>
+                <constraint firstItem="8Lh-Vx-9K2" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="qCY-97-zqv"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="imageView" destination="8Lh-Vx-9K2" id="0Fj-O2-rUs"/>
+                <outlet property="labelDesc" destination="P2U-BE-HCh" id="WVg-0v-wFb"/>
+                <outlet property="labelTitle" destination="hUk-n7-mtn" id="BtI-81-5X2"/>
+            </connections>
+            <point key="canvasLocation" x="138.40000000000001" y="152.47376311844079"/>
+        </view>
+    </objects>
+</document>
