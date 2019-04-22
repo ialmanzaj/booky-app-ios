@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import Wissen
 
 class WissenTests: XCTestCase {
     

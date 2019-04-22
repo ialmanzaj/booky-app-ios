@@ -1,33 +1,45 @@
 PODS:
-  - Alamofire (4.7.3)
-  - Crashlytics (3.10.7):
-    - Fabric (~> 1.7.11)
+  - Alamofire (4.8.2)
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
   - CrossroadRegex (1.1.0)
-  - Fabric (1.7.11)
-  - Mixpanel-swift (2.4.5):
-    - Mixpanel-swift/Complete (= 2.4.5)
-  - Mixpanel-swift/Complete (2.4.5)
-  - Realm (3.9.0):
-    - Realm/Headers (= 3.9.0)
-  - Realm/Headers (3.9.0)
-  - RealmSwift (3.9.0):
-    - Realm (= 3.9.0)
-  - SwiftGifOrigin (1.6.1)
-  - SwiftRichString (2.0.4)
-  - SwiftyAttributes (5.0.0)
-  - SwiftyMarkdown (0.5.1)
+  - Fabric (1.9.0)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
+  - GTMSessionFetcher/Core (1.2.1)
+  - Mixpanel-swift (2.6.2):
+    - Mixpanel-swift/Complete (= 2.6.2)
+  - Mixpanel-swift/Complete (2.6.2)
+  - Realm (3.14.1):
+    - Realm/Headers (= 3.14.1)
+  - Realm/Headers (3.14.1)
+  - RealmSwift (3.14.1):
+    - Realm (= 3.14.1)
+  - SwiftRichString (3.0.0)
+  - SwiftyAttributes (4.3.0)
+  - SwiftyMarkdown (0.6.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.5)
+  - Alamofire
   - Crashlytics
   - CrossroadRegex
   - Fabric
+  - GoogleSignIn
   - Mixpanel-swift
   - RealmSwift
-  - SwiftGifOrigin
-  - SwiftRichString
-  - SwiftyAttributes
-  - SwiftyMarkdown
+  - SwiftRichString (~> 3.0.0)
+  - SwiftyAttributes (~> 4.3.0)
+  - SwiftyMarkdown (~> 0.6.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -35,27 +47,31 @@ SPEC REPOS:
     - Crashlytics
     - CrossroadRegex
     - Fabric
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
     - Mixpanel-swift
     - Realm
     - RealmSwift
-    - SwiftGifOrigin
     - SwiftRichString
     - SwiftyAttributes
     - SwiftyMarkdown
 
 SPEC CHECKSUMS:
-  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
-  Crashlytics: ccaac42660eb9351b9960c0d66106b0bcf99f4fa
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
   CrossroadRegex: 5eaadb3f7b4014728f1cbd1014756b126c1dbd9a
-  Fabric: f233c9492b3bbc1f04e3882986740f7988a58edb
-  Mixpanel-swift: a9ed3dd197d8f2837920cec6be1acdb51d07b31a
-  Realm: 3d36f208bf3aff8335dc3298742140182bde4edb
-  RealmSwift: aa4d11917bfcfaa3ed51f219102a487ecd895447
-  SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
-  SwiftRichString: 2905437b6eb14a24e2e42f65ecaea582a8bcf6b8
-  SwiftyAttributes: a6e7bbac1e9a9f5c0b42e4055563ca091dda03ad
-  SwiftyMarkdown: 743af3e87931391bc4836b825fec3d98785b2e3a
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  Mixpanel-swift: eea98bb65fd80e992a9ecb3a0a421eca542ea72f
+  Realm: e12c9c2387d05c5bba3a9c394838f5870e85763b
+  RealmSwift: a82eab9b04c3e1616082c7e17aa300740847769c
+  SwiftRichString: 5cb4860df3dc8e4d9087d7b948b210177342c3da
+  SwiftyAttributes: debe9898c1160b4fe14d1c69962d78aaca95fd88
+  SwiftyMarkdown: 698fe6b283dddac69747f4e08ed0d067c18e0356
 
-PODFILE CHECKSUM: 4c2282b7c8a5ab63989df012868865b73fe09fd4
+PODFILE CHECKSUM: 7d15baa3e8e462fa8b98d3fa55a93078fddc6e53
 
 COCOAPODS: 1.5.0

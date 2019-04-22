@@ -46,7 +46,6 @@ class AuthCoordinator: AuthCoordinatorProtocol {
 		//let loginViewModel = LoginViewModel(viewDelegate: loginView, navDelegate: self)
 		//loginView.viewModel = loginViewModel
 		
-
 		navigationController.pushViewController(loginView, animated: false)
 	}
 	

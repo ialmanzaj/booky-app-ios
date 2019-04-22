@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import GoogleSignIn
 
-class OnboardingVC: UIViewController {
+
+class OnboardingVC: UIViewController, GIDSignInUIDelegate {
 
 	var slides:[Slide] = [];
+	@IBOutlet weak var signInButton: GIDSignInButton!
 
-	
+
 	
 	@IBOutlet weak var scrollView: UIScrollView!
 	@IBOutlet weak var pageControl: UIPageControl!
@@ -29,6 +32,24 @@ class OnboardingVC: UIViewController {
 		pageControl.currentPage = 0
 		view.bringSubview(toFront: pageControl)
     }
+	
+	func signInWillDispatch(signIn: GIDSignIn!, error: NSError!) {
+		
+	}
+	
+	// Present a view that prompts the user to sign in with Google
+	func signIn(signIn: GIDSignIn!,
+				presentViewController viewController: UIViewController!) {
+		
+	}
+	
+	// Dismiss the "Sign in with Google" view
+	func signIn(signIn: GIDSignIn!,
+				dismissViewController viewController: UIViewController!) {
+		
+	}
+	
+	
 	
 	
 	@IBAction func onClick(_ sender: UIButton) {

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YSk-uS-QCH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YSk-uS-QCH">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -199,30 +199,57 @@
                                     <constraint firstAttribute="width" secondItem="MnD-kN-Djc" secondAttribute="height" multiplier="375:26" id="n0Y-r3-UrS"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xaM-TX-Ayz">
-                                <rect key="frame" x="345" y="28" width="30" height="30"/>
-                                <color key="backgroundColor" red="0.54826199850000001" green="0.37182292459999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vjc-dj-jmh">
+                                <rect key="frame" x="0.0" y="607" width="375" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xaM-TX-Ayz">
+                                        <rect key="frame" x="165" y="7" width="45" height="45"/>
+                                        <color key="backgroundColor" red="0.54509803921568623" green="0.23137254901960785" blue="0.5490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="xaM-TX-Ayz" secondAttribute="height" multiplier="1:1" id="cuj-sr-KfI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="+"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                                                <size key="value" width="0.0" height="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowRadius">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="importAction:" destination="8wa-9t-y29" eventType="touchUpInside" id="Wfw-1x-aWd"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="xaM-TX-Ayz" secondAttribute="height" multiplier="1:1" id="cuj-sr-KfI"/>
+                                    <constraint firstItem="xaM-TX-Ayz" firstAttribute="centerX" secondItem="vjc-dj-jmh" secondAttribute="centerX" id="fAS-Rf-gju"/>
+                                    <constraint firstAttribute="width" secondItem="vjc-dj-jmh" secondAttribute="height" multiplier="25:4" id="oMF-NC-6Qh"/>
+                                    <constraint firstItem="xaM-TX-Ayz" firstAttribute="centerY" secondItem="vjc-dj-jmh" secondAttribute="centerY" id="ojO-nx-wu4"/>
                                 </constraints>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="+"/>
-                                <connections>
-                                    <action selector="importAction:" destination="8wa-9t-y29" eventType="touchUpInside" id="Wfw-1x-aWd"/>
-                                </connections>
-                            </button>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="jeY-zr-skh" firstAttribute="leading" secondItem="wZU-tB-DAZ" secondAttribute="leading" id="01K-rv-DAz"/>
-                            <constraint firstItem="xaM-TX-Ayz" firstAttribute="width" secondItem="G4B-Tz-8kl" secondAttribute="height" multiplier="30:667" id="0eK-Mm-v7r"/>
                             <constraint firstItem="MnD-kN-Djc" firstAttribute="leading" secondItem="wZU-tB-DAZ" secondAttribute="leading" id="KJR-xn-Ham"/>
+                            <constraint firstItem="vjc-dj-jmh" firstAttribute="trailing" secondItem="wZU-tB-DAZ" secondAttribute="trailing" id="WQX-ID-PjQ"/>
+                            <constraint firstItem="vjc-dj-jmh" firstAttribute="leading" secondItem="wZU-tB-DAZ" secondAttribute="leading" id="ae9-K4-Xhb"/>
                             <constraint firstItem="wZU-tB-DAZ" firstAttribute="bottom" secondItem="jeY-zr-skh" secondAttribute="bottom" id="c19-En-BsG"/>
-                            <constraint firstItem="xaM-TX-Ayz" firstAttribute="top" secondItem="wZU-tB-DAZ" secondAttribute="top" constant="8" id="dKi-82-nR4"/>
                             <constraint firstItem="MnD-kN-Djc" firstAttribute="top" secondItem="wZU-tB-DAZ" secondAttribute="top" constant="8" id="eIP-FB-ebc"/>
                             <constraint firstItem="jeY-zr-skh" firstAttribute="top" secondItem="MnD-kN-Djc" secondAttribute="bottom" constant="8" id="hiL-kr-JN7"/>
                             <constraint firstItem="wZU-tB-DAZ" firstAttribute="trailing" secondItem="MnD-kN-Djc" secondAttribute="trailing" id="i5L-cI-BGa"/>
-                            <constraint firstItem="wZU-tB-DAZ" firstAttribute="trailing" secondItem="xaM-TX-Ayz" secondAttribute="trailing" id="lea-BR-khN"/>
+                            <constraint firstItem="wZU-tB-DAZ" firstAttribute="bottom" secondItem="vjc-dj-jmh" secondAttribute="bottom" id="r4p-h2-pdS"/>
                             <constraint firstItem="jeY-zr-skh" firstAttribute="trailing" secondItem="wZU-tB-DAZ" secondAttribute="trailing" id="tgX-kF-CbZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wZU-tB-DAZ"/>
@@ -300,11 +327,11 @@
                     <viewLayoutGuide key="safeArea" id="sRw-c3-w1u"/>
                 </view>
             </objects>
-            <point key="canvasLocation" x="44" y="347"/>
+            <point key="canvasLocation" x="44" y="346.77661169415296"/>
         </scene>
     </scenes>
     <resources>
         <image name="book" width="266" height="200"/>
-        <image name="wissen-name" width="395" height="63"/>
+        <image name="wissen-name" width="270" height="59"/>
     </resources>
 </document>
