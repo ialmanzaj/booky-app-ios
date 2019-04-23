@@ -9,7 +9,7 @@ import UIKit
 import SwiftyMarkdown
 import SwiftyAttributes
 import SwiftRichString
-
+import Mixpanel
 
 
 class ParserVC: BaseVC {
@@ -26,6 +26,8 @@ class ParserVC: BaseVC {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		
+		Mixpanel.mainInstance().track(event: "Book opened")
 		
 		textContainer.textContainerInset = PADDING
 		

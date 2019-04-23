@@ -213,7 +213,7 @@
                                         <state key="normal" title="+"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="20"/>
+                                                <integer key="value" value="23"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                             <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
@@ -230,12 +230,22 @@
                                             <action selector="importAction:" destination="8wa-9t-y29" eventType="touchUpInside" id="Wfw-1x-aWd"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOR-WN-dHQ">
+                                        <rect key="frame" x="271" y="15" width="89" height="30"/>
+                                        <state key="normal" title="🙋🏽‍♂️Feedback"/>
+                                        <connections>
+                                            <action selector="feebackAction:" destination="8wa-9t-y29" eventType="touchUpInside" id="v0m-Zn-rBD"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="hOR-WN-dHQ" firstAttribute="width" secondItem="vjc-dj-jmh" secondAttribute="height" multiplier="89:60" id="epG-Rk-zY5"/>
                                     <constraint firstItem="xaM-TX-Ayz" firstAttribute="centerX" secondItem="vjc-dj-jmh" secondAttribute="centerX" id="fAS-Rf-gju"/>
+                                    <constraint firstItem="hOR-WN-dHQ" firstAttribute="centerY" secondItem="vjc-dj-jmh" secondAttribute="centerY" id="nJ5-Tq-cIf"/>
                                     <constraint firstAttribute="width" secondItem="vjc-dj-jmh" secondAttribute="height" multiplier="25:4" id="oMF-NC-6Qh"/>
                                     <constraint firstItem="xaM-TX-Ayz" firstAttribute="centerY" secondItem="vjc-dj-jmh" secondAttribute="centerY" id="ojO-nx-wu4"/>
+                                    <constraint firstAttribute="trailing" secondItem="hOR-WN-dHQ" secondAttribute="trailing" constant="15" id="sF3-rJ-uWK"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -273,26 +283,11 @@
                             <color key="textColor" red="0.54826199850000001" green="0.37182292459999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P1N-fz-wKr">
-                            <rect key="frame" x="56" y="86" width="128" height="30"/>
-                            <color key="backgroundColor" red="0.54826199850000001" green="0.37182292459999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <constraints>
-                                <constraint firstAttribute="width" secondItem="P1N-fz-wKr" secondAttribute="height" multiplier="17:5" id="80T-b7-zue"/>
-                            </constraints>
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <state key="normal" title="Agregar mi libro"/>
-                            <connections>
-                                <action selector="importAction:" destination="8wa-9t-y29" eventType="touchUpInside" id="OAU-9T-C5y"/>
-                            </connections>
-                        </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstItem="P1N-fz-wKr" firstAttribute="width" secondItem="vmC-U8-lyT" secondAttribute="height" multiplier="1:1" id="3nw-BX-Bna"/>
                         <constraint firstItem="vmC-U8-lyT" firstAttribute="leading" secondItem="dC8-Fc-Bvh" secondAttribute="leading" id="LrK-4c-eDg"/>
-                        <constraint firstItem="P1N-fz-wKr" firstAttribute="centerX" secondItem="vmC-U8-lyT" secondAttribute="centerX" id="eUv-sa-Ke0"/>
                         <constraint firstItem="vmC-U8-lyT" firstAttribute="top" secondItem="hYO-Xk-RDF" secondAttribute="top" id="ewr-tN-Bd1"/>
-                        <constraint firstItem="P1N-fz-wKr" firstAttribute="width" secondItem="P1N-fz-wKr" secondAttribute="height" multiplier="17:5" id="mNv-I8-2LA"/>
                         <constraint firstAttribute="trailing" secondItem="vmC-U8-lyT" secondAttribute="trailing" id="owm-Tc-mFW"/>
                         <constraint firstItem="hYO-Xk-RDF" firstAttribute="bottom" secondItem="vmC-U8-lyT" secondAttribute="bottom" id="xzu-s3-NEq"/>
                     </constraints>

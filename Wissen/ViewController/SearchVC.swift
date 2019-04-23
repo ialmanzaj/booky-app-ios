@@ -8,7 +8,9 @@
 
 import UIKit
 import MobileCoreServices
-
+import Mixpanel
+import MessageUI
+import Drift
 
 class SearchVC: BaseVC {
 	
@@ -44,6 +46,10 @@ class SearchVC: BaseVC {
 		booksCollections.dataSource = adapter
 		booksCollections.delegate = adapter
 		adapter.collectionView = booksCollections
+		
+		
+		Mixpanel.mainInstance()
+			.track(event: "books \(adapter.count())")
 		
 		
 		loadingImg.image =  UIImage.gif(asset: "book")
@@ -116,12 +122,41 @@ class SearchVC: BaseVC {
 //	}
 	
 	@IBAction func importAction(_ sender: UITextField) {
+		
+		Mixpanel.mainInstance().track(event: "Import button")
+
 		let importMenu = UIDocumentPickerViewController(documentTypes: [String(kUTTypePDF)], in: .import)
 		importMenu.delegate = self
 		importMenu.modalPresentationStyle = .formSheet
 		self.present(importMenu, animated: true, completion: nil)
 	}
 	
+	@IBAction func feebackAction(_ sender: UIButton) {
+		Mixpanel.mainInstance().track(event: "feedback button")
+		Drift.showConversations()
+
+	}
+	
+}
+
+extension SearchVC : MFMailComposeViewControllerDelegate {
+	
+	func sendEmail() {
+		if MFMailComposeViewController.canSendMail() {
+			let mail = MFMailComposeViewController()
+			mail.mailComposeDelegate = self
+			mail.setToRecipients(["you@yoursite.com"])
+			mail.setMessageBody("<p>You're so awesome!</p>", isHTML: true)
+			
+			present(mail, animated: true)
+		} else {
+			// show failure alert
+		}
+	}
+	
+	func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+		controller.dismiss(animated: true)
+	}
 }
 
 extension SearchVC : HomeViewModelDelegate {

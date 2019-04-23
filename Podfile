@@ -8,8 +8,16 @@ target 'Wissen' do
   pod 'GoogleSignIn'
   pod 'Fabric'
   pod 'Crashlytics'
+  
+  pod 'FirebaseUI/Auth'
+  pod 'FirebaseUI/Email'
+  pod 'FirebaseUI/Google'
+  pod 'FirebaseUI/Facebook'
+  pod 'FirebaseUI/Phone'
+  
   pod 'Mixpanel-swift'
   pod 'Alamofire'
+  pod 'Drift', '~> 2.2.9'
 
   pod 'RealmSwift'
 

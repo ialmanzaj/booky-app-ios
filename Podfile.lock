@@ -1,9 +1,53 @@
 PODS:
   - Alamofire (4.8.2)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
   - Crashlytics (3.12.0):
     - Fabric (~> 1.9.0)
   - CrossroadRegex (1.1.0)
+  - Drift (2.2.9):
+    - AlamofireImage (~> 3.0)
+    - ObjectMapper (~> 3.0)
+    - Starscream
+    - SVProgressHUD (~> 2.0)
   - Fabric (1.9.0)
+  - FBSDKCoreKit (4.44.1):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.44.1):
+    - FBSDKCoreKit
+  - Firebase/Auth (5.20.2):
+    - Firebase/CoreOnly
+    - FirebaseAuth (= 5.4.2)
+  - Firebase/CoreOnly (5.20.2):
+    - FirebaseCore (= 5.4.1)
+  - FirebaseAuth (5.4.2):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (5.4.1):
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseUI/Auth (6.2.1):
+    - Firebase/Auth (~> 5.0)
+    - GoogleUtilities/UserDefaults
+  - FirebaseUI/Email (6.2.1):
+    - FirebaseUI/Auth
+  - FirebaseUI/Facebook (6.2.1):
+    - FBSDKLoginKit (~> 4.35)
+    - FirebaseUI/Auth
+  - FirebaseUI/Google (6.2.1):
+    - FirebaseUI/Auth
+    - GoogleSignIn (~> 4.0)
+  - FirebaseUI/Phone (6.2.1):
+    - FirebaseUI/Auth
   - GoogleSignIn (4.4.0):
     - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
     - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
@@ -16,15 +60,23 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.2.0)
     - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
   - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
+  - GoogleUtilities/Environment (5.7.0)
+  - GoogleUtilities/Logger (5.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/UserDefaults (5.7.0):
+    - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (1.2.1)
   - Mixpanel-swift (2.6.2):
     - Mixpanel-swift/Complete (= 2.6.2)
   - Mixpanel-swift/Complete (2.6.2)
+  - ObjectMapper (3.4.2)
   - Realm (3.14.1):
     - Realm/Headers (= 3.14.1)
   - Realm/Headers (3.14.1)
   - RealmSwift (3.14.1):
     - Realm (= 3.14.1)
+  - Starscream (3.1.0)
+  - SVProgressHUD (2.2.5)
   - SwiftRichString (3.0.0)
   - SwiftyAttributes (4.3.0)
   - SwiftyMarkdown (0.6.0)
@@ -33,7 +85,13 @@ DEPENDENCIES:
   - Alamofire
   - Crashlytics
   - CrossroadRegex
+  - Drift (~> 2.2.9)
   - Fabric
+  - FirebaseUI/Auth
+  - FirebaseUI/Email
+  - FirebaseUI/Facebook
+  - FirebaseUI/Google
+  - FirebaseUI/Phone
   - GoogleSignIn
   - Mixpanel-swift
   - RealmSwift
@@ -44,34 +102,62 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - AlamofireImage
+    - Bolts
     - Crashlytics
     - CrossroadRegex
+    - Drift
     - Fabric
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseUI
     - GoogleSignIn
     - GoogleToolboxForMac
+    - GoogleUtilities
     - GTMSessionFetcher
     - Mixpanel-swift
+    - ObjectMapper
     - Realm
     - RealmSwift
+    - Starscream
+    - SVProgressHUD
     - SwiftRichString
     - SwiftyAttributes
     - SwiftyMarkdown
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
   Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
   CrossroadRegex: 5eaadb3f7b4014728f1cbd1014756b126c1dbd9a
+  Drift: fa527396a6d52d55d64bd3b6011875f8895b24b9
   Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  FBSDKCoreKit: a823ae35bdb60ebb8d7a7e51abe7c5d87d2bfced
+  FBSDKLoginKit: 54ae59987f2a8703021557c90a9aebb9e5c2bef6
+  Firebase: 0c8cf33f266410c61ab3e2265cfa412200351d9c
+  FirebaseAuth: dd7bbf03a5aee0eafb3a1aee4d2812bd74bac890
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: f1a9a8be1aee4bf71a2fc0f4096df6788bdfda61
+  FirebaseUI: c9e227a7d44e2e422a461cb3f4ead8dc5c7326e6
   GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
   GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GoogleUtilities: 273e67030e0de313e7304f6dcfa96fc5214f6c23
   GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
   Mixpanel-swift: eea98bb65fd80e992a9ecb3a0a421eca542ea72f
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
   Realm: e12c9c2387d05c5bba3a9c394838f5870e85763b
   RealmSwift: a82eab9b04c3e1616082c7e17aa300740847769c
+  Starscream: 08172b481e145289c4930cb567230fb55897cfa4
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftRichString: 5cb4860df3dc8e4d9087d7b948b210177342c3da
   SwiftyAttributes: debe9898c1160b4fe14d1c69962d78aaca95fd88
   SwiftyMarkdown: 698fe6b283dddac69747f4e08ed0d067c18e0356
 
-PODFILE CHECKSUM: 7d15baa3e8e462fa8b98d3fa55a93078fddc6e53
+PODFILE CHECKSUM: 76403a4f74536ef5065edd78184a9b5b71f0b21e
 
 COCOAPODS: 1.5.0
