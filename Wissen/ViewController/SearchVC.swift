@@ -122,7 +122,6 @@ class SearchVC: BaseVC {
 //	}
 	
 	@IBAction func importAction(_ sender: UITextField) {
-		
 		Mixpanel.mainInstance().track(event: "Import button")
 
 		let importMenu = UIDocumentPickerViewController(documentTypes: [String(kUTTypePDF)], in: .import)
@@ -139,25 +138,25 @@ class SearchVC: BaseVC {
 	
 }
 
-extension SearchVC : MFMailComposeViewControllerDelegate {
-	
-	func sendEmail() {
-		if MFMailComposeViewController.canSendMail() {
-			let mail = MFMailComposeViewController()
-			mail.mailComposeDelegate = self
-			mail.setToRecipients(["you@yoursite.com"])
-			mail.setMessageBody("<p>You're so awesome!</p>", isHTML: true)
-			
-			present(mail, animated: true)
-		} else {
-			// show failure alert
-		}
-	}
-	
-	func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
-		controller.dismiss(animated: true)
-	}
-}
+//extension SearchVC : MFMailComposeViewControllerDelegate {
+//
+//	func sendEmail() {
+//		if MFMailComposeViewController.canSendMail() {
+//			let mail = MFMailComposeViewController()
+//			mail.mailComposeDelegate = self
+//			mail.setToRecipients(["you@yoursite.com"])
+//			mail.setMessageBody("<p>You're so awesome!</p>", isHTML: true)
+//
+//			present(mail, animated: true)
+//		} else {
+//			// show failure alert
+//		}
+//	}
+//
+//	func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+//		controller.dismiss(animated: true)
+//	}
+//}
 
 extension SearchVC : HomeViewModelDelegate {
 	func getBooks(books: [Book]?) {
@@ -175,6 +174,7 @@ extension SearchVC : HomeViewModelDelegate {
 	}
 	
 	func bookResult(_ book: BookElement) {
+		Mixpanel.mainInstance().track(event: "fetch book success")
 		Toast.showPositiveMessage(message: "Exito! 🙌🏻")
 		//progressBar.isHidden = true
 	
@@ -199,6 +199,9 @@ extension SearchVC : HomeViewModelDelegate {
 	}
 	
 	func onError(error: BaseService.Error) {
+		Mixpanel.mainInstance().track(event: "fetching book error")
+		
+		
 		loadingScreen.removeFromSuperview()
 		Toast.showNegativeMessage(message: "Ha ocurrido un error😕")
 	}

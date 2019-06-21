@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>297724466424-v3mmh4ldj4embgcik5f4qva6e30n3820.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.297724466424-v3mmh4ldj4embgcik5f4qva6e30n3820</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAb3bONPcqm9q8oK3U2KEIaTWkVKNZ8DuA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>297724466424</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.getwissen.Wissen</string>
+	<key>PROJECT_ID</key>
+	<string>wissen-202303</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wissen-202303.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:297724466424:ios:5f572cbce7b3bcb3</string>
+	<key>DATABASE_URL</key>
+	<string>https://wissen-202303.firebaseio.com</string>
+</dict>
+</plist>

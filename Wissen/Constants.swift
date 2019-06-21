@@ -11,7 +11,7 @@ import Foundation
 let IP = "192.168.86.144"
 
 let LOCAL = "http://\(IP):3000"
-let PROD =  "https://wissen-server-ghwxjkjsid.now.sh"
+let PROD =  "https://wissen-server.ialmanza.now.sh"
 
 let API_URL = PROD
 

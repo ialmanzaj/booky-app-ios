@@ -33,7 +33,7 @@ class AuthCoordinator: AuthCoordinatorProtocol {
 	func start() {
 		goHome()
 		//showAuthentication()
-		
+	
 //		if (currentUser == nil || person == nil) {
 //			showAuthentication()
 //		}else{

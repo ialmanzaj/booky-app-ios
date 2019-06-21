@@ -7,16 +7,13 @@
 //
 
 import UIKit
-import GoogleSignIn
 
 
-class OnboardingVC: UIViewController, GIDSignInUIDelegate {
 
-	var slides:[Slide] = [];
-	@IBOutlet weak var signInButton: GIDSignInButton!
+class OnboardingVC: UIViewController {
 
+	var slides: [Slide] = [];
 
-	
 	@IBOutlet weak var scrollView: UIScrollView!
 	@IBOutlet weak var pageControl: UIPageControl!
 	
@@ -33,34 +30,14 @@ class OnboardingVC: UIViewController, GIDSignInUIDelegate {
 		view.bringSubview(toFront: pageControl)
     }
 	
-	func signInWillDispatch(signIn: GIDSignIn!, error: NSError!) {
-		
-	}
-	
-	// Present a view that prompts the user to sign in with Google
-	func signIn(signIn: GIDSignIn!,
-				presentViewController viewController: UIViewController!) {
-		
-	}
-	
-	// Dismiss the "Sign in with Google" view
-	func signIn(signIn: GIDSignIn!,
-				dismissViewController viewController: UIViewController!) {
-		
-	}
-	
-	
-	
 	
 	@IBAction func onClick(_ sender: UIButton) {
 		
 	}
-	
-	
+
 	
 	
 	func setupSlideScrollView(slides : [Slide]) {
-		print("size \(scrollView.contentSize.height) view size \(view.frame.height)")
 		scrollView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: 1)
 		scrollView.contentSize = CGSize(width: view.frame.width * CGFloat(slides.count), height: 1)
 		scrollView.isPagingEnabled = true

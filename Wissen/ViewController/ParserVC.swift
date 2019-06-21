@@ -6,11 +6,7 @@
 //  Copyright © 2018 Isaac Almanza. All rights reserved.
 //
 import UIKit
-import SwiftyMarkdown
-import SwiftyAttributes
-import SwiftRichString
 import Mixpanel
-
 
 class ParserVC: BaseVC {
 	
@@ -27,13 +23,9 @@ class ParserVC: BaseVC {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		Mixpanel.mainInstance().track(event: "Book opened")
-		
 		textContainer.textContainerInset = PADDING
 		
-		
 		bookResult(BookElement(book: book.content, metadata: nil, pages: nil))
-		
 		
 		header.setNavigator(viewController: self)
 		header.config(title: "", viewController: self)
@@ -43,67 +35,17 @@ class ParserVC: BaseVC {
 	
 	override func viewDidLayoutSubviews() {
 		super.viewDidLayoutSubviews()
-		
-		loadingView.frame = CGRect(
-			x: 0, y: 0,width: view.frame.width, height: view.frame.height )
+		loadingView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height )
 	}
 	
 }
 
 
 extension ParserVC : ParserViewModelDelegate {
-	
 	func bookResult(_ bookElement: BookElement){
-		
-		let content = bookElement.book
-		
-		let result = SwiftyMarkdown(string:
-			content
-				//.replacingOccurrences(of: "\\n{2,}", with: "$1\n", options: [.regularExpression])
-				.replacingOccurrences(of: "\\#+\n\\s*", with: "$1", options: [.regularExpression])
-				.replacingOccurrences(of: "(\\#+)", with: "\n$1", options: [.regularExpression])
-			//.replacingOccurrences(of: "(\\[A-Z]+)", with: "\n$1\n", options: [.regularExpression])
-		)
-		
-		Utility.logAllAvailableFonts()
+		Mixpanel.mainInstance().track(event: "Book opened")
 
-		result.h1.fontName = "Futura-CondensedExtraBold"
-		result.italic.fontName = "Futura-MediumItalic"
-		result.bold.fontName = "Futura-Bold"
-		result.body.fontName = "Futura-Medium"
-
-		result.h1.fontSize = 27
-		result.h2.fontSize = 25
-		result.h3.fontSize = 24
-		result.h4.fontSize = 23
-		result.h5.fontSize = 22
-		result.h6.fontSize = 21
-
-		result.body.fontSize = 17
-		result.code.fontSize = 16
-
-
-//		let normal = Style.default {
-//			let lineSpacing: CGFloat = 6.2
-//			$0.lineSpacing = Float(lineSpacing)
-//			$0.paragraphSpacing = Float(CGFloat(0.25 * lineSpacing))
-//			$0.align = .left // text alignment
-//			$0.lineBreak = .byCharWrapping
-//		}
-//
-		let lineSpacing: CGFloat = 4.5
-
-		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineSpacing = lineSpacing
-		paragraphStyle.paragraphSpacing = CGFloat(0.60 * lineSpacing)
-		paragraphStyle.alignment = .left
-		paragraphStyle.lineBreakMode = .byWordWrapping
-
-
-		let book_final = result.attributedString().withAttribute(Attribute.paragraphStyle(paragraphStyle))
-		
-
-		textContainer.attributedText = book_final
+		textContainer.attributedText = PDFParser.getbookParsed(content: bookElement.book)
 	}
 
 }

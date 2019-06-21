@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "We are loading your book...💆🏻‍♂️"; ObjectID = "7RF-hc-emS"; */
+"7RF-hc-emS.text" = "We are loading your book...💆🏻‍♂️";
+
+/* Class = "UIButton"; normalTitle = "🙋🏽‍♂️Feedback"; ObjectID = "hOR-WN-dHQ"; */
+"hOR-WN-dHQ.normalTitle" = "🙋🏽‍♂️Feedback";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "smd-QH-vG7"; */
+"smd-QH-vG7.normalTitle" = "Skip";
+
+/* Class = "UILabel"; text = "No ha agregado ningun libro, importe lo que desee🙃"; ObjectID = "vmC-U8-lyT"; */
+"vmC-U8-lyT.text" = "No ha agregado ningun libro, importe lo que desee🙃";
+
+/* Class = "UIButton"; normalTitle = "+"; ObjectID = "xaM-TX-Ayz"; */
+"xaM-TX-Ayz.normalTitle" = "+";

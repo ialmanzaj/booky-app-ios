@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D07C5BF2285CB1F002C85C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D07C5BE2285CB1F002C85C2 /* GoogleService-Info.plist */; };
 		0D20A0E820ACB592008556C8 /* SwiftiCloudTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D20A0E720ACB592008556C8 /* SwiftiCloudTest.swift */; };
 		0D37DE02209568E7006EBFBF /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D37DE01209568E7006EBFBF /* String.swift */; };
 		0D37DE0C20960C02006EBFBF /* Tiempo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D37DE0820960C01006EBFBF /* Tiempo-Bold.ttf */; };
 		0D37DE0D20960C02006EBFBF /* Tiempo-Bold-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D37DE0920960C01006EBFBF /* Tiempo-Bold-Italic.ttf */; };
 		0D37DE0E20960C02006EBFBF /* Tiempo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D37DE0A20960C02006EBFBF /* Tiempo-Italic.ttf */; };
 		0D37DE0F20960C02006EBFBF /* Tiempo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D37DE0B20960C02006EBFBF /* Tiempo-Regular.ttf */; };
+		0DA571922281FA3C007FC84C /* FolioReaderFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA571912281FA3C007FC84C /* FolioReaderFont.swift */; };
+		0DA571942281FAC8007FC84C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA571932281FAC8007FC84C /* Extensions.swift */; };
+		0DA571962281FB04007FC84C /* FolioReaderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA571952281FB04007FC84C /* FolioReaderConfig.swift */; };
+		0DA5719822821E2A007FC84C /* FolioReaderKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5719722821E2A007FC84C /* FolioReaderKit.swift */; };
+		0DA5719A22822215007FC84C /* QuoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5719922822215007FC84C /* QuoteImage.swift */; };
+		0DA5719C228228AF007FC84C /* PdfParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5719B228228AF007FC84C /* PdfParser.swift */; };
 		0DBF7F852097FA3B00030F84 /* TopBarNav.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DBF7F842097FA3B00030F84 /* TopBarNav.xib */; };
 		0DBF7F892097FE5E00030F84 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF7F882097FE5E00030F84 /* CustomView.swift */; };
 		0DBF7F8B2098017600030F84 /* TopBarNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF7F8A2098017600030F84 /* TopBarNav.swift */; };
@@ -51,7 +58,7 @@
 		0DEB2C4D208EC72B00031C91 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEB2C4C208EC72B00031C91 /* BaseService.swift */; };
 		0DF76F78208D5F9D00E869AD /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF76F77208D5F9D00E869AD /* Font.swift */; };
 		0DF76F7A208D948B00E869AD /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF76F79208D948B00E869AD /* SearchVC.swift */; };
-		E149ACDA82494B95DF29AFF9 /* Pods_Wissen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC161585EFADE842B39C28D /* Pods_Wissen.framework */; };
+		1A3FF4825D6CE33FF01694BD /* Pods_Wissen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CF86CE07F2CD1DA432C816 /* Pods_Wissen.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,12 +80,21 @@
 
 /* Begin PBXFileReference section */
 		0D06B59820ABE76600D77955 /* Wissen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wissen.entitlements; sourceTree = "<group>"; };
+		0D07C5BE2285CB1F002C85C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0D20A0E720ACB592008556C8 /* SwiftiCloudTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftiCloudTest.swift; sourceTree = "<group>"; };
+		0D363D9A226ECBF6009B3959 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		0D363D9B226ECBF6009B3959 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		0D37DE01209568E7006EBFBF /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		0D37DE0820960C01006EBFBF /* Tiempo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tiempo-Bold.ttf"; sourceTree = "<group>"; };
 		0D37DE0920960C01006EBFBF /* Tiempo-Bold-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tiempo-Bold-Italic.ttf"; sourceTree = "<group>"; };
 		0D37DE0A20960C02006EBFBF /* Tiempo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tiempo-Italic.ttf"; sourceTree = "<group>"; };
 		0D37DE0B20960C02006EBFBF /* Tiempo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tiempo-Regular.ttf"; sourceTree = "<group>"; };
+		0DA571912281FA3C007FC84C /* FolioReaderFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioReaderFont.swift; sourceTree = "<group>"; };
+		0DA571932281FAC8007FC84C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0DA571952281FB04007FC84C /* FolioReaderConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioReaderConfig.swift; sourceTree = "<group>"; };
+		0DA5719722821E2A007FC84C /* FolioReaderKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioReaderKit.swift; sourceTree = "<group>"; };
+		0DA5719922822215007FC84C /* QuoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteImage.swift; sourceTree = "<group>"; };
+		0DA5719B228228AF007FC84C /* PdfParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfParser.swift; sourceTree = "<group>"; };
 		0DBF7F842097FA3B00030F84 /* TopBarNav.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopBarNav.xib; sourceTree = "<group>"; };
 		0DBF7F882097FE5E00030F84 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		0DBF7F8A2098017600030F84 /* TopBarNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarNav.swift; sourceTree = "<group>"; };
@@ -123,9 +139,9 @@
 		0DEB2C4C208EC72B00031C91 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		0DF76F77208D5F9D00E869AD /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		0DF76F79208D948B00E869AD /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
-		834CE064579BAE45DE0910A0 /* Pods-Wissen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wissen.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wissen/Pods-Wissen.release.xcconfig"; sourceTree = "<group>"; };
-		DF161005AC75A5B4A78B050A /* Pods-Wissen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wissen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wissen/Pods-Wissen.debug.xcconfig"; sourceTree = "<group>"; };
-		EDC161585EFADE842B39C28D /* Pods_Wissen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wissen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12CF86CE07F2CD1DA432C816 /* Pods_Wissen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wissen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A341A5975C18AED6474C0D2 /* Pods-Wissen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wissen.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wissen/Pods-Wissen.release.xcconfig"; sourceTree = "<group>"; };
+		F3F7F8BC3CC73E1AA14B60AB /* Pods-Wissen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wissen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wissen/Pods-Wissen.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E149ACDA82494B95DF29AFF9 /* Pods_Wissen.framework in Frameworks */,
+				1A3FF4825D6CE33FF01694BD /* Pods_Wissen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +204,7 @@
 				0DD5E932208D4BE2009FD06B /* Main.storyboard */,
 				0DD5E937208D4BE3009FD06B /* LaunchScreen.storyboard */,
 				0DBF7F882097FE5E00030F84 /* CustomView.swift */,
+				0DA5719922822215007FC84C /* QuoteImage.swift */,
 				0DCA811922234F9900BBFCB9 /* Slide */,
 				0D37DE0720960BB4006EBFBF /* fonts */,
 				0DD4FB8D20917C8000402CA3 /* BookCollectionViewCell.swift */,
@@ -221,8 +238,8 @@
 				0DD5E942208D4BE4009FD06B /* WissenTests */,
 				0DD5E94D208D4BE4009FD06B /* WissenUITests */,
 				0DD5E92C208D4BE2009FD06B /* Products */,
-				7FF93F6F48B1EBAFE82D3558 /* Pods */,
-				E25F07CABADF9E38C1FC5FF6 /* Frameworks */,
+				B5E97062048CFCA7386969A1 /* Pods */,
+				E308DEADA970E17D6F5AB38C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -241,9 +258,14 @@
 			children = (
 				0D06B59820ABE76600D77955 /* Wissen.entitlements */,
 				0DD5E935208D4BE3009FD06B /* Assets.xcassets */,
-				0DD5E92E208D4BE2009FD06B /* AppDelegate.swift */,
 				0DC6B2C9208D4F0E002D536D /* Constants.swift */,
+				0DD5E92E208D4BE2009FD06B /* AppDelegate.swift */,
+				0DA571932281FAC8007FC84C /* Extensions.swift */,
+				0DA571912281FA3C007FC84C /* FolioReaderFont.swift */,
+				0DA571952281FB04007FC84C /* FolioReaderConfig.swift */,
+				0DA5719722821E2A007FC84C /* FolioReaderKit.swift */,
 				0DD5E93A208D4BE3009FD06B /* Info.plist */,
+				0D07C5BE2285CB1F002C85C2 /* GoogleService-Info.plist */,
 				0DEB2C3F208EB84500031C91 /* Coordinator */,
 				0DD4FB8720917A7C00402CA3 /* Adapter */,
 				0DD4FB8A20917B6800402CA3 /* Model */,
@@ -317,6 +339,7 @@
 				0D20A0E720ACB592008556C8 /* SwiftiCloudTest.swift */,
 				0DC8472320B0B4FB001445B9 /* Toast.swift */,
 				0DDD4BB920CF096C00E2E3C6 /* Encoder.swift */,
+				0DA5719B228228AF007FC84C /* PdfParser.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -324,9 +347,9 @@
 		0DEB2C3F208EB84500031C91 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				0DEB2C42208EB88B00031C91 /* Coordinator.swift */,
 				0DEB2C3D208EB7C100031C91 /* AppCoordinator.swift */,
 				0DEB2C40208EB85400031C91 /* AppCoordinatorProtocol.swift */,
-				0DEB2C42208EB88B00031C91 /* Coordinator.swift */,
 				0DEB2C44208EB91400031C91 /* AuthCoordinatorProtocol.swift */,
 			);
 			path = Coordinator;
@@ -341,19 +364,19 @@
 			name = TopBarNav;
 			sourceTree = "<group>";
 		};
-		7FF93F6F48B1EBAFE82D3558 /* Pods */ = {
+		B5E97062048CFCA7386969A1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DF161005AC75A5B4A78B050A /* Pods-Wissen.debug.xcconfig */,
-				834CE064579BAE45DE0910A0 /* Pods-Wissen.release.xcconfig */,
+				F3F7F8BC3CC73E1AA14B60AB /* Pods-Wissen.debug.xcconfig */,
+				4A341A5975C18AED6474C0D2 /* Pods-Wissen.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E25F07CABADF9E38C1FC5FF6 /* Frameworks */ = {
+		E308DEADA970E17D6F5AB38C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EDC161585EFADE842B39C28D /* Pods_Wissen.framework */,
+				12CF86CE07F2CD1DA432C816 /* Pods_Wissen.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -365,13 +388,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DD5E953208D4BE4009FD06B /* Build configuration list for PBXNativeTarget "Wissen" */;
 			buildPhases = (
-				99EC5EF21EF81FFADD242B2A /* [CP] Check Pods Manifest.lock */,
+				E2CB45982DD6F9A9272860EA /* [CP] Check Pods Manifest.lock */,
 				0DD5E927208D4BE2009FD06B /* Sources */,
 				0DD5E928208D4BE2009FD06B /* Frameworks */,
 				0DD5E929208D4BE2009FD06B /* Resources */,
-				8F654E75A5974E53FD90404E /* [CP] Embed Pods Frameworks */,
 				0D628AA520D2EA040095C198 /* ShellScript */,
-				84DFF6F629407F95F16A76F3 /* [CP] Copy Pods Resources */,
+				864793B2382F541265036B0F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -431,6 +453,9 @@
 					0DD5E92A208D4BE2009FD06B = {
 						CreatedOnToolsVersion = 9.3;
 						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
 							com.apple.iCloud = {
 								enabled = 1;
 							};
@@ -453,6 +478,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 0DD5E922208D4BE2009FD06B;
 			productRefGroup = 0DD5E92C208D4BE2009FD06B /* Products */;
@@ -479,6 +505,7 @@
 				0DCA811822234F8900BBFCB9 /* Slide.xib in Resources */,
 				0DD5E936208D4BE3009FD06B /* Assets.xcassets in Resources */,
 				0D37DE0F20960C02006EBFBF /* Tiempo-Regular.ttf in Resources */,
+				0D07C5BF2285CB1F002C85C2 /* GoogleService-Info.plist in Resources */,
 				0DBF7F852097FA3B00030F84 /* TopBarNav.xib in Resources */,
 				0DD5E934208D4BE2009FD06B /* Main.storyboard in Resources */,
 			);
@@ -514,35 +541,7 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" 3cb5c16e4613eb689304ca9917343cd051ae416e a6d70a7856f6b86691c1d822f9d1017dbe2ea2b9476e18c72aa7fe6013b357ff\n";
 		};
-		84DFF6F629407F95F16A76F3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Wissen/Pods-Wissen-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseEmailAuthUI.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
-				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseEmailAuthUI.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wissen/Pods-Wissen-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8F654E75A5974E53FD90404E /* [CP] Embed Pods Frameworks */ = {
+		864793B2382F541265036B0F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -551,17 +550,12 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Wissen/Pods-Wissen-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
-				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/CrossroadRegex/Regex.framework",
 				"${BUILT_PRODUCTS_DIR}/Drift/Drift.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Mixpanel-swift/Mixpanel.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmS/RealmS.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
@@ -573,17 +567,12 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Regex.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Drift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mixpanel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
@@ -596,7 +585,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wissen/Pods-Wissen-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		99EC5EF21EF81FFADD242B2A /* [CP] Check Pods Manifest.lock */ = {
+		E2CB45982DD6F9A9272860EA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -625,6 +614,7 @@
 				0DD5E95D208D4C1B009FD06B /* ConverterService.swift in Sources */,
 				0D37DE02209568E7006EBFBF /* String.swift in Sources */,
 				0D20A0E820ACB592008556C8 /* SwiftiCloudTest.swift in Sources */,
+				0DA5719A22822215007FC84C /* QuoteImage.swift in Sources */,
 				0DC6B2CA208D4F0E002D536D /* Constants.swift in Sources */,
 				0DCA811422234EA000BBFCB9 /* OnboardingVC.swift in Sources */,
 				0DCA811022230F3F00BBFCB9 /* LoginVC.swift in Sources */,
@@ -639,7 +629,9 @@
 				0DEB2C49208EBC1E00031C91 /* HomeViewModel.swift in Sources */,
 				0DEB2C4B208EBF3A00031C91 /* ParserViewModel.swift in Sources */,
 				0DEB2C3E208EB7C100031C91 /* AppCoordinator.swift in Sources */,
+				0DA5719C228228AF007FC84C /* PdfParser.swift in Sources */,
 				0DDD4BBA20CF096C00E2E3C6 /* Encoder.swift in Sources */,
+				0DA5719822821E2A007FC84C /* FolioReaderKit.swift in Sources */,
 				0DC8472420B0B4FB001445B9 /* Toast.swift in Sources */,
 				0DD5E931208D4BE2009FD06B /* ParserVC.swift in Sources */,
 				0DEB2C41208EB85400031C91 /* AppCoordinatorProtocol.swift in Sources */,
@@ -650,9 +642,12 @@
 				0DC0B1C820919C97008071CE /* DecodableItem.swift in Sources */,
 				0DC0B1C22091826B008071CE /* DBManager.swift in Sources */,
 				0DD4FB8C20917B7700402CA3 /* Book.swift in Sources */,
+				0DA571922281FA3C007FC84C /* FolioReaderFont.swift in Sources */,
 				0DC0B1C620919AB2008071CE /* Parser.swift in Sources */,
+				0DA571942281FAC8007FC84C /* Extensions.swift in Sources */,
 				0DCA81122223107000BBFCB9 /* SignUpVC.swift in Sources */,
 				0DBF7F8B2098017600030F84 /* TopBarNav.swift in Sources */,
+				0DA571962281FB04007FC84C /* FolioReaderConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,6 +687,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0DD5E933208D4BE2009FD06B /* Base */,
+				0D363D9A226ECBF6009B3959 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -700,6 +696,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0DD5E938208D4BE3009FD06B /* Base */,
+				0D363D9B226ECBF6009B3959 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -711,6 +708,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -772,6 +770,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -827,14 +826,14 @@
 		};
 		0DD5E954208D4BE4009FD06B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF161005AC75A5B4A78B050A /* Pods-Wissen.debug.xcconfig */;
+			baseConfigurationReference = F3F7F8BC3CC73E1AA14B60AB /* Pods-Wissen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Wissen/Wissen.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WWJCJL8K6H;
 				INFOPLIST_FILE = Wissen/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -843,19 +842,20 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s armv6";
 			};
 			name = Debug;
 		};
 		0DD5E955208D4BE4009FD06B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 834CE064579BAE45DE0910A0 /* Pods-Wissen.release.xcconfig */;
+			baseConfigurationReference = 4A341A5975C18AED6474C0D2 /* Pods-Wissen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Wissen/Wissen.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WWJCJL8K6H;
 				INFOPLIST_FILE = Wissen/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -864,6 +864,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv6 arm64 arm64e armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -959,7 +960,7 @@
 				0DD5E952208D4BE4009FD06B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		0DD5E953208D4BE4009FD06B /* Build configuration list for PBXNativeTarget "Wissen" */ = {
 			isa = XCConfigurationList;
@@ -968,7 +969,7 @@
 				0DD5E955208D4BE4009FD06B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		0DD5E956208D4BE4009FD06B /* Build configuration list for PBXNativeTarget "WissenTests" */ = {
 			isa = XCConfigurationList;
@@ -977,7 +978,7 @@
 				0DD5E958208D4BE4009FD06B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		0DD5E959208D4BE4009FD06B /* Build configuration list for PBXNativeTarget "WissenUITests" */ = {
 			isa = XCConfigurationList;
@@ -986,7 +987,7 @@
 				0DD5E95B208D4BE4009FD06B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
