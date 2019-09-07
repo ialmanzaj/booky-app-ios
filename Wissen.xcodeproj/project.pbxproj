@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D07C5BF2285CB1F002C85C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D07C5BE2285CB1F002C85C2 /* GoogleService-Info.plist */; };
 		0D20A0E820ACB592008556C8 /* SwiftiCloudTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D20A0E720ACB592008556C8 /* SwiftiCloudTest.swift */; };
+		0D3464672323FE0800ED6729 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3464662323FE0800ED6729 /* StoreKit.framework */; };
 		0D37DE02209568E7006EBFBF /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D37DE01209568E7006EBFBF /* String.swift */; };
 		0D37DE0C20960C02006EBFBF /* Tiempo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D37DE0820960C01006EBFBF /* Tiempo-Bold.ttf */; };
 		0D37DE0D20960C02006EBFBF /* Tiempo-Bold-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D37DE0920960C01006EBFBF /* Tiempo-Bold-Italic.ttf */; };
@@ -82,6 +83,7 @@
 		0D06B59820ABE76600D77955 /* Wissen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wissen.entitlements; sourceTree = "<group>"; };
 		0D07C5BE2285CB1F002C85C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0D20A0E720ACB592008556C8 /* SwiftiCloudTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftiCloudTest.swift; sourceTree = "<group>"; };
+		0D3464662323FE0800ED6729 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		0D363D9A226ECBF6009B3959 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		0D363D9B226ECBF6009B3959 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		0D37DE01209568E7006EBFBF /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A3FF4825D6CE33FF01694BD /* Pods_Wissen.framework in Frameworks */,
+				0D3464672323FE0800ED6729 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +379,7 @@
 		E308DEADA970E17D6F5AB38C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0D3464662323FE0800ED6729 /* StoreKit.framework */,
 				12CF86CE07F2CD1DA432C816 /* Pods_Wissen.framework */,
 			);
 			name = Frameworks;
@@ -394,6 +398,7 @@
 				0DD5E929208D4BE2009FD06B /* Resources */,
 				0D628AA520D2EA040095C198 /* ShellScript */,
 				864793B2382F541265036B0F /* [CP] Embed Pods Frameworks */,
+				C01D2ABE87A3FE8AD4AA2C3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -453,6 +458,9 @@
 					0DD5E92A208D4BE2009FD06B = {
 						CreatedOnToolsVersion = 9.3;
 						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};
@@ -552,6 +560,9 @@
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/CrossroadRegex/Regex.framework",
 				"${BUILT_PRODUCTS_DIR}/Drift/Drift.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Mixpanel-swift/Mixpanel.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
@@ -562,6 +573,7 @@
 				"${BUILT_PRODUCTS_DIR}/SwiftRichString/SwiftRichString.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyAttributes/SwiftyAttributes.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyMarkdown/SwiftyMarkdown.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -569,6 +581,9 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Regex.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Drift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mixpanel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
@@ -579,10 +594,29 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftRichString.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyAttributes.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyMarkdown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wissen/Pods-Wissen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C01D2ABE87A3FE8AD4AA2C3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Wissen/Pods-Wissen-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wissen/Pods-Wissen-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E2CB45982DD6F9A9272860EA /* [CP] Check Pods Manifest.lock */ = {
@@ -834,10 +868,7 @@
 				DEVELOPMENT_TEAM = WWJCJL8K6H;
 				INFOPLIST_FILE = Wissen/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.getwissen.Wissen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -856,10 +887,7 @@
 				DEVELOPMENT_TEAM = WWJCJL8K6H;
 				INFOPLIST_FILE = Wissen/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.getwissen.Wissen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -876,11 +904,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WWJCJL8K6H;
 				INFOPLIST_FILE = WissenTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wissen.WissenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -897,11 +921,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WWJCJL8K6H;
 				INFOPLIST_FILE = WissenTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wissen.WissenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -917,11 +937,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WWJCJL8K6H;
 				INFOPLIST_FILE = WissenUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wissen.WissenUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -937,11 +953,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WWJCJL8K6H;
 				INFOPLIST_FILE = WissenUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wissen.WissenUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

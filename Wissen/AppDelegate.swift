@@ -11,10 +11,12 @@ import Fabric
 import Crashlytics
 import Mixpanel
 import Drift
+import Firebase
+import GoogleSignIn
 
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 	
 	var window: UIWindow?
 	var authCoordinator: AuthCoordinator?
@@ -22,12 +24,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 		
 		//firebase auth
+		FirebaseApp.configure()
 		
-		//GIDSignIn.sharedInstance().clientID =  FirebaseApp.app()?.options.clientID
-		//GIDSignIn.sharedInstance().delegate = self
+		GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
+		GIDSignIn.sharedInstance().delegate = self
 		
 		//setup fabric
-		//FirebaseApp.configure()
 		Fabric.with([Crashlytics.self])
 		
 		//setup mix panel
@@ -45,6 +47,46 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		
 		return true
 	}
+	
+	func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+		if let error = error {
+			print("error", error)
+			return
+		}
+		guard let authentication = user.authentication else { return }
+		let credential = GoogleAuthProvider.credential(withIDToken: authentication.idToken,
+													   accessToken: authentication.accessToken)
+		
+		Auth.auth().signIn(with: credential) { (authResult, error) in
+			if let error = error {
+				// ...
+			print("error", error)
+				return
+			}
+			// User is signed in
+			// ...
+			UserDefaults.standard.set(true, forKey: "LOGIN") //Bool
+			self.authCoordinator?.goHome()
+		}
+		
+	}
+	
+	@available(iOS 9.0, *)
+	func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any])
+		-> Bool {
+			return GIDSignIn.sharedInstance().handle(url,
+													 sourceApplication:options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,
+													 annotation: [:])
+			
+	}
+	
+	func sign(_ signIn: GIDSignIn!, didDisconnectWith user: GIDGoogleUser!, withError error: Error!) {
+		print("didDisconnectWith withError ", error)
+		// Perform any operations when the user disconnects from app here.
+		// ...
+	}
+	
+	
 
 //	func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
 //		return GIDSignIn.sharedInstance().handle(url as URL?,

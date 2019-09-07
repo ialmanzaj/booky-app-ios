@@ -13,7 +13,6 @@ class AppCoordinator : AppCoordinatorProtocol{
 	var parentCoordinator: AuthCoordinatorProtocol!
 	
 	//private var controllerTransition = ControllerTransition()
-	
 	//child coordinators
 	
 	required init(parent: AuthCoordinatorProtocol, nav: UINavigationController) {
@@ -55,8 +54,8 @@ class AppCoordinator : AppCoordinatorProtocol{
 		navigationController.show(view, sender: self)
 	}
 	
-//	func showAuth(){
-//		//parentCoordinator.showAuthentication()
-//	}
+	func showAuth(){
+		parentCoordinator.showAuthentication()
+	}
 	
 }

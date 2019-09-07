@@ -11,7 +11,7 @@ import UIKit
 protocol AuthCoordinatorProtocol: Coordinator {
 	init(nav: UINavigationController)
 	func goHome()
-	//func showAuthentication()
+	func showAuthentication()
 }
 
 class AuthCoordinator: AuthCoordinatorProtocol {
@@ -31,14 +31,13 @@ class AuthCoordinator: AuthCoordinatorProtocol {
 	}
 	
 	func start() {
-		goHome()
-		//showAuthentication()
-	
-//		if (currentUser == nil || person == nil) {
-//			showAuthentication()
-//		}else{
-//
-//		}
+		let isLoggedIn = UserDefaults.standard.bool(forKey: "LOGIN")
+		
+		if (!isLoggedIn) {
+			showAuthentication()
+		}else {
+			goHome()
+		}
 	}
 	
 	func showAuthentication()  {

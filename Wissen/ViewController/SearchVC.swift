@@ -48,10 +48,6 @@ class SearchVC: BaseVC {
 		adapter.collectionView = booksCollections
 		
 		
-		Mixpanel.mainInstance()
-			.track(event: "books \(adapter.count())")
-		
-		
 		loadingImg.image =  UIImage.gif(asset: "book")
 		viewModel.getBooksFromDb()
     }
@@ -133,35 +129,14 @@ class SearchVC: BaseVC {
 	@IBAction func feebackAction(_ sender: UIButton) {
 		Mixpanel.mainInstance().track(event: "feedback button")
 		Drift.showConversations()
-
 	}
 	
 }
 
-//extension SearchVC : MFMailComposeViewControllerDelegate {
-//
-//	func sendEmail() {
-//		if MFMailComposeViewController.canSendMail() {
-//			let mail = MFMailComposeViewController()
-//			mail.mailComposeDelegate = self
-//			mail.setToRecipients(["you@yoursite.com"])
-//			mail.setMessageBody("<p>You're so awesome!</p>", isHTML: true)
-//
-//			present(mail, animated: true)
-//		} else {
-//			// show failure alert
-//		}
-//	}
-//
-//	func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
-//		controller.dismiss(animated: true)
-//	}
-//}
 
 extension SearchVC : HomeViewModelDelegate {
 	func getBooks(books: [Book]?) {
 		if books == nil{
-
 			view.addSubview(emptyScreen!)
 			return
 		}

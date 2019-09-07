@@ -13,16 +13,6 @@ protocol AppCoordinatorProtocol: Coordinator {
 	//func changeTab(index: Int)
 	func goHome()
 	func launchBook(book: Book?)
-	//func showAuth()
+	func showAuth()
 	
-	//launch childs
-//	func launchDetailView(notice: Notice)
-//	func launchChat(conversation: Conversation)
-//	func launchCreateReservation()
-//	func launchCreateVisit()
-//
-//	func launchReservation(area: Reservation)
-//	func launchVisitDetail(visit: Visit)
-//
-//	func launchContacts()
 }

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import GoogleSignIn
 
 
 class OnboardingVC: UIViewController {
@@ -16,9 +16,22 @@ class OnboardingVC: UIViewController {
 
 	@IBOutlet weak var scrollView: UIScrollView!
 	@IBOutlet weak var pageControl: UIPageControl!
+	@IBOutlet weak var loginButton: UIButton!
+	
+	var btnSignIn : GIDSignInButton!
 	
 	override func viewDidLoad() {
         super.viewDidLoad()
+		
+		GIDSignIn.sharedInstance().uiDelegate = self
+		
+		
+		btnSignIn = GIDSignInButton(frame: CGRect(origin: CGPoint(x:0 , y: 0), size: CGSize(width: 200, height: 200)))
+		btnSignIn.center.x = self.view.center.x
+		btnSignIn.frame.origin.y = loginButton.frame.origin.y
+		btnSignIn.style = GIDSignInButtonStyle.standard
+		view.addSubview(btnSignIn)
+		
 		
 		scrollView.delegate = self
 		
@@ -29,12 +42,6 @@ class OnboardingVC: UIViewController {
 		pageControl.currentPage = 0
 		view.bringSubview(toFront: pageControl)
     }
-	
-	
-	@IBAction func onClick(_ sender: UIButton) {
-		
-	}
-
 	
 	
 	func setupSlideScrollView(slides : [Slide]) {
@@ -51,17 +58,17 @@ class OnboardingVC: UIViewController {
 	
 	func createSlides() -> [Slide] {
 		
-		let slide1:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
+		let slide1 : Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
 		slide1.imageView.image = UIImage(named: "ic_onboarding_1")
 		slide1.labelTitle.text = "A real-life bear"
 		slide1.labelDesc.text = "Did you know that Winnie the chubby little cubby was based on a real, young bear in London"
 		
-		let slide2:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
+		let slide2 : Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
 		slide2.imageView.image = UIImage(named: "ic_onboarding_1")
 		slide2.labelTitle.text = "A real-life bear"
 		slide2.labelDesc.text = "Did you know that Winnie the chubby little cubby was based on a real, young bear in London"
 		
-		let slide3:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
+		let slide3 : Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
 		slide3.imageView.image = UIImage(named: "ic_onboarding_1")
 		slide3.labelTitle.text = "A real-life bear"
 		slide3.labelDesc.text = "Did you know that Winnie the chubby little cubby was based on a real, young bear in London"
@@ -131,5 +138,24 @@ extension OnboardingVC : UIScrollViewDelegate {
 			//slides[3].imageView.transform = CGAffineTransform(scaleX: (1-percentOffset.x)/0.25, y: (1-percentOffset.x)/0.25)
 			//slides[4].imageView.transform = CGAffineTransform(scaleX: percentOffset.x, y: percentOffset.x)
 		}
+	}
+}
+
+
+extension  OnboardingVC : GIDSignInUIDelegate {
+	private func signInWillDispatch(signIn: GIDSignIn!, error: NSError!) {
+		print("signInWillDispatch")
+	}
+	// Present a view that prompts the user to sign in with Google
+	func sign(_ signIn: GIDSignIn!,
+			  present viewController: UIViewController!) {
+		print("Present a view ")
+	}
+	
+	
+	// Dismiss the "Sign in with Google" view
+	private func signIn(signIn: GIDSignIn!,
+						dismissViewController viewController: UIViewController!) {
+		print("Dismiss the Sign in ")
 	}
 }

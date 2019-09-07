@@ -118,7 +118,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="LOGIN"/>
                                 <connections>
-                                    <action selector="onClick:" destination="YSk-uS-QCH" eventType="touchUpInside" id="MWf-u9-XIo"/>
                                     <segue destination="k8w-N3-c9Z" kind="show" id="CkM-zM-FK8"/>
                                 </connections>
                             </button>
@@ -141,9 +140,9 @@
                         <viewLayoutGuide key="safeArea" id="pCc-iM-syM"/>
                     </view>
                     <connections>
+                        <outlet property="loginButton" destination="smd-QH-vG7" id="eyy-cP-3By"/>
                         <outlet property="pageControl" destination="AKa-td-22Y" id="pCt-Wc-4YC"/>
                         <outlet property="scrollView" destination="pAe-hJ-G2j" id="EPm-Cj-BHc"/>
-                        <outlet property="skip" destination="smd-QH-vG7" id="UZo-MC-SBw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Un5-GE-YJe" userLabel="First Responder" sceneMemberID="firstResponder"/>
