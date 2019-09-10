@@ -60,17 +60,17 @@ class OnboardingVC: UIViewController {
 		
 		let slide1 : Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
 		slide1.imageView.image = UIImage(named: "ic_onboarding_1")
-		slide1.labelTitle.text = "A real-life bear"
+		slide1.labelTitle.text = "Disfruta, leer con facilidad y tranquilidad"
 		slide1.labelDesc.text = "Did you know that Winnie the chubby little cubby was based on a real, young bear in London"
 		
 		let slide2 : Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
 		slide2.imageView.image = UIImage(named: "ic_onboarding_1")
-		slide2.labelTitle.text = "A real-life bear"
+		slide2.labelTitle.text = "No compres libros, \n ten tus libros en pdf desde aquí"
 		slide2.labelDesc.text = "Did you know that Winnie the chubby little cubby was based on a real, young bear in London"
 		
 		let slide3 : Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
 		slide3.imageView.image = UIImage(named: "ic_onboarding_1")
-		slide3.labelTitle.text = "A real-life bear"
+		slide3.labelTitle.text = "Comparte tus libros con tus amigos"
 		slide3.labelDesc.text = "Did you know that Winnie the chubby little cubby was based on a real, young bear in London"
 		
 		return [slide1, slide2, slide3]

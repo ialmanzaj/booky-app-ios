@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0DD5E92A208D4BE2009FD06B"
-               BuildableName = "Wissen.app"
-               BlueprintName = "Wissen"
-               ReferencedContainer = "container:Wissen.xcodeproj">
+               BuildableName = "Booky.app"
+               BlueprintName = "Booky"
+               ReferencedContainer = "container:Booky.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0DD5E93E208D4BE4009FD06B"
-               BuildableName = "WissenTests.xctest"
-               BlueprintName = "WissenTests"
-               ReferencedContainer = "container:Wissen.xcodeproj">
+               BuildableName = "BookyTests.xctest"
+               BlueprintName = "BookyTests"
+               ReferencedContainer = "container:Booky.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0DD5E949208D4BE4009FD06B"
-               BuildableName = "WissenUITests.xctest"
-               BlueprintName = "WissenUITests"
-               ReferencedContainer = "container:Wissen.xcodeproj">
+               BuildableName = "BookyUITests.xctest"
+               BlueprintName = "BookyUITests"
+               ReferencedContainer = "container:Booky.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0DD5E92A208D4BE2009FD06B"
-            BuildableName = "Wissen.app"
-            BlueprintName = "Wissen"
-            ReferencedContainer = "container:Wissen.xcodeproj">
+            BuildableName = "Booky.app"
+            BlueprintName = "Booky"
+            ReferencedContainer = "container:Booky.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0DD5E92A208D4BE2009FD06B"
-            BuildableName = "Wissen.app"
-            BlueprintName = "Wissen"
-            ReferencedContainer = "container:Wissen.xcodeproj">
+            BuildableName = "Booky.app"
+            BlueprintName = "Booky"
+            ReferencedContainer = "container:Booky.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0DD5E92A208D4BE2009FD06B"
-            BuildableName = "Wissen.app"
-            BlueprintName = "Wissen"
-            ReferencedContainer = "container:Wissen.xcodeproj">
+            BuildableName = "Booky.app"
+            BlueprintName = "Booky"
+            ReferencedContainer = "container:Booky.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

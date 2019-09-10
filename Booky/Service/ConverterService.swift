@@ -44,21 +44,16 @@ class ConverterService : BaseService {
 						print("Upload Progress: \(progress.fractionCompleted)")
 					})
 					upload.responseJSON { response in
-						
-						print("Succesfully uploaded")
-						if let error = response.error{
+						if let error = response.error {
 							print("Error in upload: \(error.localizedDescription)")
 							completation(State.Error(Error.ModelError))
 							return
 						}
-						
+					
 						let data = response.data
-						
-						//print("data \(data)")
-						
+						print("Succesfully uploaded \(data)")
+	
 						let book = Parser.convert(from: data, to: T.self)
-						
-						//print("obj \(obj)")
 						
 						if book == nil {
 							completation(State.Error(BaseService.Error.ModelError))

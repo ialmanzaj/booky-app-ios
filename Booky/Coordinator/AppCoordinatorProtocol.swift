@@ -11,7 +11,6 @@ import UIKit
 protocol AppCoordinatorProtocol: Coordinator {
 	init(parent: AuthCoordinatorProtocol, nav: UINavigationController)
 	//func changeTab(index: Int)
-	func goHome()
 	func launchBook(book: Book?)
 	func showAuth()
 	

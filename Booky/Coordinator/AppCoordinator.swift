@@ -18,12 +18,8 @@ class AppCoordinator : AppCoordinatorProtocol{
 	required init(parent: AuthCoordinatorProtocol, nav: UINavigationController) {
 		self.navigationController = nav
 		self.parentCoordinator = parent
-	
 	}
 	
-	func goHome() {
-		
-	}
 	
 	private func configureNavigationBar() {
 		self.navigationController.isNavigationBarHidden = false

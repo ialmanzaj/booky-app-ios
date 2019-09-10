@@ -115,17 +115,17 @@
 		0DD4FB8B20917B7700402CA3 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		0DD4FB8D20917C8000402CA3 /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
 		0DD4FB8E20917C8000402CA3 /* BookCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookCollectionViewCell.xib; sourceTree = "<group>"; };
-		0DD5E92B208D4BE2009FD06B /* Wissen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wissen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD5E92B208D4BE2009FD06B /* Booky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Booky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD5E92E208D4BE2009FD06B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DD5E930208D4BE2009FD06B /* ParserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserVC.swift; sourceTree = "<group>"; };
 		0DD5E933208D4BE2009FD06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DD5E935208D4BE3009FD06B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DD5E938208D4BE3009FD06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DD5E93A208D4BE3009FD06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DD5E93F208D4BE4009FD06B /* WissenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WissenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD5E93F208D4BE4009FD06B /* BookyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD5E943208D4BE4009FD06B /* WissenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WissenTests.swift; sourceTree = "<group>"; };
 		0DD5E945208D4BE4009FD06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DD5E94A208D4BE4009FD06B /* WissenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WissenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD5E94A208D4BE4009FD06B /* BookyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD5E94E208D4BE4009FD06B /* WissenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WissenUITests.swift; sourceTree = "<group>"; };
 		0DD5E950208D4BE4009FD06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DD5E95C208D4C1B009FD06B /* ConverterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterService.swift; sourceTree = "<group>"; };
@@ -237,7 +237,7 @@
 		0DD5E922208D4BE2009FD06B = {
 			isa = PBXGroup;
 			children = (
-				0DD5E92D208D4BE2009FD06B /* Wissen */,
+				0DD5E92D208D4BE2009FD06B /* Booky */,
 				0DD5E942208D4BE4009FD06B /* WissenTests */,
 				0DD5E94D208D4BE4009FD06B /* WissenUITests */,
 				0DD5E92C208D4BE2009FD06B /* Products */,
@@ -249,14 +249,14 @@
 		0DD5E92C208D4BE2009FD06B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0DD5E92B208D4BE2009FD06B /* Wissen.app */,
-				0DD5E93F208D4BE4009FD06B /* WissenTests.xctest */,
-				0DD5E94A208D4BE4009FD06B /* WissenUITests.xctest */,
+				0DD5E92B208D4BE2009FD06B /* Booky.app */,
+				0DD5E93F208D4BE4009FD06B /* BookyTests.xctest */,
+				0DD5E94A208D4BE4009FD06B /* BookyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0DD5E92D208D4BE2009FD06B /* Wissen */ = {
+		0DD5E92D208D4BE2009FD06B /* Booky */ = {
 			isa = PBXGroup;
 			children = (
 				0D06B59820ABE76600D77955 /* Wissen.entitlements */,
@@ -278,7 +278,7 @@
 				0DEB2C3A208EB6D000031C91 /* Helpers */,
 				0DD4FB8620917A5D00402CA3 /* Views */,
 			);
-			path = Wissen;
+			path = Booky;
 			sourceTree = "<group>";
 		};
 		0DD5E942208D4BE4009FD06B /* WissenTests */ = {
@@ -388,9 +388,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0DD5E92A208D4BE2009FD06B /* Wissen */ = {
+		0DD5E92A208D4BE2009FD06B /* Booky */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DD5E953208D4BE4009FD06B /* Build configuration list for PBXNativeTarget "Wissen" */;
+			buildConfigurationList = 0DD5E953208D4BE4009FD06B /* Build configuration list for PBXNativeTarget "Booky" */;
 			buildPhases = (
 				E2CB45982DD6F9A9272860EA /* [CP] Check Pods Manifest.lock */,
 				0DD5E927208D4BE2009FD06B /* Sources */,
@@ -404,14 +404,14 @@
 			);
 			dependencies = (
 			);
-			name = Wissen;
+			name = Booky;
 			productName = Wissen;
-			productReference = 0DD5E92B208D4BE2009FD06B /* Wissen.app */;
+			productReference = 0DD5E92B208D4BE2009FD06B /* Booky.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0DD5E93E208D4BE4009FD06B /* WissenTests */ = {
+		0DD5E93E208D4BE4009FD06B /* BookyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DD5E956208D4BE4009FD06B /* Build configuration list for PBXNativeTarget "WissenTests" */;
+			buildConfigurationList = 0DD5E956208D4BE4009FD06B /* Build configuration list for PBXNativeTarget "BookyTests" */;
 			buildPhases = (
 				0DD5E93B208D4BE4009FD06B /* Sources */,
 				0DD5E93C208D4BE4009FD06B /* Frameworks */,
@@ -422,14 +422,14 @@
 			dependencies = (
 				0DD5E941208D4BE4009FD06B /* PBXTargetDependency */,
 			);
-			name = WissenTests;
+			name = BookyTests;
 			productName = WissenTests;
-			productReference = 0DD5E93F208D4BE4009FD06B /* WissenTests.xctest */;
+			productReference = 0DD5E93F208D4BE4009FD06B /* BookyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0DD5E949208D4BE4009FD06B /* WissenUITests */ = {
+		0DD5E949208D4BE4009FD06B /* BookyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DD5E959208D4BE4009FD06B /* Build configuration list for PBXNativeTarget "WissenUITests" */;
+			buildConfigurationList = 0DD5E959208D4BE4009FD06B /* Build configuration list for PBXNativeTarget "BookyUITests" */;
 			buildPhases = (
 				0DD5E946208D4BE4009FD06B /* Sources */,
 				0DD5E947208D4BE4009FD06B /* Frameworks */,
@@ -440,9 +440,9 @@
 			dependencies = (
 				0DD5E94C208D4BE4009FD06B /* PBXTargetDependency */,
 			);
-			name = WissenUITests;
+			name = BookyUITests;
 			productName = WissenUITests;
-			productReference = 0DD5E94A208D4BE4009FD06B /* WissenUITests.xctest */;
+			productReference = 0DD5E94A208D4BE4009FD06B /* BookyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -479,7 +479,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0DD5E926208D4BE2009FD06B /* Build configuration list for PBXProject "Wissen" */;
+			buildConfigurationList = 0DD5E926208D4BE2009FD06B /* Build configuration list for PBXProject "Booky" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -493,9 +493,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0DD5E92A208D4BE2009FD06B /* Wissen */,
-				0DD5E93E208D4BE4009FD06B /* WissenTests */,
-				0DD5E949208D4BE4009FD06B /* WissenUITests */,
+				0DD5E92A208D4BE2009FD06B /* Booky */,
+				0DD5E93E208D4BE4009FD06B /* BookyTests */,
+				0DD5E949208D4BE4009FD06B /* BookyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -706,12 +706,12 @@
 /* Begin PBXTargetDependency section */
 		0DD5E941208D4BE4009FD06B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0DD5E92A208D4BE2009FD06B /* Wissen */;
+			target = 0DD5E92A208D4BE2009FD06B /* Booky */;
 			targetProxy = 0DD5E940208D4BE4009FD06B /* PBXContainerItemProxy */;
 		};
 		0DD5E94C208D4BE4009FD06B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0DD5E92A208D4BE2009FD06B /* Wissen */;
+			target = 0DD5E92A208D4BE2009FD06B /* Booky */;
 			targetProxy = 0DD5E94B208D4BE4009FD06B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -866,9 +866,12 @@
 				CODE_SIGN_ENTITLEMENTS = Wissen/Wissen.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WWJCJL8K6H;
-				INFOPLIST_FILE = Wissen/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Booky/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.getwissen.Wissen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -885,9 +888,12 @@
 				CODE_SIGN_ENTITLEMENTS = Wissen/Wissen.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WWJCJL8K6H;
-				INFOPLIST_FILE = Wissen/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Booky/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.getwissen.Wissen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -904,12 +910,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WWJCJL8K6H;
 				INFOPLIST_FILE = WissenTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wissen.WissenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wissen.app/Wissen";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Booky.temp_caseinsensitive_rename.app/Booky.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -921,12 +931,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WWJCJL8K6H;
 				INFOPLIST_FILE = WissenTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wissen.WissenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wissen.app/Wissen";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Booky.temp_caseinsensitive_rename.app/Booky.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -937,7 +951,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WWJCJL8K6H;
 				INFOPLIST_FILE = WissenUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wissen.WissenUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -953,7 +971,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WWJCJL8K6H;
 				INFOPLIST_FILE = WissenUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wissen.WissenUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -965,7 +987,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DD5E926208D4BE2009FD06B /* Build configuration list for PBXProject "Wissen" */ = {
+		0DD5E926208D4BE2009FD06B /* Build configuration list for PBXProject "Booky" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DD5E951208D4BE4009FD06B /* Debug */,
@@ -974,7 +996,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DD5E953208D4BE4009FD06B /* Build configuration list for PBXNativeTarget "Wissen" */ = {
+		0DD5E953208D4BE4009FD06B /* Build configuration list for PBXNativeTarget "Booky" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DD5E954208D4BE4009FD06B /* Debug */,
@@ -983,7 +1005,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DD5E956208D4BE4009FD06B /* Build configuration list for PBXNativeTarget "WissenTests" */ = {
+		0DD5E956208D4BE4009FD06B /* Build configuration list for PBXNativeTarget "BookyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DD5E957208D4BE4009FD06B /* Debug */,
@@ -992,7 +1014,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DD5E959208D4BE4009FD06B /* Build configuration list for PBXNativeTarget "WissenUITests" */ = {
+		0DD5E959208D4BE4009FD06B /* Build configuration list for PBXNativeTarget "BookyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DD5E95A208D4BE4009FD06B /* Debug */,

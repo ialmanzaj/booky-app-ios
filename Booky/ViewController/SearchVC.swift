@@ -174,8 +174,8 @@ extension SearchVC : HomeViewModelDelegate {
 	}
 	
 	func onError(error: BaseService.Error) {
+		print("error", error)
 		Mixpanel.mainInstance().track(event: "fetching book error")
-		
 		
 		loadingScreen.removeFromSuperview()
 		Toast.showNegativeMessage(message: "Ha ocurrido un error😕")
