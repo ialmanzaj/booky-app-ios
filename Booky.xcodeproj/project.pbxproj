@@ -15,6 +15,7 @@
 		0D37DE0D20960C02006EBFBF /* Tiempo-Bold-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D37DE0920960C01006EBFBF /* Tiempo-Bold-Italic.ttf */; };
 		0D37DE0E20960C02006EBFBF /* Tiempo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D37DE0A20960C02006EBFBF /* Tiempo-Italic.ttf */; };
 		0D37DE0F20960C02006EBFBF /* Tiempo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D37DE0B20960C02006EBFBF /* Tiempo-Regular.ttf */; };
+		0D613556236E18380047649C /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D613555236E18380047649C /* CloudKit.framework */; };
 		0DA571922281FA3C007FC84C /* FolioReaderFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA571912281FA3C007FC84C /* FolioReaderFont.swift */; };
 		0DA571942281FAC8007FC84C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA571932281FAC8007FC84C /* Extensions.swift */; };
 		0DA571962281FB04007FC84C /* FolioReaderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA571952281FB04007FC84C /* FolioReaderConfig.swift */; };
@@ -92,6 +93,7 @@
 		0D37DE0920960C01006EBFBF /* Tiempo-Bold-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tiempo-Bold-Italic.ttf"; sourceTree = "<group>"; };
 		0D37DE0A20960C02006EBFBF /* Tiempo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tiempo-Italic.ttf"; sourceTree = "<group>"; };
 		0D37DE0B20960C02006EBFBF /* Tiempo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tiempo-Regular.ttf"; sourceTree = "<group>"; };
+		0D613555236E18380047649C /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		0DA571912281FA3C007FC84C /* FolioReaderFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioReaderFont.swift; sourceTree = "<group>"; };
 		0DA571932281FAC8007FC84C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0DA571952281FB04007FC84C /* FolioReaderConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioReaderConfig.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D613556236E18380047649C /* CloudKit.framework in Frameworks */,
 				0D3464672323FE0800ED6729 /* StoreKit.framework in Frameworks */,
 				4855DE92C209B416288F0868 /* Pods_Booky.framework in Frameworks */,
 			);
@@ -383,6 +386,7 @@
 		E308DEADA970E17D6F5AB38C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0D613555236E18380047649C /* CloudKit.framework */,
 				0D3464662323FE0800ED6729 /* StoreKit.framework */,
 				CFA9F72FB4D99883A5B0CA57 /* Pods_Booky.framework */,
 			);
@@ -831,7 +835,7 @@
 			baseConfigurationReference = 0C3F0036C9F3B25DA74D1E53 /* Pods-Booky.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Wissen/Wissen.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Booky/Booky.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WWJCJL8K6H;
 				INFOPLIST_FILE = "$(SRCROOT)/Booky/Info.plist";
@@ -840,7 +844,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.getwissen.Wissen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisen.Booky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -853,7 +857,7 @@
 			baseConfigurationReference = 10E225951496AE170AEB4623 /* Pods-Booky.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Wissen/Wissen.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Booky/Booky.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WWJCJL8K6H;
 				INFOPLIST_FILE = "$(SRCROOT)/Booky/Info.plist";
@@ -862,7 +866,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.getwissen.Wissen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisen.Booky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
