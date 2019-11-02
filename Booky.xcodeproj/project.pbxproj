@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -44,8 +44,8 @@
 		0DD5E934208D4BE2009FD06B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD5E932208D4BE2009FD06B /* Main.storyboard */; };
 		0DD5E936208D4BE3009FD06B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DD5E935208D4BE3009FD06B /* Assets.xcassets */; };
 		0DD5E939208D4BE3009FD06B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD5E937208D4BE3009FD06B /* LaunchScreen.storyboard */; };
-		0DD5E944208D4BE4009FD06B /* WissenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD5E943208D4BE4009FD06B /* WissenTests.swift */; };
-		0DD5E94F208D4BE4009FD06B /* WissenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD5E94E208D4BE4009FD06B /* WissenUITests.swift */; };
+		0DD5E944208D4BE4009FD06B /* BookyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD5E943208D4BE4009FD06B /* BookyTests.swift */; };
+		0DD5E94F208D4BE4009FD06B /* BookyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD5E94E208D4BE4009FD06B /* BookyUITests.swift */; };
 		0DD5E95D208D4C1B009FD06B /* ConverterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD5E95C208D4C1B009FD06B /* ConverterService.swift */; };
 		0DDD4BBA20CF096C00E2E3C6 /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDD4BB920CF096C00E2E3C6 /* Encoder.swift */; };
 		0DEB2C3C208EB74D00031C91 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEB2C3B208EB74D00031C91 /* BaseVC.swift */; };
@@ -59,7 +59,7 @@
 		0DEB2C4D208EC72B00031C91 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEB2C4C208EC72B00031C91 /* BaseService.swift */; };
 		0DF76F78208D5F9D00E869AD /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF76F77208D5F9D00E869AD /* Font.swift */; };
 		0DF76F7A208D948B00E869AD /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF76F79208D948B00E869AD /* SearchVC.swift */; };
-		1A3FF4825D6CE33FF01694BD /* Pods_Wissen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CF86CE07F2CD1DA432C816 /* Pods_Wissen.framework */; };
+		4855DE92C209B416288F0868 /* Pods_Booky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA9F72FB4D99883A5B0CA57 /* Pods_Booky.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,7 +80,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D06B59820ABE76600D77955 /* Wissen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wissen.entitlements; sourceTree = "<group>"; };
+		0C3F0036C9F3B25DA74D1E53 /* Pods-Booky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booky.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Booky/Pods-Booky.debug.xcconfig"; sourceTree = "<group>"; };
+		0D06B59820ABE76600D77955 /* Booky.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Booky.entitlements; sourceTree = "<group>"; };
 		0D07C5BE2285CB1F002C85C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0D20A0E720ACB592008556C8 /* SwiftiCloudTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftiCloudTest.swift; sourceTree = "<group>"; };
 		0D3464662323FE0800ED6729 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -123,10 +124,10 @@
 		0DD5E938208D4BE3009FD06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DD5E93A208D4BE3009FD06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DD5E93F208D4BE4009FD06B /* BookyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DD5E943208D4BE4009FD06B /* WissenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WissenTests.swift; sourceTree = "<group>"; };
+		0DD5E943208D4BE4009FD06B /* BookyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookyTests.swift; sourceTree = "<group>"; };
 		0DD5E945208D4BE4009FD06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DD5E94A208D4BE4009FD06B /* BookyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DD5E94E208D4BE4009FD06B /* WissenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WissenUITests.swift; sourceTree = "<group>"; };
+		0DD5E94E208D4BE4009FD06B /* BookyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookyUITests.swift; sourceTree = "<group>"; };
 		0DD5E950208D4BE4009FD06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DD5E95C208D4C1B009FD06B /* ConverterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterService.swift; sourceTree = "<group>"; };
 		0DDD4BB920CF096C00E2E3C6 /* Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoder.swift; sourceTree = "<group>"; };
@@ -141,8 +142,9 @@
 		0DEB2C4C208EC72B00031C91 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		0DF76F77208D5F9D00E869AD /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		0DF76F79208D948B00E869AD /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
-		12CF86CE07F2CD1DA432C816 /* Pods_Wissen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wissen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E225951496AE170AEB4623 /* Pods-Booky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booky.release.xcconfig"; path = "Pods/Target Support Files/Pods-Booky/Pods-Booky.release.xcconfig"; sourceTree = "<group>"; };
 		4A341A5975C18AED6474C0D2 /* Pods-Wissen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wissen.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wissen/Pods-Wissen.release.xcconfig"; sourceTree = "<group>"; };
+		CFA9F72FB4D99883A5B0CA57 /* Pods_Booky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Booky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F7F8BC3CC73E1AA14B60AB /* Pods-Wissen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wissen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wissen/Pods-Wissen.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,8 +153,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A3FF4825D6CE33FF01694BD /* Pods_Wissen.framework in Frameworks */,
 				0D3464672323FE0800ED6729 /* StoreKit.framework in Frameworks */,
+				4855DE92C209B416288F0868 /* Pods_Booky.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,8 +240,8 @@
 			isa = PBXGroup;
 			children = (
 				0DD5E92D208D4BE2009FD06B /* Booky */,
-				0DD5E942208D4BE4009FD06B /* WissenTests */,
-				0DD5E94D208D4BE4009FD06B /* WissenUITests */,
+				0DD5E942208D4BE4009FD06B /* BookyTests */,
+				0DD5E94D208D4BE4009FD06B /* BookyUITests */,
 				0DD5E92C208D4BE2009FD06B /* Products */,
 				B5E97062048CFCA7386969A1 /* Pods */,
 				E308DEADA970E17D6F5AB38C /* Frameworks */,
@@ -259,7 +261,7 @@
 		0DD5E92D208D4BE2009FD06B /* Booky */ = {
 			isa = PBXGroup;
 			children = (
-				0D06B59820ABE76600D77955 /* Wissen.entitlements */,
+				0D06B59820ABE76600D77955 /* Booky.entitlements */,
 				0DD5E935208D4BE3009FD06B /* Assets.xcassets */,
 				0DC6B2C9208D4F0E002D536D /* Constants.swift */,
 				0DD5E92E208D4BE2009FD06B /* AppDelegate.swift */,
@@ -281,22 +283,22 @@
 			path = Booky;
 			sourceTree = "<group>";
 		};
-		0DD5E942208D4BE4009FD06B /* WissenTests */ = {
+		0DD5E942208D4BE4009FD06B /* BookyTests */ = {
 			isa = PBXGroup;
 			children = (
-				0DD5E943208D4BE4009FD06B /* WissenTests.swift */,
+				0DD5E943208D4BE4009FD06B /* BookyTests.swift */,
 				0DD5E945208D4BE4009FD06B /* Info.plist */,
 			);
-			path = WissenTests;
+			path = BookyTests;
 			sourceTree = "<group>";
 		};
-		0DD5E94D208D4BE4009FD06B /* WissenUITests */ = {
+		0DD5E94D208D4BE4009FD06B /* BookyUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0DD5E94E208D4BE4009FD06B /* WissenUITests.swift */,
+				0DD5E94E208D4BE4009FD06B /* BookyUITests.swift */,
 				0DD5E950208D4BE4009FD06B /* Info.plist */,
 			);
-			path = WissenUITests;
+			path = BookyUITests;
 			sourceTree = "<group>";
 		};
 		0DEB2C37208EB46F00031C91 /* Service */ = {
@@ -372,6 +374,8 @@
 			children = (
 				F3F7F8BC3CC73E1AA14B60AB /* Pods-Wissen.debug.xcconfig */,
 				4A341A5975C18AED6474C0D2 /* Pods-Wissen.release.xcconfig */,
+				0C3F0036C9F3B25DA74D1E53 /* Pods-Booky.debug.xcconfig */,
+				10E225951496AE170AEB4623 /* Pods-Booky.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -380,7 +384,7 @@
 			isa = PBXGroup;
 			children = (
 				0D3464662323FE0800ED6729 /* StoreKit.framework */,
-				12CF86CE07F2CD1DA432C816 /* Pods_Wissen.framework */,
+				CFA9F72FB4D99883A5B0CA57 /* Pods_Booky.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -554,51 +558,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Wissen/Pods-Wissen-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
-				"${BUILT_PRODUCTS_DIR}/CrossroadRegex/Regex.framework",
-				"${BUILT_PRODUCTS_DIR}/Drift/Drift.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Mixpanel-swift/Mixpanel.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmS/RealmS.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftRichString/SwiftRichString.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyAttributes/SwiftyAttributes.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyMarkdown/SwiftyMarkdown.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Booky/Pods-Booky-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Regex.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Drift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mixpanel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmS.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftRichString.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyAttributes.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyMarkdown.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Booky/Pods-Booky-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wissen/Pods-Wissen-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Booky/Pods-Booky-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C01D2ABE87A3FE8AD4AA2C3F /* [CP] Copy Pods Resources */ = {
@@ -606,17 +575,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Wissen/Pods-Wissen-resources.sh",
-				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Booky/Pods-Booky-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Booky/Pods-Booky-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wissen/Pods-Wissen-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Booky/Pods-Booky-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E2CB45982DD6F9A9272860EA /* [CP] Check Pods Manifest.lock */ = {
@@ -630,7 +598,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Wissen-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Booky-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -689,7 +657,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DD5E944208D4BE4009FD06B /* WissenTests.swift in Sources */,
+				0DD5E944208D4BE4009FD06B /* BookyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,7 +665,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DD5E94F208D4BE4009FD06B /* WissenUITests.swift in Sources */,
+				0DD5E94F208D4BE4009FD06B /* BookyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -860,7 +828,7 @@
 		};
 		0DD5E954208D4BE4009FD06B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3F7F8BC3CC73E1AA14B60AB /* Pods-Wissen.debug.xcconfig */;
+			baseConfigurationReference = 0C3F0036C9F3B25DA74D1E53 /* Pods-Booky.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Wissen/Wissen.entitlements;
@@ -882,7 +850,7 @@
 		};
 		0DD5E955208D4BE4009FD06B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A341A5975C18AED6474C0D2 /* Pods-Wissen.release.xcconfig */;
+			baseConfigurationReference = 10E225951496AE170AEB4623 /* Pods-Booky.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Wissen/Wissen.entitlements;
